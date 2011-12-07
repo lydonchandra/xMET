@@ -111,7 +111,7 @@
 		<echo message="Building Documentation" />
 		<echo message="Building User Documentation" />
 		<jar destfile="client/help/xMET_help.jar">
-			<fileset dir="userdocs" excludes="**/.svn" />
+			<fileset dir="userdoc" excludes="**/.svn" />
 		</jar>
 		<echo message="Building Admin Documentation" />
 		<jar destfile="client/help/xMETAdmin_help.jar">
@@ -187,10 +187,10 @@
 	</target>
 
 	<target depends="build" name="package">
-		<echo message="Building release.tar.gz" />
-		<delete file="releaze.tar.gz" />
-		<tar destfile="release.tar.gz" compression="gzip" excludes="**/.*, **/*.class, bin/**, .idea/**, lib/external/**, release.tar.gz, **/*.iml" basedir=".">
-		</tar>
+		<echo message="Building xMETv1.1.0.zip" />
+		<delete file="xMETv1.1.0.zip" />
+		<zip destfile="xMETv1.1.0.zip" excludes="**/.*, **/*.class, bin/**, .idea/**, lib/external/**, *.zip, **/*.iml" basedir=".">
+		</zip>
 	</target>
 
 </project>
