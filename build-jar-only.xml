@@ -27,6 +27,8 @@
 
 		<!-- antcall target="clean" / -->
 		<antcall target="build" />
+		<antcall target="package" />
+		
 		<!-- antcall target="test" / -->
 
 	</target>
