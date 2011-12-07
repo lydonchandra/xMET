@@ -1,3 +1,12 @@
+README as of 7 December 2011
+
+1. The project can be imported into eclipse as it has .project file.
+2. Modify launch4j.dir in build.xml and set it to your launch4j dir
+3. Build the project by Right Click on build.xml >>> Run >>>  Ant Build
+- This should generate xmet.exe
+
+
+README as of xMET 1.0
 Should work with any types of java IDEs
 ===================================
 What you need to know:
