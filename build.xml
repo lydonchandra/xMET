@@ -10,7 +10,9 @@
 
 	<!-- taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" / -->
 	<taskdef resource="checkstyletask.properties" />
-	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" />
+	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" 
+			classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar"
+	/>
 
 
 	<path id="xmet.classpath">
@@ -23,7 +25,7 @@
 	<target name="buildAll">
 		<echo message="Building All" />
 
-		<antcall target="clean" />
+		<!-- antcall target="clean" / -->
 		<antcall target="build" />
 		<!-- antcall target="test" / -->
 
@@ -37,7 +39,7 @@
 	</target>
 
 	<!-- target depends="buildJar,buildExe,buildDocs" name="build" -->
-	<target depends="buildJar" name="build">
+	<target depends="buildJar,buildExe" name="build">
 	</target>
 
 	<target depends="compileSources" name="buildJar">
@@ -52,15 +54,16 @@
 		</jar>
 	</target>
 
-	<!-- target name="buildExe">
+	<target name="buildExe">
 		<launch4j>
-			<config headerType="gui" outfile="xmet.exe" jarPath="client.jar" dontWrapJar="true" icon="xmet.ico" chdir=".">
+			
+			<config headerType="gui" outfile="xmet.exe" jarPath="client.jar" dontWrapJar="true" icon="core/xmet/resources/images/xmet_logo.ico" chdir=".">
 				<splash file="core/xmet/resources/images/splash.bmp">
 				</splash>
 				<jre minVersion="1.6.0_0" />
 			</config>
 		</launch4j>
-	</target -->
+	</target>
 
 	<target name="compileSources">
 		<echo message="Compiling ... " />
