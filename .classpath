@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="core"/>
+	<classpathentry kind="src" path="extra"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="client.jar"/>
+	<classpathentry kind="lib" path="client/help/xMet_help.jar"/>
+	<classpathentry kind="lib" path="client/help/xMetAdmin_help.jar"/>
+	<classpathentry kind="lib" path="client/plugins/plugin.jar"/>
+	<classpathentry kind="lib" path="lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="lib/asm-all-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/filters.jar"/>
+	<classpathentry kind="lib" path="lib/forms-1.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jgoodies-common-0.9.9.jar"/>
+	<classpathentry kind="lib" path="lib/jgoodies-forms-1.4.0b1.jar"/>
+	<classpathentry kind="lib" path="lib/jhall.jar"/>
+	<classpathentry kind="lib" path="lib/jmapproj.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/juniversalchardet-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/jxlayer.jar"/>
+	<classpathentry kind="lib" path="lib/laf-plugin.jar"/>
+	<classpathentry kind="lib" path="lib/laf-widget.jar"/>
+	<classpathentry kind="lib" path="lib/looks-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/njcommon.jar"/>
+	<classpathentry kind="lib" path="lib/relaxngDatatype.jar"/>
+	<classpathentry kind="lib" path="lib/saxon9ee.jar"/>
+	<classpathentry kind="lib" path="lib/substance-swingx.jar"/>
+	<classpathentry kind="lib" path="lib/substance.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-ws-2010_12_19.jar"/>
+	<classpathentry kind="lib" path="lib/swingx.jar"/>
+	<classpathentry kind="lib" path="lib/trident.jar"/>
+	<classpathentry kind="lib" path="lib/xsom.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -5,11 +5,12 @@
 	<property name="debuglevel" value="source,lines,vars" />
 	<property name="target" value="1.6" />
 	<property name="source" value="1.6" />
+	<property name="launch4j.dir" location="C:/work/bin/launch4j" />
 	<!-- property name="findbugs.home" value="../build/findbugs" / -->
 
 	<!-- taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" / -->
 	<taskdef resource="checkstyletask.properties" />
-	<!-- taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" / -->
+	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" />
 
 
 	<path id="xmet.classpath">
