@@ -5,11 +5,11 @@
 	<property name="debuglevel" value="source,lines,vars" />
 	<property name="target" value="1.6" />
 	<property name="source" value="1.6" />
-	<property name="findbugs.home" value="../build/findbugs" />
+	<!-- property name="findbugs.home" value="../build/findbugs" / -->
 
-	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" />
+	<!-- taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" / -->
 	<taskdef resource="checkstyletask.properties" />
-	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" />
+	<!-- taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" / -->
 
 
 	<path id="xmet.classpath">
@@ -24,7 +24,7 @@
 
 		<antcall target="clean" />
 		<antcall target="build" />
-		<antcall target="test" />
+		<!-- antcall target="test" / -->
 
 	</target>
 
@@ -35,7 +35,8 @@
 		<delete dir="docs" />
 	</target>
 
-	<target depends="buildJar,buildExe,buildDocs" name="build">
+	<!-- target depends="buildJar,buildExe,buildDocs" name="build" -->
+	<target depends="buildJar" name="build">
 	</target>
 
 	<target depends="compileSources" name="buildJar">
@@ -50,7 +51,7 @@
 		</jar>
 	</target>
 
-	<target name="buildExe">
+	<!-- target name="buildExe">
 		<launch4j>
 			<config headerType="gui" outfile="xmet.exe" jarPath="client.jar" dontWrapJar="true" icon="xmet.ico" chdir=".">
 				<splash file="core/xmet/resources/images/splash.bmp">
@@ -58,7 +59,7 @@
 				<jre minVersion="1.6.0_0" />
 			</config>
 		</launch4j>
-	</target>
+	</target -->
 
 	<target name="compileSources">
 		<echo message="Compiling ... " />
@@ -128,7 +129,7 @@
 
 	<target name="test">
 		<antcall target="testJUnit" />
-		<antcall target="testFindbugs" />
+		<!-- antcall target="testFindbugs" / -->
 		<antcall target="testCheckstyle" />
 	</target>
 
@@ -149,14 +150,14 @@
 		</junit>
 	</target>
 
-	<target name="testFindbugs">
+	<!-- target name="testFindbugs">
 		<echo message="Checking Bugs" />
 		<findbugs home="${findbugs.home}" output="xml" outputFile="bin/findbugs.xml" effort="max" excludeFilter="../build/findbugs/exceptions.xml" failOnError="true">
 			<auxClasspath refid="xmet.classpath" />
 			<sourcePath path="${source}" />
 			<class location="client.jar" />
 		</findbugs>
-	</target>
+	</target -->
 
 	<target name="testCheckstyle">
 		<echo message="Checking style" />
