@@ -1,0 +1,679 @@
+<gui>
+  <page>
+    <title>About This Editor</title>
+    <order>9999999</order>
+    <item>
+      <visible>true</visible>
+      <columnSpan>-1</columnSpan>
+      <defaultValue>
+        <default>
+          <type>text</type>
+          <value>Demo AGLS Profile Editor</value>
+        </default>
+      </defaultValue>
+      <type>Label</type>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Resource Type</title>
+    <order>9999999</order>
+    <compositeItem>
+      <title>Type</title>
+      <visible>true</visible>
+      <description>What is the genre of the resource?</description>
+      <columnSpan>9</columnSpan>
+      <type>CheckedList</type>
+      <param>
+        <name>Editable</name>
+        <value>true</value>
+      </param>
+      <param>
+        <name>CustomList</name>
+        <value>Collection|Dataset|Event|Image|InteractiveResource|Service|Software|Sound|Text|PhysicalObject</value>
+      </param>
+      <base>/metadata/dc:type</base>
+    </compositeItem>
+    <item>
+      <title>Aggregation Level</title>
+      <visible>true</visible>
+      <description>Is it a single item or a collection?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DropDownList</type>
+      <param>
+        <name>Editable</name>
+        <value>false</value>
+      </param>
+      <param>
+        <name>CustomList</name>
+        <value>item|collection</value>
+      </param>
+      <xpath>/metadata/aglsterms:aggregationLevel</xpath>
+    </item>
+    <item>
+      <title>Category</title>
+      <visible>true</visible>
+      <description>What is the general category of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DropDownList</type>
+      <param>
+        <name>Editable</name>
+        <value>false</value>
+      </param>
+      <param>
+        <name>CustomList</name>
+        <value>service|document|agency</value>
+      </param>
+      <xpath>/metadata/aglsterms:category</xpath>
+    </item>
+    <item>
+      <title>Document Type</title>
+      <visible>true</visible>
+      <description>If the resource is a document, what type of document is it?</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/aglsterms:documentType</xpath>
+    </item>
+    <item>
+      <title>Service Type</title>
+      <visible>true</visible>
+      <description>If the resource is a servive, what type of service is it?</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/aglsterms:serviceType</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Reference Information</title>
+    <order>9999999</order>
+    <item>
+      <title>Identifier</title>
+      <visible>true</visible>
+      <description>If available, enter the resource identifier here.</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:identifier</xpath>
+    </item>
+    <item>
+      <title>Title</title>
+      <visible>true</visible>
+      <description>What is the name of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:title</xpath>
+    </item>
+    <compositeItem>
+      <title>Other Titles</title>
+      <visible>true</visible>
+      <description>What are the alternative names for the resource. Please enter one per line.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:alternative</base>
+    </compositeItem>
+    <item>
+      <title>Subject</title>
+      <visible>true</visible>
+      <description>What is the topic of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:subject</xpath>
+    </item>
+    <item>
+      <title>Creator</title>
+      <visible>true</visible>
+      <description>Who is responsible for the creation of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:creator</xpath>
+    </item>
+    <item>
+      <title>Publisher</title>
+      <visible>true</visible>
+      <description>Who is responsible for making the resource available?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:publisher</xpath>
+    </item>
+    <compositeItem>
+      <title>Contributors</title>
+      <visible>true</visible>
+      <description>Who is responsible for making contributions to the resource? Please enter one per line.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dc:contributor</base>
+    </compositeItem>
+    <item>
+      <title>Source</title>
+      <visible>true</visible>
+      <description>What is this resource derived from?</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:source</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Description</title>
+    <order>9999999</order>
+    <item>
+      <title>Abstract</title>
+      <visible>true</visible>
+      <description>Please enter a summary of the resource here.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dcterms:abstract</xpath>
+    </item>
+    <item>
+      <title>Table Of Contents</title>
+      <visible>true</visible>
+      <description>Please enter the subunits of the resource here.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dcterms:tableOfContents</xpath>
+    </item>
+    <item>
+      <title>Misc</title>
+      <visible>true</visible>
+      <description>Please enter anything else here.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:description</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Dates</title>
+    <order>9999999</order>
+    <item>
+      <title>Date Created</title>
+      <visible>true</visible>
+      <description>When was the resource created?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:created</xpath>
+    </item>
+    <item>
+      <title>Date Valid</title>
+      <visible>true</visible>
+      <description>When is the resource valid to?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:valid</xpath>
+    </item>
+    <item>
+      <title>Date Available</title>
+      <visible>true</visible>
+      <description>When did or will the resource become available?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:available</xpath>
+    </item>
+    <item>
+      <title>Date Issued</title>
+      <visible>true</visible>
+      <description>When was the formal issuance of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:issued</xpath>
+    </item>
+    <item>
+      <title>Date Modified</title>
+      <visible>true</visible>
+      <description>When was the resource changed?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:modified</xpath>
+    </item>
+    <item>
+      <title>Date Accepted</title>
+      <visible>true</visible>
+      <description>When was the resource Accepted</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:dateAccepted</xpath>
+    </item>
+    <item>
+      <title>Date Copyrighted</title>
+      <visible>true</visible>
+      <description>When was the resource copyrighted?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:dateCopyrighted</xpath>
+    </item>
+    <item>
+      <title>Date Submitted</title>
+      <visible>true</visible>
+      <description>When was the resource submitted?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dcterms:dateSubmitted</xpath>
+    </item>
+    <item>
+      <title>Date Licensed</title>
+      <visible>true</visible>
+      <description>When was the resource licensed?</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/aglsterms:dateLicensed</xpath>
+    </item>
+    <item>
+      <title>Other</title>
+      <visible>true</visible>
+      <description>Enter any other dates here:</description>
+      <columnSpan>-1</columnSpan>
+      <type>DatePicker</type>
+      <xpath>/metadata/dc:date</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Format and Language</title>
+    <order>9999999</order>
+    <item>
+      <title>Format</title>
+      <visible>true</visible>
+      <description>What is the file format of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dc:format</xpath>
+    </item>
+    <item>
+      <title>Medium</title>
+      <visible>true</visible>
+      <description>What is the material or physical carrier of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dcterms:medium</xpath>
+    </item>
+    <item>
+      <title>Extent</title>
+      <visible>true</visible>
+      <description>What is the size or duration of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <type>SingleLineText</type>
+      <xpath>/metadata/dcterms:extent</xpath>
+    </item>
+    <item>
+      <title>Language</title>
+      <visible>true</visible>
+      <description>What is the language of the resource?</description>
+      <columnSpan>-1</columnSpan>
+      <defaultValue>
+        <default>
+          <type>text</type>
+          <value>eng</value>
+        </default>
+      </defaultValue>
+      <type>DropDownList</type>
+      <param>
+        <name>Editable</name>
+        <value>false</value>
+      </param>
+      <param>
+        <name>CodeList</name>
+        <value>http://xmet/languages.xmettextcodelist#iso639-3</value>
+      </param>
+      <xpath>/metadata/dc:language</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Relationships</title>
+    <order>9999999</order>
+    <compositeItem>
+      <title>Is Version Of</title>
+      <visible>true</visible>
+      <description>This this resource a version, edition or adaptation of something else? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isVersionOf</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Has Version</title>
+      <visible>true</visible>
+      <description>Does this resource have a derived version, edition or adaptation? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:hasVersion</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Replaced By</title>
+      <visible>true</visible>
+      <description>Is this resource supplanted, displaced, or superseded by anything else? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isReplacedBy</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Replaces</title>
+      <visible>true</visible>
+      <description>Does this resource supplantes, displaces, or supersedes anything else? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:replaces</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Required By</title>
+      <visible>true</visible>
+      <description>Does anything else require this resource to support its function, delivery, or coherence? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isRequiredBy</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Requires</title>
+      <visible>true</visible>
+      <description>Does this resource require anything else to support its function, delivery, or coherence? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:requires</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Part Of</title>
+      <visible>true</visible>
+      <description>Is this resource, physically or logically part of some other resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isPartOf</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Has Part</title>
+      <visible>true</visible>
+      <description>What makes up this resource, physically and logically? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:hasPart</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Referenced By</title>
+      <visible>true</visible>
+      <description>Is this resource referenced, cited, or otherwise pointed to by anything else? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isReferencedBy</base>
+    </compositeItem>
+    <compositeItem>
+      <title>References</title>
+      <visible>true</visible>
+      <description>What does this resource reference, cite, or otherwise point to? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:references</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Format Of</title>
+      <visible>true</visible>
+      <description>Is this resource the same as another resource but in a different format? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:isFormatOf</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Has Format</title>
+      <visible>true</visible>
+      <description>Is there a derived item in a different format which is the same as this resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:hasFormat</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Conforms To</title>
+      <visible>true</visible>
+      <description>Does this resource confirm to any esablished standards? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dcterms:conformsTo</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Is Basis For</title>
+      <visible>true</visible>
+      <description>Is anything a performance, production, derivation, translation  or interpretation of this resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/aglsterms:isBasisFor</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Has Basis</title>
+      <visible>true</visible>
+      <description>Is this resource a a performance,  production, derivation, translation or interpretation of something else? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/aglsterms:hasBasis</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Misc</title>
+      <visible>true</visible>
+      <description>Does this resource have any other related resources? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:relation</xpath>
+      <base>/metadata/dc:relation</base>
+    </compositeItem>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Coverage &amp; Availability</title>
+    <order>9999999</order>
+    <item>
+      <title>Spatial Coverage</title>
+      <visible>true</visible>
+      <description>What are the spatial characteristics of the resource?</description>
+      <columnSpan>2</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dcterms:spatial</xpath>
+    </item>
+    <item>
+      <title>Temporal Coverage</title>
+      <visible>true</visible>
+      <description>What are the temporal characteristics of the resource?</description>
+      <columnSpan>2</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dcterms:temporal</xpath>
+    </item>
+    <compositeItem>
+      <title>Juristiction</title>
+      <visible>true</visible>
+      <description>What is the extent or range of judicial, law enforcement or other authority?</description>
+      <columnSpan>-1</columnSpan>
+      <type>CheckedList</type>
+      <param>
+        <name>Editable</name>
+        <value>true</value>
+      </param>
+      <param>
+        <name>CustomList</name>
+        <value>AAT|ACT|AU|Australia|Australian Antarctic Territory|Australian Capital Territory|Commonwealth of Australia|Indian Ocean Territories|IOT|New South Wales|NF|NI|Norfolk Island|Northern Territory|NSW|NT|QLD|Qld|Queensland|SA|South Australia|TAS|Tas|Tasmania|VIC|Vic|Victoria|WA|Western Australia</value>
+      </param>
+      <base>/metadata/aglsterms:jurisdiction</base>
+    </compositeItem>
+    <item>
+      <title>Coverage</title>
+      <visible>true</visible>
+      <description>(Legacy data support only)</description>
+      <columnSpan>2</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:coverage</xpath>
+    </item>
+    <item>
+      <title>Availability</title>
+      <visible>true</visible>
+      <description>How the resource can be obtained or accessed?</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/aglsterms:availability</xpath>
+    </item>
+    <item>
+      <title>Availability</title>
+      <visible>true</visible>
+      <description>(Legacy data support only)</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/agls:availability</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Rights</title>
+    <order>9999999</order>
+    <item>
+      <title>Access Rights</title>
+      <visible>true</visible>
+      <description>Who can access the resource? What is the security status of the resource?</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dcterms:accessRights</xpath>
+    </item>
+    <compositeItem>
+      <title>Rights Holder</title>
+      <visible>true</visible>
+      <description>Who own or manage rights to the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:rightsHolder</base>
+    </compositeItem>
+    <compositeItem>
+      <title>License</title>
+      <visible>true</visible>
+      <description>Which licenses apply fir acquiring official permission to do something with the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:license</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Protective Marking</title>
+      <visible>true</visible>
+      <description>What protective marking is applied to the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:protectiveMarking</base>
+    </compositeItem>
+    <item>
+      <title>Rights</title>
+      <visible>true</visible>
+      <description>What rights are held in and over the resource? (Legacy data support)</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <xpath>/metadata/dc:rights</xpath>
+    </item>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Mandates</title>
+    <order>9999999</order>
+    <compositeItem>
+      <title>Mandates</title>
+      <visible>true</visible>
+      <description>Which legal instruments legal instrument which requires or drives the creation or provision of the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:mandate</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Mandates</title>
+      <visible>true</visible>
+      <description>(Legacy Data Support) Please enter one per line.</description>
+      <columnSpan>2</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/agls:mandate</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Acts</title>
+      <visible>true</visible>
+      <description>Are there specific pieces of legislation piece of legislations which requires or drives the creation or  provision of the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:act</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Cases</title>
+      <visible>true</visible>
+      <description>Are there specific clase laws which require or drives the creation of provision of the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:case</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Regulations</title>
+      <visible>true</visible>
+      <description>Are there any specific regulations which require or drive the creation or provision of  the resource? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:regulation</base>
+    </compositeItem>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Audience</title>
+    <order>9999999</order>
+    <compositeItem>
+      <title>Audience</title>
+      <visible>true</visible>
+      <description>Who is this resource intended to? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:audience</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Audience Education Level</title>
+      <visible>true</visible>
+      <description>Who is this resource intended to in terms of education or training context? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:educationLevel</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Audience</title>
+      <visible>true</visible>
+      <description>(Legacy Data Support) Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/agls:audience</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Mediators</title>
+      <visible>true</visible>
+      <description>Who is responsible for mediating access to the resource between its intended users? Please enter one per line.</description>
+      <columnSpan>3</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/dcterms:mediator</base>
+    </compositeItem>
+    <visible>true</visible>
+  </page>
+  <page>
+    <title>Misc</title>
+    <order>9999999</order>
+    <compositeItem>
+      <title>Function</title>
+      <visible>true</visible>
+      <description>Which business functions does this resource relate to? Please enter one per line.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/aglsterms:function</base>
+    </compositeItem>
+    <compositeItem>
+      <title>Function</title>
+      <visible>true</visible>
+      <description>(Legacy data support) Please enter one per line.</description>
+      <columnSpan>-1</columnSpan>
+      <type>MultiLineText</type>
+      <base>/metadata/agls:function</base>
+    </compositeItem>
+    <visible>true</visible>
+  </page>
+</gui>

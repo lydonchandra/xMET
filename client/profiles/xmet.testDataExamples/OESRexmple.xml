@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd   http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd    http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>984D97C7-9FD7-396A-991D-FC3112015F39</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_ScopeCode" codeListValue="nonGeographicDataset">nonGeographicDataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>Telephone Survey Report</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Office of Economic and Statistical Research, Queensland
+        Treasury</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Team Leader</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+617 3234 0755</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>+617 3224 5320</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>PO Box 15037</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>City East, Brisbane</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Queensland</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>4002</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Australia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>team_leader@treasury.qld.gov.au</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2005-03-04</gco:Date>
+  </gmd:dateStamp>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Vacancy Rate Survey</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2005-03-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.tc211.org/ISO19h139/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Office of Economic and Statistical Research, Queensland
+                  Treasury</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+617 3234 0755</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+617 3224 5320</gco:CharacterString>
+                        </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>PO Box 15037, City East </gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Brisbane</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Queensland</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>4002</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>joe.bloggs@treasury.qld.gov.au</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.tc211.org/ISO19h139/resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+            
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>The Housing Rental Vacancy Rates Brief summarises data from a quarterly
+          survey of Queensland real estate agencies. The data presented relates to vacancy rates of
+          residential rental detached houses and units, and is broken down by 5 regions: Inner
+          Brisbane, Remainder of Brisbane LGA, Brisbane Surrounds, Gold Coast and Rest of
+          Queensland. Information on each quarter is posted on the website according to the
+          following schedule: March Quarter—first week of April June Quarter—first week of July
+          September Quarter—first week of October December Quarter—first week of January . Surveys
+          have been conducted in 2002-2003, 2003-2004, 2004-2005, 2005-2006, and 2006-2007.
+        </gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Surveys provide a means of measuring a population’s characteristics,
+          self-reported and observed behaviour, awareness of programs, attitudes or opinions, and
+          needs. Repeating surveys at regular intervals can assist in the measurement of changes
+          over time. These types of information are invaluable in planning and evaluating Government
+          policies and programs. The objective of this survey of agents was to measure vacancy rates
+          for residential rental accommodation in Queensland, and to determine the balance between
+          demand and supply of rental accommodation throughout Queensland.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly">quarterly</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Housing</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Survey</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Must acknowledge this report if it is used for further
+            analysis.</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">license</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>http://www.nrw.qld.gov.au/products/access_pricing/pdfs/sample_open_licence_single_use.pdf</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>society</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>State of Queensland</gco:CharacterString>
+          </gmd:description>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="begin">
+                  <gml:beginPosition>2002-07-01</gml:beginPosition>
+                  <gml:endPosition>2015-12-31</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Adobe Portable Document Format (PDF)</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>Adobe Acrobat 7.0</gco:CharacterString>
+          </gmd:version>
+          <gmd:formatDistributor>
+            <gmd:MD_Distributor>
+              <gmd:distributorContact>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Office of Economic And Statistical Research. Queensland
+                      Treasury</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Team Leader</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+617 3234 0755</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+617 3224 5320</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>PO Box 15037, City East </gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Brisbane</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>Queensland</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>4002</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>Australia</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>joe.bloggs@treasury.qld.gov.au</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:distributorContact>
+              <gmd:distributionOrderProcess>
+                <gmd:MD_StandardOrderProcess>
+                  <gmd:fees>
+                    <gco:CharacterString>This survey information is free.</gco:CharacterString>
+                    </gmd:fees>
+                </gmd:MD_StandardOrderProcess>
+              </gmd:distributionOrderProcess>
+              <gmd:distributorFormat> </gmd:distributorFormat>
+              <gmd:distributorTransferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                  <gmd:unitsOfDistribution>
+                    <gco:CharacterString>kilobytes</gco:CharacterString>
+                  </gmd:unitsOfDistribution>
+                  <gmd:transferSize>
+                    <gco:Real>145</gco:Real>
+                  </gmd:transferSize>
+                  <gmd:onLine>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.oesr.qld.gov.au/queensland-by-theme/industry/housing-construction/single-publications/vacancy-rates-survey/vacancy-rates-survey.pdf</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>Hypertext Transfer Protocol
+                        (HTTP)</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:applicationProfile>
+                        <gco:CharacterString>Report document opens with Adobe Acrobat Reader in a
+                          web browser .</gco:CharacterString>
+                      </gmd:applicationProfile>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+              </gmd:distributorTransferOptions>
+            </gmd:MD_Distributor>
+          </gmd:formatDistributor>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>Telephone Surveys are generally cheaper and quicker than
+                  face-to-face surveys, and are being increasingly used. They are well suited for
+                  situations where timely results are needed and the length of the interview is not
+                  too long. However, non-response may be higher than for face-to-face surveys as it
+                  is harder for interviewers to prove their identity, assure confidentiality and
+                  establish rapport. Telephone surveys are not suited for situations where the
+                  respondents need to refer to records extensively. Also, the questionnaires must be
+                  simpler and shorter than for face-to-face surveys and prompt cards cannot be used.
+                  COMPUTER ASSISTED TELEPHONE INTERVIEWING (CATI) helps to address some of these
+                  limitations. With CATI, interviewers use a computer terminal. The questions appear
+                  on the computer screen and the interviewers key in the responses directly into the
+                  computer. The interviewer’s screen is programmed to show questions in the planned
+                  order. Interviewers cannot inadvertently omit questions or ask them out of
+                  sequence. Online edits warn interviewers if they key in invalid values or unusual
+                  values. Most CATI systems also allow many aspects of survey operations to be
+                  automated, e.g. rescheduling of call-backs, engaged numbers and “No Answers”, and
+                  allow automatic dialling and remote supervision of interviewer/ respondent
+                  interaction.It is estimated that about 97% of Queensland households have a
+                  connected telephone. However about 15% of households have a silent number. If the
+                  Electronic White Pages are used to select a sample of households then the sample
+                  will not include households with silent numbers. It will also not include
+                  households with recent new connections or recent changes to existing numbers. If
+                  the likely bias due to such under-coverage is considered to be significant, a
+                  method called Random Digit Dialling may be used where the sample is selected from
+                  ranges of numbers which include all connected telephone numbers. Research by the
+                  Office of the Government Statistician has shown that about 25% of households
+                  picked up using the Random Digit Dialling method are not listed in the latest
+                  Electronic White Pages. The main disadvantage of using Random Digit Dialling
+                  samples is the extra cost involved in screening out disconnected and business
+                  numbers.</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>This report summarises data for the whole of Queensland broken down
+              by the five survey regions, Inner Brisbane (agencies in suburbs wholly or mainly
+              within 5km of Brisbane GPO), Remainder of Brisbane LGA, Gold Coast LGA, Brisbane
+              Surrounds (Pine Rivers, Logan, Redcliffe, Redland, Ipswich, and Caboolture LGAs), and
+              Rest of Queensland. Results in this report represent population estimates calculated
+              from the sample. A detailed description of collection techniques and how the
+              population estimates were derived is available. Unless stated otherwise, the
+              population estimate differences discussed in this report are those that were
+              statistically significant. A difference in survey estimates was considered significant
+              if the 95 per cent confidence intervals for the two estimates did not overlap. This is
+              a conservative test designed to ensure that the probability of incorrectly declaring a
+              difference to be significant is kept to about 1%. </gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

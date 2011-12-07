@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:gss="http://www.isotc211.org/2005/gss"
+    xmlns:gmx="http://www.isotc211.org/2005/gmx"
+    xmlns:gml="http://www.opengis.net/gml"
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd
+    http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd 
+    http://www.isotc211.org/2005/gts http://www.isotc211.org/2005/gts/gts.xsd 
+    http://www.isotc211.org/2005/gsr http://www.isotc211.org/2005/gsr/gsr.xsd 
+    http://www.isotc211.org/2005/gss http://www.isotc211.org/2005/gss/gss.xsd 
+    
+    http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd 
+    http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+    <!-- 
+        http://i.creativecommons.org/l/by/2.5/au/80x15.png
+        
+        Copyright Commonwealth of Australia (Geoscience Australia) 2008.  This product is released under the
+        Creative Commons Attribution 2.5 Australia Licence (http://creativecommons.org/licenses/by-nd/2.5/au/)
+    -->
+    
+    <!-- Note: This file uses the copy of gmxCodelists.xml located at URL:
+        http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml
+        rather than the official one located at URL:      
+        http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml
+        because the official file does not validate whereas the one on the ASDD web site does.
+        Once the ISO TC 211 one works then all these references to the ASDD copy should be 
+        changed to the official XML document.
+        John Hockaday 2008-11-11.-->
+    <gmd:fileIdentifier>
+        <gco:CharacterString>1F0D7EEB-D1C8-3290-B160-F60BF1CF1E94</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </gmd:language>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode
+            codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode"
+            codeListValue="series"></gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+        <gco:CharacterString>series</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+        <!-- metadata contact details -->
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty id="GADetails">
+            <gmd:organisationName>
+                <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact id="GAContactDetails">
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+61 2 6249 9111</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString>+61 2 6249 9999</gco:CharacterString>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>GPO Box 378</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Canberra</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>ACT</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>2601</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>Australia</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>sales@ga.gov.au</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://www.ga.gov.au</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onlineResource>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode
+                    codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                    codeListValue="pointOfContact"></gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:Date>2007-08-27</gco:Date>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.1</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Geoscience Australia's Open Day
+                            Photographic Series</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2008-11-12</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode
+                                    codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                    codeListValue="revision"></gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:citedResponsibleParty
+                    xlink:href="http://asdd.ga.gov.au/asdd/profileinfo/GAOpenDaySeries.xml#GADetails"
+                     xlink:actuate="onLoad" xlink:show="embed"/>
+                </gmd:CI_Citation>
+                
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Each National Science Week on Sunday,
+                    Geoscience Australia opens its doors to the community 
+                    to showcase a diverse range of work activities. Members of the public can discover how earthquakes are detected, pan for gold, tour the building, 
+                    view Australia in 3D, become a seafloor detective and talk to the people who work for Australia's national geoscience research organisation. 
+                    There's something for everyone. Photographs of GA's open day
+                    have been taken since 2005.  Only the thumbnail images of
+                    the most recent GA Open Day photographs are available. 
+                </gco:CharacterString>
+            </gmd:abstract>
+            <gmd:language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    
+    <gmd:metadataConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+                <gco:CharacterString>Copyright Commonwealth of Australia  (Geoscience Australia) 2008</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:useConstraints>
+                <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+                    codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+            </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    
+    <gmd:metadataConstraints>
+        <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+                <gco:CharacterString>   http://i.creativecommons.org/l/by/2.5/au/80x15.png
+                    This product is released under the
+                    Creative Commons Attribution 2.5 Australia Licence (http://creativecommons.org/licenses/by-nd/2.5/au/)</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+                    codeListValue="license">license</gmd:MD_RestrictionCode>
+            </gmd:accessConstraints>
+        </gmd:MD_LegalConstraints>
+    </gmd:metadataConstraints>
+    
+</gmd:MD_Metadata>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/adminterms/"
+	targetNamespace="http://www.agls.gov.au/agls/adminterms/" elementFormDefault="unqualified"
+	attributeFormDefault="unqualified" xmlns:gco="http://www.isotc211.org/2005/gco"
+	xmlns:gmd="http://www.isotc211.org/2005/gmd">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
+		schemaLocation="http://www.w3.org/2001/03/xml.xsd" />
+	<xs:import namespace="http://www.isotc211.org/2005/gco"
+		schemaLocation="../iso19115/gco/gco.xsd" />
+	<xs:import namespace="http://www.isotc211.org/2005/gmd"
+		schemaLocation="../iso19115/gmd/gmd.xsd" />
+	<xs:complexType name="administrationInformation">
+		<xs:complexContent>
+			<xs:extension base="gco:AbstractObject_Type">
+				<xs:sequence>
+					<xs:element name="dateStamp" type="gco:Date_PropertyType"
+						minOccurs="1" maxOccurs="1" />
+					<xs:element name="fileIdentifier" type="gco:CharacterString_PropertyType"
+						minOccurs="1" maxOccurs="1" />
+					<xs:element name="metadataCharacterSet" default="utf-8"
+						minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="metadataContact" type="gmd:CI_ResponsibleParty_PropertyType"
+						minOccurs="1" maxOccurs="unbounded" />
+					<xs:element name="metadataLanguage" type="gco:CharacterString_PropertyType"
+						minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="metadataStandardName" default="AS5044"
+						minOccurs="1" maxOccurs="unbounded" />
+					<xs:element name="metadataStandardVersion" type="gco:CharacterString_PropertyType"
+						minOccurs="0" maxOccurs="1" />
+					<xs:element name="metadataUpdateDate" type="gco:CharacterString_PropertyType"
+						minOccurs="0" maxOccurs="unbounded" />
+					<!-- The following two elements are not part of AS 5044. They are included to
+						support a specific applicaiton. -->
+					<xs:element name="hierarchyLevel" type="gmd:MD_ScopeCode_PropertyType"
+						minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="hierarchyLevelName" type="gmd:MD_ScopeCode_PropertyType"
+						minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

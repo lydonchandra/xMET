@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://purl.org/dc/elements/1.1/"
+	targetNamespace="http://purl.org/dc/elements/1.1/" elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
+		schemaLocation="http://www.w3.org/2001/03/xml.xsd">
+	</xs:import>
+	<xs:complexType name="SimpleLiteral">
+		<xs:complexContent mixed="true">
+			<xs:restriction base="xs:anyType">
+				<xs:sequence>
+					<xs:any processContents="lax" minOccurs="0" maxOccurs="0" />
+				</xs:sequence>
+				<xs:attribute ref="xml:lang" use="optional" />
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:element name="title" type="SimpleLiteral" />
+	<xs:element name="creator" type="SimpleLiteral" />
+	<xs:element name="subject" type="SimpleLiteral" />
+	<xs:element name="description" type="SimpleLiteral" />
+	<xs:element name="publisher" type="SimpleLiteral" />
+	<xs:element name="contributor" type="SimpleLiteral" />
+	<xs:element name="date" type="SimpleLiteral" />
+	<xs:element name="type" type="SimpleLiteral" />
+	<xs:element name="format" type="SimpleLiteral" />
+	<xs:element name="identifier" type="SimpleLiteral" />
+	<xs:element name="source" type="SimpleLiteral" />
+	<xs:element name="language" type="SimpleLiteral" />
+	<xs:element name="relation" type="SimpleLiteral" />
+	<xs:element name="coverage" type="SimpleLiteral" />
+	<xs:element name="rights" type="SimpleLiteral" />
+
+	<xs:complexType name="elementContainer">
+		<xs:sequence>
+			<xs:element ref="title" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="creator" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="subject" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="description" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="publisher" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="contributor" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="date" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="type" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="format" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="source" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="language" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="relation" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="coverage" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="rights" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

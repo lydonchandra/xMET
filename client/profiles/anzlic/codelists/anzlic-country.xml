@@ -1,0 +1,5119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Codelist file containing only "Country".
+  Used by ANZMet Lite.
+-->
+<CT_CodelistCatalogue xmlns="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd   http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd   http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd   http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+	<!--=====Catalogue description=====-->
+	<name>
+		<gco:CharacterString>ANZMet Lite Country codelist</gco:CharacterString>
+	</name>
+	<scope>
+		<gco:CharacterString>Codelists for description of metadata datasets compliant with ISO/TC 211 19115:2003 and 19139</gco:CharacterString>
+	</scope>
+	<fieldOfApplication>
+		<gco:CharacterString>GMX (and imported) namespace</gco:CharacterString>
+	</fieldOfApplication>
+	<versionNumber>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</versionNumber>
+	<versionDate>
+		<gco:Date>2009-03-31</gco:Date>
+	</versionDate>
+	<!--============================================================================-->
+	<!--============================= Codelists =======================================-->
+	<!--============= Country ================-->
+	<codelistItem>
+		<CodeListDictionary gml:id="Country">
+			<gml:description>Country : ISO 3166-1 (3 characters)</gml:description>
+			<gml:identifier codeSpace="ISO 3166-1">Country</gml:identifier>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_afg">
+					<gml:description>Afghanistan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">afg</gml:identifier>
+					<gml:name>Afghanistan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_alb">
+					<gml:description>Albania</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">alb</gml:identifier>
+					<gml:name>Albania</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_dza">
+					<gml:description>Algeria</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">dza</gml:identifier>
+					<gml:name>Algeria</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_asm">
+					<gml:description>American Samoa</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">asm</gml:identifier>
+					<gml:name>American Samoa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_and">
+					<gml:description>Andorra</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">and</gml:identifier>
+					<gml:name>Andorra</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ago">
+					<gml:description>Angola</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ago</gml:identifier>
+					<gml:name>Angola</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_aia">
+					<gml:description>Anguilla</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">aia</gml:identifier>
+					<gml:name>Anguilla</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ata">
+					<gml:description>Antarctica</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ata</gml:identifier>
+					<gml:name>Antarctica</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_atg">
+					<gml:description>Antigua and Barbuda</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">atg</gml:identifier>
+					<gml:name>Antigua and Barbuda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_arg">
+					<gml:description>Argentina</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">arg</gml:identifier>
+					<gml:name>Argentina</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_arm">
+					<gml:description>Armenia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">arm</gml:identifier>
+					<gml:name>Armenia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_abw">
+					<gml:description>Aruba</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">abw</gml:identifier>
+					<gml:name>Aruba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_aus">
+					<gml:description>Australia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">aus</gml:identifier>
+					<gml:name>Australia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_aut">
+					<gml:description>Austria</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">aut</gml:identifier>
+					<gml:name>Austria</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_aze">
+					<gml:description>Azerbaijan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">aze</gml:identifier>
+					<gml:name>Azerbaijan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bhs">
+					<gml:description>Bahamas</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bhs</gml:identifier>
+					<gml:name>Bahamas</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bhr">
+					<gml:description>Bahrain</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bhr</gml:identifier>
+					<gml:name>Bahrain</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bgd">
+					<gml:description>Bangladesh</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bgd</gml:identifier>
+					<gml:name>Bangladesh</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_brb">
+					<gml:description>Barbados</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">brb</gml:identifier>
+					<gml:name>Barbados</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_blr">
+					<gml:description>Belarus</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">blr</gml:identifier>
+					<gml:name>Belarus</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bel">
+					<gml:description>Belgium</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bel</gml:identifier>
+					<gml:name>Belgium</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_blz">
+					<gml:description>Belize</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">blz</gml:identifier>
+					<gml:name>Belize</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ben">
+					<gml:description>Benin</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ben</gml:identifier>
+					<gml:name>Benin</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bmu">
+					<gml:description>Bermuda</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bmu</gml:identifier>
+					<gml:name>Bermuda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_btn">
+					<gml:description>Bhutan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">btn</gml:identifier>
+					<gml:name>Bhutan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bol">
+					<gml:description>Bolivia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bol</gml:identifier>
+					<gml:name>Bolivia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bih">
+					<gml:description>Bosnia and Herzegovina</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bih</gml:identifier>
+					<gml:name>Bosnia and Herzegovina</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bwa">
+					<gml:description>Botswana</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bwa</gml:identifier>
+					<gml:name>Botswana</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bvt">
+					<gml:description>Bouvet Island</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bvt</gml:identifier>
+					<gml:name>Bouvet Island</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bra">
+					<gml:description>Brazil</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bra</gml:identifier>
+					<gml:name>Brazil</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_iot">
+					<gml:description>British Indian Ocean Territory</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">iot</gml:identifier>
+					<gml:name>British Indian Ocean Territory</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_brn">
+					<gml:description>Brunei Darussalam</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">brn</gml:identifier>
+					<gml:name>Brunei Darussalam</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bgr">
+					<gml:description>Bulgaria</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bgr</gml:identifier>
+					<gml:name>Bulgaria</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bfa">
+					<gml:description>Burkina Faso</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bfa</gml:identifier>
+					<gml:name>Burkina Faso</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_bdi">
+					<gml:description>Burundi</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">bdi</gml:identifier>
+					<gml:name>Burundi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_khm">
+					<gml:description>Cambodia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">khm</gml:identifier>
+					<gml:name>Cambodia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cmr">
+					<gml:description>Cameroon</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cmr</gml:identifier>
+					<gml:name>Cameroon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_can">
+					<gml:description>Canada</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">can</gml:identifier>
+					<gml:name>Canada</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cpv">
+					<gml:description>Cape Verde</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cpv</gml:identifier>
+					<gml:name>Cape Verde</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cym">
+					<gml:description>Cayman Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cym</gml:identifier>
+					<gml:name>Cayman Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_caf">
+					<gml:description>Central African Republic</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">caf</gml:identifier>
+					<gml:name>Central African Republic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tcd">
+					<gml:description>Chad</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tcd</gml:identifier>
+					<gml:name>Chad</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_chl">
+					<gml:description>Chile</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">chl</gml:identifier>
+					<gml:name>Chile</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_chn">
+					<gml:description>China</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">chn</gml:identifier>
+					<gml:name>China</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cxr">
+					<gml:description>Christmas Island</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cxr</gml:identifier>
+					<gml:name>Christmas Island</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cck">
+					<gml:description>Cocos (Keeling) Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cck</gml:identifier>
+					<gml:name>Cocos (Keeling) Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_col">
+					<gml:description>Colombia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">col</gml:identifier>
+					<gml:name>Colombia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_com">
+					<gml:description>Comoros</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">com</gml:identifier>
+					<gml:name>Comoros</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cog">
+					<gml:description>Congo</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cog</gml:identifier>
+					<gml:name>Congo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cok">
+					<gml:description>Cook Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cok</gml:identifier>
+					<gml:name>Cook Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cri">
+					<gml:description>Costa Rica</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cri</gml:identifier>
+					<gml:name>Costa Rica</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_civ">
+					<gml:description>Cote D’Ivoire</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">civ</gml:identifier>
+					<gml:name>Cote D’Ivoire</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hrv">
+					<gml:description>Croatia (local name: Hrvatska)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hrv</gml:identifier>
+					<gml:name>Croatia (local name: Hrvatska)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cub">
+					<gml:description>Cuba</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cub</gml:identifier>
+					<gml:name>Cuba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cyp">
+					<gml:description>Cyprus</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cyp</gml:identifier>
+					<gml:name>Cyprus</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_cze">
+					<gml:description>Czech Republic</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">cze</gml:identifier>
+					<gml:name>Czech Republic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_dnk">
+					<gml:description>Denmark</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">dnk</gml:identifier>
+					<gml:name>Denmark</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_dji">
+					<gml:description>Djibouti</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">dji</gml:identifier>
+					<gml:name>Djibouti</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_dma">
+					<gml:description>Dominica</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">dma</gml:identifier>
+					<gml:name>Dominica</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_dom">
+					<gml:description>Dominican Republic</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">dom</gml:identifier>
+					<gml:name>Dominican Republic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ecu">
+					<gml:description>Ecuador</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ecu</gml:identifier>
+					<gml:name>Ecuador</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_egy">
+					<gml:description>Egypt</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">egy</gml:identifier>
+					<gml:name>Egypt</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_slv">
+					<gml:description>El Salvador</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">slv</gml:identifier>
+					<gml:name>El Salvador</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gnq">
+					<gml:description>Equatorial Guinea</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gnq</gml:identifier>
+					<gml:name>Equatorial Guinea</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_eri">
+					<gml:description>Eritrea</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">eri</gml:identifier>
+					<gml:name>Eritrea</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_est">
+					<gml:description>Estonia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">est</gml:identifier>
+					<gml:name>Estonia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_eth">
+					<gml:description>Ethiopia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">eth</gml:identifier>
+					<gml:name>Ethiopia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_flk">
+					<gml:description>Falkland Islands (Malvinas)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">flk</gml:identifier>
+					<gml:name>Falkland Islands (Malvinas)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fro">
+					<gml:description>Faroe Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fro</gml:identifier>
+					<gml:name>Faroe Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fji">
+					<gml:description>Fiji</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fji</gml:identifier>
+					<gml:name>Fiji</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fin">
+					<gml:description>Finland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fin</gml:identifier>
+					<gml:name>Finland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fra">
+					<gml:description>France</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fra</gml:identifier>
+					<gml:name>France</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fxx">
+					<gml:description>France, Metropolitan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fxx</gml:identifier>
+					<gml:name>France, Metropolitan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_guf">
+					<gml:description>French Guiana</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">guf</gml:identifier>
+					<gml:name>French Guiana</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pyf">
+					<gml:description>French Polynesia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pyf</gml:identifier>
+					<gml:name>French Polynesia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_atf">
+					<gml:description>French Southern Territories</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">atf</gml:identifier>
+					<gml:name>French Southern Territories</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gab">
+					<gml:description>Gabon</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gab</gml:identifier>
+					<gml:name>Gabon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gmb">
+					<gml:description>Gambia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gmb</gml:identifier>
+					<gml:name>Gambia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_geo">
+					<gml:description>Georgia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">geo</gml:identifier>
+					<gml:name>Georgia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_deu">
+					<gml:description>Germany</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">deu</gml:identifier>
+					<gml:name>Germany</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gha">
+					<gml:description>Ghana</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gha</gml:identifier>
+					<gml:name>Ghana</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gib">
+					<gml:description>Gibraltar</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gib</gml:identifier>
+					<gml:name>Gibraltar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_grc">
+					<gml:description>Greece</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">grc</gml:identifier>
+					<gml:name>Greece</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_grl">
+					<gml:description>Greenland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">grl</gml:identifier>
+					<gml:name>Greenland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_grd">
+					<gml:description>Grenada</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">grd</gml:identifier>
+					<gml:name>Grenada</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_glp">
+					<gml:description>Guadeloupe</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">glp</gml:identifier>
+					<gml:name>Guadeloupe</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gum">
+					<gml:description>Guam</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gum</gml:identifier>
+					<gml:name>Guam</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gtm">
+					<gml:description>Guatemala</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gtm</gml:identifier>
+					<gml:name>Guatemala</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gin">
+					<gml:description>Guinea</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gin</gml:identifier>
+					<gml:name>Guinea</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gnb">
+					<gml:description>Guinea-Bissau</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gnb</gml:identifier>
+					<gml:name>Guinea-Bissau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_guy">
+					<gml:description>Guyana</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">guy</gml:identifier>
+					<gml:name>Guyana</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hti">
+					<gml:description>Haiti</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hti</gml:identifier>
+					<gml:name>Haiti</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hmd">
+					<gml:description>Heard Island &amp; McDonald Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hmd</gml:identifier>
+					<gml:name>Heard Island &amp; McDonald Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hnd">
+					<gml:description>Honduras</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hnd</gml:identifier>
+					<gml:name>Honduras</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hkg">
+					<gml:description>Hong Kong</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hkg</gml:identifier>
+					<gml:name>Hong Kong</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_hun">
+					<gml:description>Hungary</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">hun</gml:identifier>
+					<gml:name>Hungary</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_isl">
+					<gml:description>Iceland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">isl</gml:identifier>
+					<gml:name>Iceland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ind">
+					<gml:description>India</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ind</gml:identifier>
+					<gml:name>India</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_idn">
+					<gml:description>Indonesia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">idn</gml:identifier>
+					<gml:name>Indonesia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_irn">
+					<gml:description>Iran, Islamic Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">irn</gml:identifier>
+					<gml:name>Iran, Islamic Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_irq">
+					<gml:description>Iraq</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">irq</gml:identifier>
+					<gml:name>Iraq</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_irl">
+					<gml:description>Ireland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">irl</gml:identifier>
+					<gml:name>Ireland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_isr">
+					<gml:description>Israel</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">isr</gml:identifier>
+					<gml:name>Israel</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ita">
+					<gml:description>Italy</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ita</gml:identifier>
+					<gml:name>Italy</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_jam">
+					<gml:description>Jamaica</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">jam</gml:identifier>
+					<gml:name>Jamaica</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_jpn">
+					<gml:description>Japan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">jpn</gml:identifier>
+					<gml:name>Japan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_jor">
+					<gml:description>Jordan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">jor</gml:identifier>
+					<gml:name>Jordan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kaz">
+					<gml:description>Kazakhstan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kaz</gml:identifier>
+					<gml:name>Kazakhstan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ken">
+					<gml:description>Kenya</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ken</gml:identifier>
+					<gml:name>Kenya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kir">
+					<gml:description>Kiribati</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kir</gml:identifier>
+					<gml:name>Kiribati</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_prk">
+					<gml:description>Korea, Democratic Peoples Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">prk</gml:identifier>
+					<gml:name>Korea, Democratic Peoples Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kor">
+					<gml:description>Korea , Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kor</gml:identifier>
+					<gml:name>Korea , Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kwt">
+					<gml:description>Kuwait</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kwt</gml:identifier>
+					<gml:name>Kuwait</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kgz">
+					<gml:description>Kyrgyzstan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kgz</gml:identifier>
+					<gml:name>Kyrgyzstan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lao">
+					<gml:description>Lao Peoples Democratic Republic</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lao</gml:identifier>
+					<gml:name>Lao Peoples Democratic Republic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lva">
+					<gml:description>Latvia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lva</gml:identifier>
+					<gml:name>Latvia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lbn">
+					<gml:description>Lebanon</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lbn</gml:identifier>
+					<gml:name>Lebanon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lso">
+					<gml:description>Lesotho</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lso</gml:identifier>
+					<gml:name>Lesotho</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lbr">
+					<gml:description>Liberia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lbr</gml:identifier>
+					<gml:name>Liberia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lby">
+					<gml:description>Libyan Arab Jamahiriya</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lby</gml:identifier>
+					<gml:name>Libyan Arab Jamahiriya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lie">
+					<gml:description>Liechtenstein</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lie</gml:identifier>
+					<gml:name>Liechtenstein</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ltu">
+					<gml:description>Lithuania</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ltu</gml:identifier>
+					<gml:name>Lithuania</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lux">
+					<gml:description>Luxembourg</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lux</gml:identifier>
+					<gml:name>Luxembourg</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mac">
+					<gml:description>Macau</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mac</gml:identifier>
+					<gml:name>Macau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mkd">
+					<gml:description>Macedonia, The Former Yugoslav Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mkd</gml:identifier>
+					<gml:name>Macedonia, The Former Yugoslav Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mdg">
+					<gml:description>Madagascar</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mdg</gml:identifier>
+					<gml:name>Madagascar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mwi">
+					<gml:description>Malawi</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mwi</gml:identifier>
+					<gml:name>Malawi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mys">
+					<gml:description>Malaysia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mys</gml:identifier>
+					<gml:name>Malaysia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mdv">
+					<gml:description>Maldives</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mdv</gml:identifier>
+					<gml:name>Maldives</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mli">
+					<gml:description>Mali</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mli</gml:identifier>
+					<gml:name>Mali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mlt">
+					<gml:description>Malta</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mlt</gml:identifier>
+					<gml:name>Malta</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mhl">
+					<gml:description>Marshall Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mhl</gml:identifier>
+					<gml:name>Marshall Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mtq">
+					<gml:description>Martinique</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mtq</gml:identifier>
+					<gml:name>Martinique</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mrt">
+					<gml:description>Mauritania</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mrt</gml:identifier>
+					<gml:name>Mauritania</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mus">
+					<gml:description>Mauritius</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mus</gml:identifier>
+					<gml:name>Mauritius</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_myt">
+					<gml:description>Mayotte</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">myt</gml:identifier>
+					<gml:name>Mayotte</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mex">
+					<gml:description>Mexico</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mex</gml:identifier>
+					<gml:name>Mexico</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_fsm">
+					<gml:description>Micronesia, Federated States of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">fsm</gml:identifier>
+					<gml:name>Micronesia, Federated States of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mda">
+					<gml:description>Moldova, Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mda</gml:identifier>
+					<gml:name>Moldova, Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mco">
+					<gml:description>Monaco</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mco</gml:identifier>
+					<gml:name>Monaco</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mng">
+					<gml:description>Mongolia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mng</gml:identifier>
+					<gml:name>Mongolia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mne">
+					<gml:description>Montenegro, Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mne</gml:identifier>
+					<gml:name>Montenegro, Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_msr">
+					<gml:description>Montserrat</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">msr</gml:identifier>
+					<gml:name>Montserrat</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mar">
+					<gml:description>Morocco</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mar</gml:identifier>
+					<gml:name>Morocco</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_moz">
+					<gml:description>Mozambique</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">moz</gml:identifier>
+					<gml:name>Mozambique</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mmr">
+					<gml:description>Myanmar</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mmr</gml:identifier>
+					<gml:name>Myanmar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nam">
+					<gml:description>Namibia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nam</gml:identifier>
+					<gml:name>Namibia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nru">
+					<gml:description>Nauru</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nru</gml:identifier>
+					<gml:name>Nauru</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_npl">
+					<gml:description>Nepal</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">npl</gml:identifier>
+					<gml:name>Nepal</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nld">
+					<gml:description>Netherlands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nld</gml:identifier>
+					<gml:name>Netherlands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ant">
+					<gml:description>Netherlands, Antilles</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ant</gml:identifier>
+					<gml:name>Netherlands, Antilles</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ncl">
+					<gml:description>New Caledonia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ncl</gml:identifier>
+					<gml:name>New Caledonia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nzl">
+					<gml:description>New Zealand</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nzl</gml:identifier>
+					<gml:name>New Zealand</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nic">
+					<gml:description>Nicaragua</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nic</gml:identifier>
+					<gml:name>Nicaragua</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ner">
+					<gml:description>Niger</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ner</gml:identifier>
+					<gml:name>Niger</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nga">
+					<gml:description>Nigeria</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nga</gml:identifier>
+					<gml:name>Nigeria</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_niu">
+					<gml:description>Niue</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">niu</gml:identifier>
+					<gml:name>Niue</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nfk">
+					<gml:description>Norfolk Island</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nfk</gml:identifier>
+					<gml:name>Norfolk Island</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_mnp">
+					<gml:description>Northern Mariana Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">mnp</gml:identifier>
+					<gml:name>Northern Mariana Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_nor">
+					<gml:description>Norway</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">nor</gml:identifier>
+					<gml:name>Norway</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_omn">
+					<gml:description>Oman</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">omn</gml:identifier>
+					<gml:name>Oman</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pak">
+					<gml:description>Pakistan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pak</gml:identifier>
+					<gml:name>Pakistan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_plw">
+					<gml:description>Palau</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">plw</gml:identifier>
+					<gml:name>Palau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pan">
+					<gml:description>Panama</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pan</gml:identifier>
+					<gml:name>Panama</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_png">
+					<gml:description>Papua New Guinea</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">png</gml:identifier>
+					<gml:name>Papua New Guinea</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pry">
+					<gml:description>Paraguay</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pry</gml:identifier>
+					<gml:name>Paraguay</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_per">
+					<gml:description>Peru</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">per</gml:identifier>
+					<gml:name>Peru</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_phl">
+					<gml:description>Phillipines</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">phl</gml:identifier>
+					<gml:name>Phillipines</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pcn">
+					<gml:description>Pitcairn</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pcn</gml:identifier>
+					<gml:name>Pitcairn</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pol">
+					<gml:description>Poland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pol</gml:identifier>
+					<gml:name>Poland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_prt">
+					<gml:description>Portugal</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">prt</gml:identifier>
+					<gml:name>Portugal</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_pri">
+					<gml:description>Puerto Rico</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">pri</gml:identifier>
+					<gml:name>Puerto Rico</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_qat">
+					<gml:description>Qatar</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">qat</gml:identifier>
+					<gml:name>Qatar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_reu">
+					<gml:description>Reunion</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">reu</gml:identifier>
+					<gml:name>Reunion</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_rou">
+					<gml:description>Romania</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">rou</gml:identifier>
+					<gml:name>Romania</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_rus">
+					<gml:description>Russian Federation</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">rus</gml:identifier>
+					<gml:name>Russian Federation</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_rwa">
+					<gml:description>Rwanda</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">rwa</gml:identifier>
+					<gml:name>Rwanda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_kna">
+					<gml:description>Saint Kitts and Nevis</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">kna</gml:identifier>
+					<gml:name>Saint Kitts and Nevis</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lca">
+					<gml:description>Saint Lucia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lca</gml:identifier>
+					<gml:name>Saint Lucia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vct">
+					<gml:description>Saint Vincent and the Grenadines</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vct</gml:identifier>
+					<gml:name>Saint Vincent and the Grenadines</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_wsm">
+					<gml:description>Samoa</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">wsm</gml:identifier>
+					<gml:name>Samoa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_smr">
+					<gml:description>San Marino</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">smr</gml:identifier>
+					<gml:name>San Marino</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_stp">
+					<gml:description>Sao Tome and Principe</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">stp</gml:identifier>
+					<gml:name>Sao Tome and Principe</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sau">
+					<gml:description>Saudi Arabia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sau</gml:identifier>
+					<gml:name>Saudi Arabia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sen">
+					<gml:description>Senegal</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sen</gml:identifier>
+					<gml:name>Senegal</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_scg">
+					<gml:description>Serbia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">scg </gml:identifier>
+					<gml:name>Serbia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_syc">
+					<gml:description>Seychelles</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">syc</gml:identifier>
+					<gml:name>Seychelles</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sle">
+					<gml:description>Sierra Leone</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sle</gml:identifier>
+					<gml:name>Sierra Leone</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sgp">
+					<gml:description>Singapore</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sgp</gml:identifier>
+					<gml:name>Singapore</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_svk">
+					<gml:description>Slovakia (Slovak Republic)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">svk</gml:identifier>
+					<gml:name>Slovakia (Slovak Republic)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_svn">
+					<gml:description>Slovenia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">svn</gml:identifier>
+					<gml:name>Slovenia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_slb">
+					<gml:description>Solomon Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">slb</gml:identifier>
+					<gml:name>Solomon Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_som">
+					<gml:description>Somalia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">som</gml:identifier>
+					<gml:name>Somalia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_zaf">
+					<gml:description>South Africa</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">zaf</gml:identifier>
+					<gml:name>South Africa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_esp">
+					<gml:description>Spain</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">esp</gml:identifier>
+					<gml:name>Spain</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_lka">
+					<gml:description>Sri Lanka</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">lka</gml:identifier>
+					<gml:name>Sri Lanka</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_srb">
+					<gml:description>Serbia, Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">srb</gml:identifier>
+					<gml:name>Serbia, Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_shn">
+					<gml:description>Saint Helena</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">shn</gml:identifier>
+					<gml:name>Saint Helena</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_spm">
+					<gml:description>Saint Pierre and Miquelon</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">spm</gml:identifier>
+					<gml:name>Saint Pierre and Miquelon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sdn">
+					<gml:description>Sudan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sdn</gml:identifier>
+					<gml:name>Sudan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sur">
+					<gml:description>Suriname</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sur</gml:identifier>
+					<gml:name>Suriname</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_sjm">
+					<gml:description>Svalbard and Jan Mayen Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">sjm</gml:identifier>
+					<gml:name>Svalbard and Jan Mayen Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_swz">
+					<gml:description>Swaziland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">swz</gml:identifier>
+					<gml:name>Swaziland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_swe">
+					<gml:description>Sweden</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">swe</gml:identifier>
+					<gml:name>Sweden</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_che">
+					<gml:description>Switzerland</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">che</gml:identifier>
+					<gml:name>Switzerland</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_syr">
+					<gml:description>Syrian Arab Republic</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">syr</gml:identifier>
+					<gml:name>Syrian Arab Republic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_twn">
+					<gml:description>Taiwan, Province of China</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">twn</gml:identifier>
+					<gml:name>Taiwan, Province of China</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tjk">
+					<gml:description>Tajikistan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tjk</gml:identifier>
+					<gml:name>Tajikistan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tza">
+					<gml:description>Tanzania, United Republic of</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tza</gml:identifier>
+					<gml:name>Tanzania, United Republic of</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tha">
+					<gml:description>Thailand</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tha</gml:identifier>
+					<gml:name>Thailand</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tls">
+					<gml:description>Timor Leste</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tls</gml:identifier>
+					<gml:name>Timor Leste</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tgo">
+					<gml:description>Togo</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tgo</gml:identifier>
+					<gml:name>Togo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tkl">
+					<gml:description>Tokelau</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tkl</gml:identifier>
+					<gml:name>Tokelau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ton">
+					<gml:description>Tonga</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ton</gml:identifier>
+					<gml:name>Tonga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tto">
+					<gml:description>Trinidad and Tobago</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tto</gml:identifier>
+					<gml:name>Trinidad and Tobago</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tun">
+					<gml:description>Tunisia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tun</gml:identifier>
+					<gml:name>Tunisia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tur">
+					<gml:description>Turkey</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tur</gml:identifier>
+					<gml:name>Turkey</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tkm">
+					<gml:description>Turkmenistan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tkm</gml:identifier>
+					<gml:name>Turkmenistan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tca">
+					<gml:description>Turks and Caicos Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tca</gml:identifier>
+					<gml:name>Turks and Caicos Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_tuv">
+					<gml:description>Tuvalu</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">tuv</gml:identifier>
+					<gml:name>Tuvalu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_uga">
+					<gml:description>Uganda</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">uga</gml:identifier>
+					<gml:name>Uganda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ukr">
+					<gml:description>Ukraine</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ukr</gml:identifier>
+					<gml:name>Ukraine</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_are">
+					<gml:description>United Arab Emirates</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">are</gml:identifier>
+					<gml:name>United Arab Emirates</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_gbr">
+					<gml:description>United Kingdom</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">gbr</gml:identifier>
+					<gml:name>United Kingdom</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_usa">
+					<gml:description>United States</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">usa</gml:identifier>
+					<gml:name>United States</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_umi">
+					<gml:description>United States, Minor Outlying Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">umi</gml:identifier>
+					<gml:name>United States, Minor Outlying Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ury">
+					<gml:description>Uruguay</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ury</gml:identifier>
+					<gml:name>Uruguay</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_uzb">
+					<gml:description>Uzbekistan</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">uzb</gml:identifier>
+					<gml:name>Uzbekistan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vut">
+					<gml:description>Vanuatu</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vut</gml:identifier>
+					<gml:name>Vanuatu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vat">
+					<gml:description>Vatican City State (Holy See)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vat</gml:identifier>
+					<gml:name>Vatican City State (Holy See)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_ven">
+					<gml:description>Venezuela</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">ven</gml:identifier>
+					<gml:name>Venezuela</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vnm">
+					<gml:description>Vietnam</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vnm</gml:identifier>
+					<gml:name>Vietnam</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vgb">
+					<gml:description>Virgin Islands (British)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vgb</gml:identifier>
+					<gml:name>Virgin Islands (British)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_vir">
+					<gml:description>Virgin Islands (U.S.)</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">vir</gml:identifier>
+					<gml:name>Virgin Islands (U.S.)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_wlf">
+					<gml:description>Wallis and Futuna Islands</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">wlf</gml:identifier>
+					<gml:name>Wallis and Futuna Islands</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_esh">
+					<gml:description>Western Sahara</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">esh</gml:identifier>
+					<gml:name>Western Sahara</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_yem">
+					<gml:description>Yemen</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">yem</gml:identifier>
+					<gml:name>Yemen</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_yug">
+					<gml:description>Yugoslavia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">yug</gml:identifier>
+					<gml:name>Yugoslavia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_zar">
+					<gml:description>Zaire</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">zar</gml:identifier>
+					<gml:name>Zaire</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_zmb">
+					<gml:description>Zambia</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">zmb</gml:identifier>
+					<gml:name>Zambia</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Country_zwe">
+					<gml:description>Zimbabwe</gml:description>
+					<gml:identifier codeSpace="ISO 3166-1">zwe</gml:identifier>
+					<gml:name>Zimbabwe</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+		</CodeListDictionary>
+	</codelistItem>
+	<!--============= Language ================-->
+	<codelistItem>
+		<CodeListDictionary gml:id="LanguageCode">
+			<gml:description>Language : ISO 639-2 (3 characters)</gml:description>
+			<gml:identifier codeSpace="ISO 639-2">LanguageCode</gml:identifier>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_abk">
+					<gml:description>Abkhazian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">abk</gml:identifier>
+					<gml:name>Abkhazian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ace">
+					<gml:description>Achinese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ace</gml:identifier>
+					<gml:name>Achinese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ach">
+					<gml:description>Acoli</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ach</gml:identifier>
+					<gml:name>Acoli</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ada">
+					<gml:description>Adangme</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ada</gml:identifier>
+					<gml:name>Adangme</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ady">
+					<gml:description>Adygei; Adyghe</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ady</gml:identifier>
+					<gml:name>Adygei; Adyghe</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_aar">
+					<gml:description>Afar</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">aar</gml:identifier>
+					<gml:name>Afar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_afh">
+					<gml:description>Afrihili</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">afh</gml:identifier>
+					<gml:name>Afrihili</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_afr">
+					<gml:description>Afrikaans</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">afr</gml:identifier>
+					<gml:name>Afrikaans</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_afa">
+					<gml:description>Afro-Asiatic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">afa</gml:identifier>
+					<gml:name>Afro-Asiatic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ain">
+					<gml:description>Ainu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ain</gml:identifier>
+					<gml:name>Ainu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_aka">
+					<gml:description>Akan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">aka</gml:identifier>
+					<gml:name>Akan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_akk">
+					<gml:description>Akkadian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">akk</gml:identifier>
+					<gml:name>Akkadian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- alb/sqi* -->
+				<CodeDefinition gml:id="LanguageCode_alb">
+					<gml:description>Albanian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">alb</gml:identifier>
+					<gml:name>Albanian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gsw">
+					<gml:description>Alemanic; Swiss German</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gsw</gml:identifier>
+					<gml:name>Alemanic; Swiss German</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ale">
+					<gml:description>Aleut</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ale</gml:identifier>
+					<gml:name>Aleut</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_alg">
+					<gml:description>Algonquian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">alg</gml:identifier>
+					<gml:name>Algonquian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tut">
+					<gml:description>Altaic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tut</gml:identifier>
+					<gml:name>Altaic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_amh">
+					<gml:description>Amharic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">amh</gml:identifier>
+					<gml:name>Amharic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_anp">
+					<gml:description>Angika</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">anp</gml:identifier>
+					<gml:name>Angika</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_apa">
+					<gml:description>Apache languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">apa</gml:identifier>
+					<gml:name>Apache languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ara">
+					<gml:description>Arabic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ara</gml:identifier>
+					<gml:name>Arabic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_arg">
+					<gml:description>Aragonese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arg</gml:identifier>
+					<gml:name>Aragonese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_arc">
+					<gml:description>Aramaic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arc</gml:identifier>
+					<gml:name>Aramaic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_arp">
+					<gml:description>Arapaho</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arp</gml:identifier>
+					<gml:name>Arapaho</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_arn">
+					<gml:description>Araucanian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arn</gml:identifier>
+					<gml:name>Araucanian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_arw">
+					<gml:description>Arawak</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arw</gml:identifier>
+					<gml:name>Arawak</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- arm/hye* -->
+				<CodeDefinition gml:id="LanguageCode_arm">
+					<gml:description>Armenian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">arm</gml:identifier>
+					<gml:name>Armenian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_rup">
+					<gml:description>Aromanian; Arumanian; Macedo-Romanian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">rup</gml:identifier>
+					<gml:name>Aromanian; Arumanian; Macedo-Romanian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_art">
+					<gml:description>Artificial (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">art</gml:identifier>
+					<gml:name>Artificial (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_asm">
+					<gml:description>Assamese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">asm</gml:identifier>
+					<gml:name>Assamese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ast">
+					<gml:description>Asturian; Bable</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ast</gml:identifier>
+					<gml:name>Asturian; Bable</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ath">
+					<gml:description>Athapascan languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ath</gml:identifier>
+					<gml:name>Athapascan languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_aus">
+					<gml:description>Australian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">aus</gml:identifier>
+					<gml:name>Australian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_map">
+					<gml:description>Austronesian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">map</gml:identifier>
+					<gml:name>Austronesian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ava">
+					<gml:description>Avaric</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ava</gml:identifier>
+					<gml:name>Avaric</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ave">
+					<gml:description>Avestan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ave</gml:identifier>
+					<gml:name>Avestan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_awa">
+					<gml:description>Awadhi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">awa</gml:identifier>
+					<gml:name>Awadhi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_aym">
+					<gml:description>Aymara</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">aym</gml:identifier>
+					<gml:name>Aymara</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_aze">
+					<gml:description>Azerbaijani</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">aze</gml:identifier>
+					<gml:name>Azerbaijani</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ban">
+					<gml:description>Balinese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ban</gml:identifier>
+					<gml:name>Balinese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bat">
+					<gml:description>Baltic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bat</gml:identifier>
+					<gml:name>Baltic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bal">
+					<gml:description>Baluchi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bal</gml:identifier>
+					<gml:name>Baluchi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bam">
+					<gml:description>Bambara</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bam</gml:identifier>
+					<gml:name>Bambara</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bai">
+					<gml:description>Bamileke languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bai</gml:identifier>
+					<gml:name>Bamileke languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bad">
+					<gml:description>Banda languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bad</gml:identifier>
+					<gml:name>Banda languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bnt">
+					<gml:description>Bantu (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bnt</gml:identifier>
+					<gml:name>Bantu (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bas">
+					<gml:description>Basa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bas</gml:identifier>
+					<gml:name>Basa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bak">
+					<gml:description>Bashkir</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bak</gml:identifier>
+					<gml:name>Bashkir</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- baq/eus* -->
+				<CodeDefinition gml:id="LanguageCode_baq">
+					<gml:description>Basque</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">baq</gml:identifier>
+					<gml:name>Basque</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_btk">
+					<gml:description>Batak (Indonesia)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">btk</gml:identifier>
+					<gml:name>Batak (Indonesia)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bej">
+					<gml:description>Beja</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bej</gml:identifier>
+					<gml:name>Beja</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bel">
+					<gml:description>Belarusian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bel</gml:identifier>
+					<gml:name>Belarusian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bem">
+					<gml:description>Bemba</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bem</gml:identifier>
+					<gml:name>Bemba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ben">
+					<gml:description>Bengali</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ben</gml:identifier>
+					<gml:name>Bengali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ber">
+					<gml:description>Berber (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ber</gml:identifier>
+					<gml:name>Berber (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bho">
+					<gml:description>Bhojpuri</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bho</gml:identifier>
+					<gml:name>Bhojpuri</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bih">
+					<gml:description>Bihari</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bih</gml:identifier>
+					<gml:name>Bihari</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bik">
+					<gml:description>Bikol</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bik</gml:identifier>
+					<gml:name>Bikol</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_byn">
+					<gml:description>Bilin; Blin</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">byn</gml:identifier>
+					<gml:name>Bilin; Blin</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bin">
+					<gml:description>Bini; Edo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bin</gml:identifier>
+					<gml:name>Bini; Edo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bis">
+					<gml:description>Bislama</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bis</gml:identifier>
+					<gml:name>Bislama</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nob">
+					<gml:description>Bokmål, Norwegian; Norwegian Bokmål</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nob</gml:identifier>
+					<gml:name>Bokmål, Norwegian; Norwegian Bokmål</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bos">
+					<gml:description>Bosnian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bos</gml:identifier>
+					<gml:name>Bosnian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bra">
+					<gml:description>Braj</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bra</gml:identifier>
+					<gml:name>Braj</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bre">
+					<gml:description>Breton</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bre</gml:identifier>
+					<gml:name>Breton</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bug">
+					<gml:description>Buginese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bug</gml:identifier>
+					<gml:name>Buginese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bul">
+					<gml:description>Bulgarian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bul</gml:identifier>
+					<gml:name>Bulgarian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bua">
+					<gml:description>Buriat</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bua</gml:identifier>
+					<gml:name>Buriat</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- bur/mya*-->
+				<CodeDefinition gml:id="LanguageCode_bur">
+					<gml:description>Burmese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bur</gml:identifier>
+					<gml:name>Burmese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cad">
+					<gml:description>Caddo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cad</gml:identifier>
+					<gml:name>Caddo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_car">
+					<gml:description>Carib</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">car</gml:identifier>
+					<gml:name>Carib</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_spa">
+					<gml:description>Castilian; Spanish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">spa</gml:identifier>
+					<gml:name>Castilian; Spanish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cat">
+					<gml:description>Catalan; Valencian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cat</gml:identifier>
+					<gml:name>Catalan; Valencian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cau">
+					<gml:description>Caucasian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cau</gml:identifier>
+					<gml:name>Caucasian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ceb">
+					<gml:description>Cebuano</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ceb</gml:identifier>
+					<gml:name>Cebuano</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cel">
+					<gml:description>Celtic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cel</gml:identifier>
+					<gml:name>Celtic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cai">
+					<gml:description>Central American Indian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cai</gml:identifier>
+					<gml:name>Central American Indian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_khm">
+					<gml:description>Central Khmer</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">khm</gml:identifier>
+					<gml:name>Central Khmer</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chg">
+					<gml:description>Chagatai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chg</gml:identifier>
+					<gml:name>Chagatai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cmc">
+					<gml:description>Chamic languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cmc</gml:identifier>
+					<gml:name>Chamic languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cha">
+					<gml:description>Chamorro</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cha</gml:identifier>
+					<gml:name>Chamorro</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_che">
+					<gml:description>Chechen</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">che</gml:identifier>
+					<gml:name>Chechen</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chr">
+					<gml:description>Cherokee</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chr</gml:identifier>
+					<gml:name>Cherokee</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nya">
+					<gml:description>Chewa; Chichewa; Nyanja</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nya</gml:identifier>
+					<gml:name>Chewa; Chichewa; Nyanja</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chy">
+					<gml:description>Cheyenne</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chy</gml:identifier>
+					<gml:name>Cheyenne</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chb">
+					<gml:description>Chibcha</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chb</gml:identifier>
+					<gml:name>Chibcha</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- chi/zho* -->
+				<CodeDefinition gml:id="LanguageCode_chi">
+					<gml:description>Chinese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chi</gml:identifier>
+					<gml:name>Chinese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chn">
+					<gml:description>Chinook jargon</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chn</gml:identifier>
+					<gml:name>Chinook jargon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chp">
+					<gml:description>Chipewyan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chp</gml:identifier>
+					<gml:name>Chipewyan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cho">
+					<gml:description>Choctaw</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cho</gml:identifier>
+					<gml:name>Choctaw</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zha">
+					<gml:description>Chuang; Zhuang</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zha</gml:identifier>
+					<gml:name>Chuang; Zhuang</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chu">
+					<gml:description>Church Slavic; Slavonic; Church Slavonic; Old Bulgarian; Old
+						Church Slavonic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chu</gml:identifier>
+					<gml:name>Church Slavic; Slavonic; Church Slavonic; Old Bulgarian; Old Church
+						Slavonic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chk">
+					<gml:description>Chuukese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chk</gml:identifier>
+					<gml:name>Chuukese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chv">
+					<gml:description>Chuvash</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chv</gml:identifier>
+					<gml:name>Chuvash</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nwc">
+					<gml:description>Classical Nepal Bhasa; Classical Newari; Old Newari</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nwc</gml:identifier>
+					<gml:name>Classical Nepal Bhasa; Classical Newari; Old Newari</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cop">
+					<gml:description>Coptic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cop</gml:identifier>
+					<gml:name>Coptic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cor">
+					<gml:description>Cornish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cor</gml:identifier>
+					<gml:name>Cornish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cos">
+					<gml:description>Corsican</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cos</gml:identifier>
+					<gml:name>Corsican</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cre">
+					<gml:description>Cree</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cre</gml:identifier>
+					<gml:name>Cree</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mus">
+					<gml:description>Creek</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mus</gml:identifier>
+					<gml:name>Creek</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_crp">
+					<gml:description>Creoles and pidgins (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">crp</gml:identifier>
+					<gml:name>Creoles and pidgins (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cpe">
+					<gml:description>Creoles and pidgins,</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cpe</gml:identifier>
+					<gml:name>Creoles and pidgins,</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cpf">
+					<gml:description>Creoles and pidgins,</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cpf</gml:identifier>
+					<gml:name>Creoles and pidgins,</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cpp">
+					<gml:description>Creoles and pidgins,</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cpp</gml:identifier>
+					<gml:name>Creoles and pidgins,</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_crh">
+					<gml:description>Crimean Tatar; Crimean Turkish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">crh</gml:identifier>
+					<gml:name>Crimean Tatar; Crimean Turkish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- scr/hrv* -->
+				<CodeDefinition gml:id="LanguageCode_scr">
+					<gml:description>Croatian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">scr</gml:identifier>
+					<gml:name>Croatian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_cus">
+					<gml:description>Cushitic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cus</gml:identifier>
+					<gml:name>Cushitic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!--cze/ces*-->
+				<CodeDefinition gml:id="LanguageCode_cze">
+					<gml:description>Czech</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">cze</gml:identifier>
+					<gml:name>Czech</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dak">
+					<gml:description>Dakota</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dak</gml:identifier>
+					<gml:name>Dakota</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dan">
+					<gml:description>Danish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dan</gml:identifier>
+					<gml:name>Danish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dar">
+					<gml:description>Dargwa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dar</gml:identifier>
+					<gml:name>Dargwa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_day">
+					<gml:description>Dayak</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">day</gml:identifier>
+					<gml:name>Dayak</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_del">
+					<gml:description>Delaware</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">del</gml:identifier>
+					<gml:name>Delaware</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_din">
+					<gml:description>Dinka</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">din</gml:identifier>
+					<gml:name>Dinka</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_div">
+					<gml:description>Divehi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">div</gml:identifier>
+					<gml:name>Divehi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_doi">
+					<gml:description>Dogri</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">doi</gml:identifier>
+					<gml:name>Dogri</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dgr">
+					<gml:description>Dogrib</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dgr</gml:identifier>
+					<gml:name>Dogrib</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dra">
+					<gml:description>Dravidian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dra</gml:identifier>
+					<gml:name>Dravidian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dua">
+					<gml:description>Duala</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dua</gml:identifier>
+					<gml:name>Duala</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- dut/nld* -->
+				<CodeDefinition gml:id="LanguageCode_dut">
+					<gml:description>Dutch; Flemish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dut</gml:identifier>
+					<gml:name>Dutch; Flemish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dum">
+					<gml:description>Dutch, Middle (ca. 1050-1350)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dum</gml:identifier>
+					<gml:name>Dutch, Middle (ca. 1050-1350)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dyu">
+					<gml:description>Dyula</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dyu</gml:identifier>
+					<gml:name>Dyula</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dzo">
+					<gml:description>Dzongkha</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dzo</gml:identifier>
+					<gml:name>Dzongkha</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_frs">
+					<gml:description>Eastern Frisian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">frs</gml:identifier>
+					<gml:name>Eastern Frisian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_efi">
+					<gml:description>Efik</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">efi</gml:identifier>
+					<gml:name>Efik</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_egy">
+					<gml:description>Egyptian (Ancient)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">egy</gml:identifier>
+					<gml:name>Egyptian (Ancient)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_eka">
+					<gml:description>Ekajuk</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">eka</gml:identifier>
+					<gml:name>Ekajuk</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_elx">
+					<gml:description>Elamite</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">elx</gml:identifier>
+					<gml:name>Elamite</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_eng">
+					<gml:description>English</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">eng</gml:identifier>
+					<gml:name>English</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_enm">
+					<gml:description>English, Middle (1100-1500)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">enm</gml:identifier>
+					<gml:name>English, Middle (1100-1500)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ang">
+					<gml:description>English, Old (ca.450-1100)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ang</gml:identifier>
+					<gml:name>English, Old (ca.450-1100)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_myv">
+					<gml:description>Erzya</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">myv</gml:identifier>
+					<gml:name>Erzya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_epo">
+					<gml:description>Esperanto</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">epo</gml:identifier>
+					<gml:name>Esperanto</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_est">
+					<gml:description>Estonian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">est</gml:identifier>
+					<gml:name>Estonian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ewe">
+					<gml:description>Ewe</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ewe</gml:identifier>
+					<gml:name>Ewe</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ewo">
+					<gml:description>Ewondo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ewo</gml:identifier>
+					<gml:name>Ewondo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fan">
+					<gml:description>Fang</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fan</gml:identifier>
+					<gml:name>Fang</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fat">
+					<gml:description>Fanti</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fat</gml:identifier>
+					<gml:name>Fanti</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fao">
+					<gml:description>Faroese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fao</gml:identifier>
+					<gml:name>Faroese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fij">
+					<gml:description>Fijian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fij</gml:identifier>
+					<gml:name>Fijian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fil">
+					<gml:description>Filipino; Pilipino</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fil</gml:identifier>
+					<gml:name>Filipino; Pilipino</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fin">
+					<gml:description>Finnish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fin</gml:identifier>
+					<gml:name>Finnish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fiu">
+					<gml:description>Finno-Ugrian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fiu</gml:identifier>
+					<gml:name>Finno-Ugrian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fon">
+					<gml:description>Fon</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fon</gml:identifier>
+					<gml:name>Fon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!--fre/fra*-->
+				<CodeDefinition gml:id="LanguageCode_fre">
+					<gml:description>French</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fre</gml:identifier>
+					<gml:name>French</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_frm">
+					<gml:description>French, Middle (ca.1400-1600)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">frm</gml:identifier>
+					<gml:name>French, Middle (ca.1400-1600)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fro">
+					<gml:description>French, Old (842-ca.1400)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fro</gml:identifier>
+					<gml:name>French, Old (842-ca.1400)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fur">
+					<gml:description>Friulian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fur</gml:identifier>
+					<gml:name>Friulian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ful">
+					<gml:description>Fulah</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ful</gml:identifier>
+					<gml:name>Fulah</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gaa">
+					<gml:description>Ga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gaa</gml:identifier>
+					<gml:name>Ga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gla">
+					<gml:description>Gaelic; Scottish Gaelic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gla</gml:identifier>
+					<gml:name>Gaelic; Scottish Gaelic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_glg">
+					<gml:description>Galician</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">glg</gml:identifier>
+					<gml:name>Galician</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lug">
+					<gml:description>Ganda</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lug</gml:identifier>
+					<gml:name>Ganda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gay">
+					<gml:description>Gayo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gay</gml:identifier>
+					<gml:name>Gayo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gba">
+					<gml:description>Gbaya</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gba</gml:identifier>
+					<gml:name>Gbaya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gez">
+					<gml:description>Geez</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gez</gml:identifier>
+					<gml:name>Geez</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- geo/kat* -->
+				<CodeDefinition gml:id="LanguageCode_geo">
+					<gml:description>Georgian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">geo</gml:identifier>
+					<gml:name>Georgian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- ger/deu* -->
+				<CodeDefinition gml:id="LanguageCode_ger">
+					<gml:description>German</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ger</gml:identifier>
+					<gml:name>German</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nds">
+					<gml:description>German, Low; Saxon, Low; Low German; Low Saxon</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nds</gml:identifier>
+					<gml:name>German, Low; Saxon, Low; Low German; Low Saxon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gmh">
+					<gml:description>German, Middle High (ca.1050-1500)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gmh</gml:identifier>
+					<gml:name>German, Middle High (ca.1050-1500)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_goh">
+					<gml:description>German, Old High (ca.750-1050)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">goh</gml:identifier>
+					<gml:name>German, Old High (ca.750-1050)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gem">
+					<gml:description>Germanic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gem</gml:identifier>
+					<gml:name>Germanic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kik">
+					<gml:description>Gikuyu; Kikuyu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kik</gml:identifier>
+					<gml:name>Gikuyu; Kikuyu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gil">
+					<gml:description>Gilbertese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gil</gml:identifier>
+					<gml:name>Gilbertese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gon">
+					<gml:description>Gondi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gon</gml:identifier>
+					<gml:name>Gondi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gor">
+					<gml:description>Gorontalo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gor</gml:identifier>
+					<gml:name>Gorontalo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_got">
+					<gml:description>Gothic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">got</gml:identifier>
+					<gml:name>Gothic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_grb">
+					<gml:description>Grebo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">grb</gml:identifier>
+					<gml:name>Grebo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_grc">
+					<gml:description>Greek, Ancient (to 1453)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">grc</gml:identifier>
+					<gml:name>Greek, Ancient (to 1453)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- gre/ell* -->
+				<CodeDefinition gml:id="LanguageCode_gre">
+					<gml:description>Greek, Modern (1453-)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gre</gml:identifier>
+					<gml:name>Greek, Modern (1453-)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kal">
+					<gml:description>Greenlandic; Kalaallisut</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kal</gml:identifier>
+					<gml:name>Greenlandic; Kalaallisut</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_grn">
+					<gml:description>Guarani</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">grn</gml:identifier>
+					<gml:name>Guarani</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_guj">
+					<gml:description>Gujarati</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">guj</gml:identifier>
+					<gml:name>Gujarati</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gwi">
+					<gml:description>Gwich´in</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gwi</gml:identifier>
+					<gml:name>Gwich´in</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hai">
+					<gml:description>Haida</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hai</gml:identifier>
+					<gml:name>Haida</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hat">
+					<gml:description>Haitian; Haitian Creole</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hat</gml:identifier>
+					<gml:name>Haitian; Haitian Creole</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hau">
+					<gml:description>Hausa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hau</gml:identifier>
+					<gml:name>Hausa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_haw">
+					<gml:description>Hawaiian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">haw</gml:identifier>
+					<gml:name>Hawaiian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_heb">
+					<gml:description>Hebrew</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">heb</gml:identifier>
+					<gml:name>Hebrew</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_her">
+					<gml:description>Herero</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">her</gml:identifier>
+					<gml:name>Herero</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hil">
+					<gml:description>Hiligaynon</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hil</gml:identifier>
+					<gml:name>Hiligaynon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_him">
+					<gml:description>Himachali</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">him</gml:identifier>
+					<gml:name>Himachali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hin">
+					<gml:description>Hindi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hin</gml:identifier>
+					<gml:name>Hindi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hmo">
+					<gml:description>Hiri Motu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hmo</gml:identifier>
+					<gml:name>Hiri Motu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hit">
+					<gml:description>Hittite</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hit</gml:identifier>
+					<gml:name>Hittite</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hmn">
+					<gml:description>Hmong</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hmn</gml:identifier>
+					<gml:name>Hmong</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hun">
+					<gml:description>Hungarian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hun</gml:identifier>
+					<gml:name>Hungarian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hup">
+					<gml:description>Hupa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hup</gml:identifier>
+					<gml:name>Hupa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_iba">
+					<gml:description>Iban</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">iba</gml:identifier>
+					<gml:name>Iban</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- ice/isl* -->
+				<CodeDefinition gml:id="LanguageCode_ice">
+					<gml:description>Icelandic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ice</gml:identifier>
+					<gml:name>Icelandic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ido">
+					<gml:description>Ido</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ido</gml:identifier>
+					<gml:name>Ido</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ibo">
+					<gml:description>Igbo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ibo</gml:identifier>
+					<gml:name>Igbo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ijo">
+					<gml:description>Ijo languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ijo</gml:identifier>
+					<gml:name>Ijo languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ilo">
+					<gml:description>Iloko</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ilo</gml:identifier>
+					<gml:name>Iloko</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_smn">
+					<gml:description>Inari Sami</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">smn</gml:identifier>
+					<gml:name>Inari Sami</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_inc">
+					<gml:description>Indic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">inc</gml:identifier>
+					<gml:name>Indic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ine">
+					<gml:description>Indo-European (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ine</gml:identifier>
+					<gml:name>Indo-European (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ind">
+					<gml:description>Indonesian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ind</gml:identifier>
+					<gml:name>Indonesian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_inh">
+					<gml:description>Ingush</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">inh</gml:identifier>
+					<gml:name>Ingush</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ina">
+					<gml:description>Interlingua (International</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ina</gml:identifier>
+					<gml:name>Interlingua (International</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ile">
+					<gml:description>Interlingue</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ile</gml:identifier>
+					<gml:name>Interlingue</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_iku">
+					<gml:description>Inuktitut</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">iku</gml:identifier>
+					<gml:name>Inuktitut</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ipk">
+					<gml:description>Inupiaq</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ipk</gml:identifier>
+					<gml:name>Inupiaq</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ira">
+					<gml:description>Iranian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ira</gml:identifier>
+					<gml:name>Iranian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gle">
+					<gml:description>Irish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gle</gml:identifier>
+					<gml:name>Irish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mga">
+					<gml:description>Irish, Middle (900-1200)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mga</gml:identifier>
+					<gml:name>Irish, Middle (900-1200)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sga">
+					<gml:description>Irish, Old (to 900)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sga</gml:identifier>
+					<gml:name>Irish, Old (to 900)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_iro">
+					<gml:description>Iroquoian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">iro</gml:identifier>
+					<gml:name>Iroquoian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ita">
+					<gml:description>Italian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ita</gml:identifier>
+					<gml:name>Italian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_jpn">
+					<gml:description>Japanese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">jpn</gml:identifier>
+					<gml:name>Japanese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_jav">
+					<gml:description>Javanese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">jav</gml:identifier>
+					<gml:name>Javanese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kac">
+					<gml:description>Jingpho; Kachin</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kac</gml:identifier>
+					<gml:name>Jingpho; Kachin</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_jrb">
+					<gml:description>Judeo-Arabic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">jrb</gml:identifier>
+					<gml:name>Judeo-Arabic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_jpr">
+					<gml:description>Judeo-Persian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">jpr</gml:identifier>
+					<gml:name>Judeo-Persian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kbd">
+					<gml:description>Kabardian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kbd</gml:identifier>
+					<gml:name>Kabardian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kab">
+					<gml:description>Kabyle</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kab</gml:identifier>
+					<gml:name>Kabyle</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_xal">
+					<gml:description>Kalmyk; Oirat</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">xal</gml:identifier>
+					<gml:name>Kalmyk; Oirat</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kam">
+					<gml:description>Kamba</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kam</gml:identifier>
+					<gml:name>Kamba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kan">
+					<gml:description>Kannada</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kan</gml:identifier>
+					<gml:name>Kannada</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kau">
+					<gml:description>Kanuri</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kau</gml:identifier>
+					<gml:name>Kanuri</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_krc">
+					<gml:description>Karachay-Balkar</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">krc</gml:identifier>
+					<gml:name>Karachay-Balkar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kaa">
+					<gml:description>Kara-Kalpak</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kaa</gml:identifier>
+					<gml:name>Kara-Kalpak</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_krl">
+					<gml:description>Karelian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">krl</gml:identifier>
+					<gml:name>Karelian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kar">
+					<gml:description>Karen languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kar</gml:identifier>
+					<gml:name>Karen languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kas">
+					<gml:description>Kashmiri</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kas</gml:identifier>
+					<gml:name>Kashmiri</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_csb">
+					<gml:description>Kashubian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">csb</gml:identifier>
+					<gml:name>Kashubian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kaw">
+					<gml:description>Kawi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kaw</gml:identifier>
+					<gml:name>Kawi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kaz">
+					<gml:description>Kazakh</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kaz</gml:identifier>
+					<gml:name>Kazakh</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kha">
+					<gml:description>Khasi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kha</gml:identifier>
+					<gml:name>Khasi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_khi">
+					<gml:description>Khoisan (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">khi</gml:identifier>
+					<gml:name>Khoisan (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kho">
+					<gml:description>Khotanese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kho</gml:identifier>
+					<gml:name>Khotanese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kmb">
+					<gml:description>Kimbundu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kmb</gml:identifier>
+					<gml:name>Kimbundu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kin">
+					<gml:description>Kinyarwanda</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kin</gml:identifier>
+					<gml:name>Kinyarwanda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kir">
+					<gml:description>Kirghiz; Kyrgyz</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kir</gml:identifier>
+					<gml:name>Kirghiz; Kyrgyz</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tlh">
+					<gml:description>Klingon; tlhIngan-Hol</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tlh</gml:identifier>
+					<gml:name>Klingon; tlhIngan-Hol</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kom">
+					<gml:description>Komi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kom</gml:identifier>
+					<gml:name>Komi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kon">
+					<gml:description>Kongo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kon</gml:identifier>
+					<gml:name>Kongo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kok">
+					<gml:description>Konkani</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kok</gml:identifier>
+					<gml:name>Konkani</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kor">
+					<gml:description>Korean</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kor</gml:identifier>
+					<gml:name>Korean</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kos">
+					<gml:description>Kosraean</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kos</gml:identifier>
+					<gml:name>Kosraean</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kpe">
+					<gml:description>Kpelle</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kpe</gml:identifier>
+					<gml:name>Kpelle</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kro">
+					<gml:description>Kru languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kro</gml:identifier>
+					<gml:name>Kru languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kua">
+					<gml:description>Kuanyama; Kwanyama</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kua</gml:identifier>
+					<gml:name>Kuanyama; Kwanyama</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kum">
+					<gml:description>Kumyk</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kum</gml:identifier>
+					<gml:name>Kumyk</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kur">
+					<gml:description>Kurdish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kur</gml:identifier>
+					<gml:name>Kurdish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kru">
+					<gml:description>Kurukh</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kru</gml:identifier>
+					<gml:name>Kurukh</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_kut">
+					<gml:description>Kutenai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">kut</gml:identifier>
+					<gml:name>Kutenai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lad">
+					<gml:description>Ladino</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lad</gml:identifier>
+					<gml:name>Ladino</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lah">
+					<gml:description>Lahnda</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lah</gml:identifier>
+					<gml:name>Lahnda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lam">
+					<gml:description>Lamba</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lam</gml:identifier>
+					<gml:name>Lamba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lao">
+					<gml:description>Lao</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lao</gml:identifier>
+					<gml:name>Lao</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lat">
+					<gml:description>Latin</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lat</gml:identifier>
+					<gml:name>Latin</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lav">
+					<gml:description>Latvian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lav</gml:identifier>
+					<gml:name>Latvian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ltz">
+					<gml:description>Letzeburgesch; Luxembourgish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ltz</gml:identifier>
+					<gml:name>Letzeburgesch; Luxembourgish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lez">
+					<gml:description>Lezghian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lez</gml:identifier>
+					<gml:name>Lezghian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lim">
+					<gml:description>Limburgan; Limburger; Limburgish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lim</gml:identifier>
+					<gml:name>Limburgan; Limburger; Limburgish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lin">
+					<gml:description>Lingala</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lin</gml:identifier>
+					<gml:name>Lingala</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lit">
+					<gml:description>Lithuanian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lit</gml:identifier>
+					<gml:name>Lithuanian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_jbo">
+					<gml:description>Lojban</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">jbo</gml:identifier>
+					<gml:name>Lojban</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_dsb">
+					<gml:description>Lower Sorbian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">dsb</gml:identifier>
+					<gml:name>Lower Sorbian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_loz">
+					<gml:description>Lozi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">loz</gml:identifier>
+					<gml:name>Lozi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lub">
+					<gml:description>Luba-Katanga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lub</gml:identifier>
+					<gml:name>Luba-Katanga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lua">
+					<gml:description>Luba-Lulua</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lua</gml:identifier>
+					<gml:name>Luba-Lulua</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lui">
+					<gml:description>Luiseno</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lui</gml:identifier>
+					<gml:name>Luiseno</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_smj">
+					<gml:description>Lule Sami</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">smj</gml:identifier>
+					<gml:name>Lule Sami</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lun">
+					<gml:description>Lunda</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lun</gml:identifier>
+					<gml:name>Lunda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_luo">
+					<gml:description>Luo (Kenya and Tanzania)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">luo</gml:identifier>
+					<gml:name>Luo (Kenya and Tanzania)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lus">
+					<gml:description>Lushai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lus</gml:identifier>
+					<gml:name>Lushai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- mac/mkd* -->
+				<CodeDefinition gml:id="LanguageCode_mac">
+					<gml:description>Macedonian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mac</gml:identifier>
+					<gml:name>Macedonian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mad">
+					<gml:description>Madurese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mad</gml:identifier>
+					<gml:name>Madurese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mag">
+					<gml:description>Magahi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mag</gml:identifier>
+					<gml:name>Magahi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mai">
+					<gml:description>Maithili</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mai</gml:identifier>
+					<gml:name>Maithili</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mak">
+					<gml:description>Makasar</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mak</gml:identifier>
+					<gml:name>Makasar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mlg">
+					<gml:description>Malagasy</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mlg</gml:identifier>
+					<gml:name>Malagasy</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- may/msa* -->
+				<CodeDefinition gml:id="LanguageCode_may">
+					<gml:description>Malay</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">may</gml:identifier>
+					<gml:name>Malay</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mal">
+					<gml:description>Malayalam</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mal</gml:identifier>
+					<gml:name>Malayalam</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mlt">
+					<gml:description>Maltese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mlt</gml:identifier>
+					<gml:name>Maltese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mnc">
+					<gml:description>Manchu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mnc</gml:identifier>
+					<gml:name>Manchu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mdr">
+					<gml:description>Mandar</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mdr</gml:identifier>
+					<gml:name>Mandar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_man">
+					<gml:description>Mandingo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">man</gml:identifier>
+					<gml:name>Mandingo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mni">
+					<gml:description>Manipuri</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mni</gml:identifier>
+					<gml:name>Manipuri</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mno">
+					<gml:description>Manobo languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mno</gml:identifier>
+					<gml:name>Manobo languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_glv">
+					<gml:description>Manx</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">glv</gml:identifier>
+					<gml:name>Manx</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- mao/mri* -->
+				<CodeDefinition gml:id="LanguageCode_mao">
+					<gml:description>Maori</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mao</gml:identifier>
+					<gml:name>Maori</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mar">
+					<gml:description>Marathi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mar</gml:identifier>
+					<gml:name>Marathi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_chm">
+					<gml:description>Mari</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">chm</gml:identifier>
+					<gml:name>Mari</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mah">
+					<gml:description>Marshallese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mah</gml:identifier>
+					<gml:name>Marshallese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mwr">
+					<gml:description>Marwari</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mwr</gml:identifier>
+					<gml:name>Marwari</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mas">
+					<gml:description>Masai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mas</gml:identifier>
+					<gml:name>Masai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_myn">
+					<gml:description>Mayan languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">myn</gml:identifier>
+					<gml:name>Mayan languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_men">
+					<gml:description>Mende</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">men</gml:identifier>
+					<gml:name>Mende</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mic">
+					<gml:description>Micmac; Mi'kmaq</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mic</gml:identifier>
+					<gml:name>Micmac; Mi'kmaq</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_min">
+					<gml:description>Minangkabau</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">min</gml:identifier>
+					<gml:name>Minangkabau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mwl">
+					<gml:description>Mirandese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mwl</gml:identifier>
+					<gml:name>Mirandese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mis">
+					<gml:description>Miscellaneous languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mis</gml:identifier>
+					<gml:name>Miscellaneous languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_moh">
+					<gml:description>Mohawk</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">moh</gml:identifier>
+					<gml:name>Mohawk</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mdf">
+					<gml:description>Moksha</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mdf</gml:identifier>
+					<gml:name>Moksha</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mol">
+					<gml:description>Moldavian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mol</gml:identifier>
+					<gml:name>Moldavian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mkh">
+					<gml:description>Mon-Khmer (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mkh</gml:identifier>
+					<gml:name>Mon-Khmer (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_lol">
+					<gml:description>Mongo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">lol</gml:identifier>
+					<gml:name>Mongo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mon">
+					<gml:description>Mongolian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mon</gml:identifier>
+					<gml:name>Mongolian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mos">
+					<gml:description>Mossi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mos</gml:identifier>
+					<gml:name>Mossi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mul">
+					<gml:description>Multiple languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mul</gml:identifier>
+					<gml:name>Multiple languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_mun">
+					<gml:description>Munda languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">mun</gml:identifier>
+					<gml:name>Munda languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nah">
+					<gml:description>Nahuatl</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nah</gml:identifier>
+					<gml:name>Nahuatl</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nau">
+					<gml:description>Nauru</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nau</gml:identifier>
+					<gml:name>Nauru</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nav">
+					<gml:description>Navaho, Navajo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nav</gml:identifier>
+					<gml:name>Navaho, Navajo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nde">
+					<gml:description>Ndebele, North</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nde</gml:identifier>
+					<gml:name>Ndebele, North</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nbl">
+					<gml:description>Ndebele, South</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nbl</gml:identifier>
+					<gml:name>Ndebele, South</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ndo">
+					<gml:description>Ndonga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ndo</gml:identifier>
+					<gml:name>Ndonga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nap">
+					<gml:description>Neapolitan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nap</gml:identifier>
+					<gml:name>Neapolitan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_new">
+					<gml:description>Nepal Bhasa; Newari</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">new</gml:identifier>
+					<gml:name>Nepal Bhasa; Newari</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nep">
+					<gml:description>Nepali</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nep</gml:identifier>
+					<gml:name>Nepali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nia">
+					<gml:description>Nias</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nia</gml:identifier>
+					<gml:name>Nias</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nic">
+					<gml:description>Niger-Kordofanian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nic</gml:identifier>
+					<gml:name>Niger-Kordofanian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ssa">
+					<gml:description>Nilo-Saharan (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ssa</gml:identifier>
+					<gml:name>Nilo-Saharan (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_niu">
+					<gml:description>Niuean</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">niu</gml:identifier>
+					<gml:name>Niuean</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zxx">
+					<gml:description>No linguistic content</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zxx</gml:identifier>
+					<gml:name>No linguistic content</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nog">
+					<gml:description>Nogai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nog</gml:identifier>
+					<gml:name>Nogai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_non">
+					<gml:description>Norse, Old</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">non</gml:identifier>
+					<gml:name>Norse, Old</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nai">
+					<gml:description>North American Indian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nai</gml:identifier>
+					<gml:name>North American Indian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_frr">
+					<gml:description>Northern Frisian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">frr</gml:identifier>
+					<gml:name>Northern Frisian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sme">
+					<gml:description>Northern Sami</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sme</gml:identifier>
+					<gml:name>Northern Sami</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nso">
+					<gml:description>Northern Sotho; Pedi; Sepedi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nso</gml:identifier>
+					<gml:name>Northern Sotho; Pedi; Sepedi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nor">
+					<gml:description>Norwegian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nor</gml:identifier>
+					<gml:name>Norwegian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nno">
+					<gml:description>Norwegian Nynorsk; Nynorsk, Norwegian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nno</gml:identifier>
+					<gml:name>Norwegian Nynorsk; Nynorsk, Norwegian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nub">
+					<gml:description>Nubian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nub</gml:identifier>
+					<gml:name>Nubian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nym">
+					<gml:description>Nyamwezi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nym</gml:identifier>
+					<gml:name>Nyamwezi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nyn">
+					<gml:description>Nyankole</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nyn</gml:identifier>
+					<gml:name>Nyankole</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nyo">
+					<gml:description>Nyoro</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nyo</gml:identifier>
+					<gml:name>Nyoro</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_nzi">
+					<gml:description>Nzima</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">nzi</gml:identifier>
+					<gml:name>Nzima</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_oci">
+					<gml:description>Occitan (post 1500); Provençal</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">oci</gml:identifier>
+					<gml:name>Occitan (post 1500); Provençal</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_oji">
+					<gml:description>Ojibwa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">oji</gml:identifier>
+					<gml:name>Ojibwa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ori">
+					<gml:description>Oriya</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ori</gml:identifier>
+					<gml:name>Oriya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_orm">
+					<gml:description>Oromo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">orm</gml:identifier>
+					<gml:name>Oromo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_osa">
+					<gml:description>Osage</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">osa</gml:identifier>
+					<gml:name>Osage</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_oss">
+					<gml:description>Ossetian; Ossetic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">oss</gml:identifier>
+					<gml:name>Ossetian; Ossetic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_oto">
+					<gml:description>Otomian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">oto</gml:identifier>
+					<gml:name>Otomian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pal">
+					<gml:description>Pahlavi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pal</gml:identifier>
+					<gml:name>Pahlavi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pau">
+					<gml:description>Palauan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pau</gml:identifier>
+					<gml:name>Palauan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pli">
+					<gml:description>Pali</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pli</gml:identifier>
+					<gml:name>Pali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pam">
+					<gml:description>Pampanga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pam</gml:identifier>
+					<gml:name>Pampanga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pag">
+					<gml:description>Pangasinan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pag</gml:identifier>
+					<gml:name>Pangasinan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pan">
+					<gml:description>Panjabi; Punjabi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pan</gml:identifier>
+					<gml:name>Panjabi; Punjabi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pap">
+					<gml:description>Papiamento</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pap</gml:identifier>
+					<gml:name>Papiamento</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_paa">
+					<gml:description>Papuan (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">paa</gml:identifier>
+					<gml:name>Papuan (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- per/fas* -->
+				<CodeDefinition gml:id="LanguageCode_per">
+					<gml:description>Persian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">per</gml:identifier>
+					<gml:name>Persian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_peo">
+					<gml:description>Persian, Old (ca.600-400 B.C.)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">peo</gml:identifier>
+					<gml:name>Persian, Old (ca.600-400 B.C.)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_phi">
+					<gml:description>Philippine (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">phi</gml:identifier>
+					<gml:name>Philippine (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_phn">
+					<gml:description>Phoenician</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">phn</gml:identifier>
+					<gml:name>Phoenician</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pon">
+					<gml:description>Pohnpeian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pon</gml:identifier>
+					<gml:name>Pohnpeian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pol">
+					<gml:description>Polish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pol</gml:identifier>
+					<gml:name>Polish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_por">
+					<gml:description>Portuguese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">por</gml:identifier>
+					<gml:name>Portuguese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pra">
+					<gml:description>Prakrit languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pra</gml:identifier>
+					<gml:name>Prakrit languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pro">
+					<gml:description>Provençal, Old (to 1500)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pro</gml:identifier>
+					<gml:name>Provençal, Old (to 1500)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_pus">
+					<gml:description>Pushto</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">pus</gml:identifier>
+					<gml:name>Pushto</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_que">
+					<gml:description>Quechua</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">que</gml:identifier>
+					<gml:name>Quechua</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_roh">
+					<gml:description>Raeto-Romance</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">roh</gml:identifier>
+					<gml:name>Raeto-Romance</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_raj">
+					<gml:description>Rajasthani</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">raj</gml:identifier>
+					<gml:name>Rajasthani</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_rap">
+					<gml:description>Rapanui</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">rap</gml:identifier>
+					<gml:name>Rapanui</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_rar">
+					<gml:description>Rarotongan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">rar</gml:identifier>
+					<gml:name>Rarotongan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_qaa-qtz">
+					<gml:description>Reserved for local use</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">qaa-qtz</gml:identifier>
+					<gml:name>Reserved for local use</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_roa">
+					<gml:description>Romance (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">roa</gml:identifier>
+					<gml:name>Romance (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!--rum/ron*-->
+				<CodeDefinition gml:id="LanguageCode_rum">
+					<gml:description>Romanian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">rum</gml:identifier>
+					<gml:name>Romanian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_rom">
+					<gml:description>Romany</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">rom</gml:identifier>
+					<gml:name>Romany</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_run">
+					<gml:description>Rundi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">run</gml:identifier>
+					<gml:name>Rundi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_Russian">
+					<gml:description>Russian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">Russian</gml:identifier>
+					<gml:name>Russian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<!-- No trigraph 
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Salishan languages">
+<gml:description>Salishan languages</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Salishan languages</gml:identifier>
+<gml:name>Salishan languages</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Samaritan Aramaic">
+<gml:description>Samaritan Aramaic</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Samaritan Aramaic</gml:identifier>
+<gml:name>Samaritan Aramaic</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sami languages (Other)">
+<gml:description>Sami languages (Other)</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sami languages (Other)</gml:identifier>
+<gml:name>Sami languages (Other)</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Samoan">
+<gml:description>Samoan</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Samoan</gml:identifier>
+<gml:name>Samoan</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sandawe">
+<gml:description>Sandawe</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sandawe</gml:identifier>
+<gml:name>Sandawe</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sango">
+<gml:description>Sango</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sango</gml:identifier>
+<gml:name>Sango</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sanskrit">
+<gml:description>Sanskrit</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sanskrit</gml:identifier>
+<gml:name>Sanskrit</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Santali">
+<gml:description>Santali</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Santali</gml:identifier>
+<gml:name>Santali</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sardinian">
+<gml:description>Sardinian</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sardinian</gml:identifier>
+<gml:name>Sardinian</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Sasak">
+<gml:description>Sasak</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Sasak</gml:identifier>
+<gml:name>Sasak</gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Saxon, Low; German, Low; Low Saxon; Low German ">
+<gml:description>Saxon, Low; German, Low; Low Saxon; Low German </gml:description>
+<gml:identifier codeSpace="ISO 639-2">Saxon, Low; German, Low; Low Saxon; Low German </gml:identifier>
+<gml:name>Saxon, Low; German, Low; Low Saxon; Low German </gml:name>
+</CodeDefinition>
+</codeEntry>
+<codeEntry>
+<CodeDefinition gml:id="LanguageCode_Scots">
+<gml:description>Scots</gml:description>
+<gml:identifier codeSpace="ISO 639-2">Scots</gml:identifier>
+<gml:name>Scots</gml:name>
+</CodeDefinition>
+</codeEntry>
+
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_gla">
+					<gml:description>Scottish Gaelic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">gla</gml:identifier>
+					<gml:name>Scottish Gaelic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+-->
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sel">
+					<gml:description>Selkup</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sel</gml:identifier>
+					<gml:name>Selkup</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sem">
+					<gml:description>Semitic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sem</gml:identifier>
+					<gml:name>Semitic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- scc/srp* -->
+				<CodeDefinition gml:id="LanguageCode_scc">
+					<gml:description>Serbian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">scc</gml:identifier>
+					<gml:name>Serbian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_srr">
+					<gml:description>Serer</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">srr</gml:identifier>
+					<gml:name>Serer</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_shn">
+					<gml:description>Shan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">shn</gml:identifier>
+					<gml:name>Shan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sna">
+					<gml:description>Shona</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sna</gml:identifier>
+					<gml:name>Shona</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_iii">
+					<gml:description>Sichuan Yi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">iii</gml:identifier>
+					<gml:name>Sichuan Yi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_scn">
+					<gml:description>Sicilian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">scn</gml:identifier>
+					<gml:name>Sicilian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sid">
+					<gml:description>Sidamo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sid</gml:identifier>
+					<gml:name>Sidamo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sgn">
+					<gml:description>Sign languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sgn</gml:identifier>
+					<gml:name>Sign languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_bla">
+					<gml:description>Siksika</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">bla</gml:identifier>
+					<gml:name>Siksika</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_snd">
+					<gml:description>Sindhi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">snd</gml:identifier>
+					<gml:name>Sindhi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sin">
+					<gml:description>Sinhala; Sinhalese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sin</gml:identifier>
+					<gml:name>Sinhala; Sinhalese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sit">
+					<gml:description>Sino-Tibetan (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sit</gml:identifier>
+					<gml:name>Sino-Tibetan (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sio">
+					<gml:description>Siouan languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sio</gml:identifier>
+					<gml:name>Siouan languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sms">
+					<gml:description>Skolt Sami</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sms</gml:identifier>
+					<gml:name>Skolt Sami</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_den">
+					<gml:description>Slave (Athapascan)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">den</gml:identifier>
+					<gml:name>Slave (Athapascan)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sla">
+					<gml:description>Slavic (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sla</gml:identifier>
+					<gml:name>Slavic (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!--slo/slk* -->
+				<CodeDefinition gml:id="LanguageCode_slo">
+					<gml:description>Slovak</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">slo</gml:identifier>
+					<gml:name>Slovak</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_slv">
+					<gml:description>Slovenian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">slv</gml:identifier>
+					<gml:name>Slovenian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sog">
+					<gml:description>Sogdian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sog</gml:identifier>
+					<gml:name>Sogdian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_som">
+					<gml:description>Somali</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">som</gml:identifier>
+					<gml:name>Somali</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_son">
+					<gml:description>Songhai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">son</gml:identifier>
+					<gml:name>Songhai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_snk">
+					<gml:description>Soninke</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">snk</gml:identifier>
+					<gml:name>Soninke</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_wen">
+					<gml:description>Sorbian languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wen</gml:identifier>
+					<gml:name>Sorbian languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sot">
+					<gml:description>Sotho, Southern</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sot</gml:identifier>
+					<gml:name>Sotho, Southern</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sai">
+					<gml:description>South American Indian (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sai</gml:identifier>
+					<gml:name>South American Indian (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_alt">
+					<gml:description>Southern Altai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">alt</gml:identifier>
+					<gml:name>Southern Altai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sma">
+					<gml:description>Southern Sami</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sma</gml:identifier>
+					<gml:name>Southern Sami</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_swa">
+					<gml:description>Swahili</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">swa</gml:identifier>
+					<gml:name>Swahili</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ssw">
+					<gml:description>Swati</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ssw</gml:identifier>
+					<gml:name>Swati</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_swe">
+					<gml:description>Swedish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">swe</gml:identifier>
+					<gml:name>Swedish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_syr">
+					<gml:description>Syriac</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">syr</gml:identifier>
+					<gml:name>Syriac</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tgl">
+					<gml:description>Tagalog</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tgl</gml:identifier>
+					<gml:name>Tagalog</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tah">
+					<gml:description>Tahitian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tah</gml:identifier>
+					<gml:name>Tahitian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tai">
+					<gml:description>Tai (Other)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tai</gml:identifier>
+					<gml:name>Tai (Other)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tgk">
+					<gml:description>Tajik</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tgk</gml:identifier>
+					<gml:name>Tajik</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tmh">
+					<gml:description>Tamashek</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tmh</gml:identifier>
+					<gml:name>Tamashek</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tam">
+					<gml:description>Tamil</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tam</gml:identifier>
+					<gml:name>Tamil</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tat">
+					<gml:description>Tatar</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tat</gml:identifier>
+					<gml:name>Tatar</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tel">
+					<gml:description>Telugu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tel</gml:identifier>
+					<gml:name>Telugu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ter">
+					<gml:description>Tereno</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ter</gml:identifier>
+					<gml:name>Tereno</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tet">
+					<gml:description>Tetum</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tet</gml:identifier>
+					<gml:name>Tetum</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tha">
+					<gml:description>Thai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tha</gml:identifier>
+					<gml:name>Thai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- tib/bod* -->
+				<CodeDefinition gml:id="LanguageCode_tib">
+					<gml:description>Tibetan</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tib</gml:identifier>
+					<gml:name>Tibetan</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tig">
+					<gml:description>Tigre</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tig</gml:identifier>
+					<gml:name>Tigre</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tir">
+					<gml:description>Tigrinya</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tir</gml:identifier>
+					<gml:name>Tigrinya</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tem">
+					<gml:description>Timne</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tem</gml:identifier>
+					<gml:name>Timne</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tiv">
+					<gml:description>Tiv</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tiv</gml:identifier>
+					<gml:name>Tiv</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tli">
+					<gml:description>Tlingit</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tli</gml:identifier>
+					<gml:name>Tlingit</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tpi">
+					<gml:description>Tok Pisin</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tpi</gml:identifier>
+					<gml:name>Tok Pisin</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tkl">
+					<gml:description>Tokelau</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tkl</gml:identifier>
+					<gml:name>Tokelau</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tog">
+					<gml:description>Tonga (Nyasa)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tog</gml:identifier>
+					<gml:name>Tonga (Nyasa)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ton">
+					<gml:description>Tonga (Tonga Islands)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ton</gml:identifier>
+					<gml:name>Tonga (Tonga Islands)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tsi">
+					<gml:description>Tsimshian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tsi</gml:identifier>
+					<gml:name>Tsimshian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tso">
+					<gml:description>Tsonga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tso</gml:identifier>
+					<gml:name>Tsonga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tsn">
+					<gml:description>Tswana</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tsn</gml:identifier>
+					<gml:name>Tswana</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tum">
+					<gml:description>Tumbuka</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tum</gml:identifier>
+					<gml:name>Tumbuka</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tup">
+					<gml:description>Tupi languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tup</gml:identifier>
+					<gml:name>Tupi languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tur">
+					<gml:description>Turkish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tur</gml:identifier>
+					<gml:name>Turkish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ota">
+					<gml:description>Turkish, Ottoman (1500-1928)</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ota</gml:identifier>
+					<gml:name>Turkish, Ottoman (1500-1928)</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tuk">
+					<gml:description>Turkmen</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tuk</gml:identifier>
+					<gml:name>Turkmen</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tvl">
+					<gml:description>Tuvalu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tvl</gml:identifier>
+					<gml:name>Tuvalu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_tyv">
+					<gml:description>Tuvinian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">tyv</gml:identifier>
+					<gml:name>Tuvinian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_twi">
+					<gml:description>Twi</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">twi</gml:identifier>
+					<gml:name>Twi</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_udm">
+					<gml:description>Udmurt</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">udm</gml:identifier>
+					<gml:name>Udmurt</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_uga">
+					<gml:description>Ugaritic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">uga</gml:identifier>
+					<gml:name>Ugaritic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_uig">
+					<gml:description>Uighur; Uyghur</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">uig</gml:identifier>
+					<gml:name>Uighur; Uyghur</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ukr">
+					<gml:description>Ukrainian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ukr</gml:identifier>
+					<gml:name>Ukrainian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_umb">
+					<gml:description>Umbundu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">umb</gml:identifier>
+					<gml:name>Umbundu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_und">
+					<gml:description>Undetermined</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">und</gml:identifier>
+					<gml:name>Undetermined</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_hsb">
+					<gml:description>Upper Sorbian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">hsb</gml:identifier>
+					<gml:name>Upper Sorbian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_urd">
+					<gml:description>Urdu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">urd</gml:identifier>
+					<gml:name>Urdu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_uzb">
+					<gml:description>Uzbek</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">uzb</gml:identifier>
+					<gml:name>Uzbek</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_vai">
+					<gml:description>Vai</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">vai</gml:identifier>
+					<gml:name>Vai</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ven">
+					<gml:description>Venda</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ven</gml:identifier>
+					<gml:name>Venda</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_vie">
+					<gml:description>Vietnamese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">vie</gml:identifier>
+					<gml:name>Vietnamese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_vol">
+					<gml:description>Volapük</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">vol</gml:identifier>
+					<gml:name>Volapük</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_vot">
+					<gml:description>Votic</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">vot</gml:identifier>
+					<gml:name>Votic</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_wak">
+					<gml:description>Wakashan languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wak</gml:identifier>
+					<gml:name>Wakashan languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_wal">
+					<gml:description>Walamo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wal</gml:identifier>
+					<gml:name>Walamo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_wln">
+					<gml:description>Walloon</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wln</gml:identifier>
+					<gml:name>Walloon</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_war">
+					<gml:description>Waray</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">war</gml:identifier>
+					<gml:name>Waray</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_was">
+					<gml:description>Washo</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">was</gml:identifier>
+					<gml:name>Washo</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<!-- wel/cym* -->
+				<CodeDefinition gml:id="LanguageCode_wel">
+					<gml:description>Welsh</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wel</gml:identifier>
+					<gml:name>Welsh</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_fry">
+					<gml:description>Western Frisian</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">fry</gml:identifier>
+					<gml:name>Western Frisian</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_wol">
+					<gml:description>Wolof</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">wol</gml:identifier>
+					<gml:name>Wolof</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_xho">
+					<gml:description>Xhosa</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">xho</gml:identifier>
+					<gml:name>Xhosa</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_sah">
+					<gml:description>Yakut</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">sah</gml:identifier>
+					<gml:name>Yakut</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_yao">
+					<gml:description>Yao</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">yao</gml:identifier>
+					<gml:name>Yao</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_yap">
+					<gml:description>Yapese</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">yap</gml:identifier>
+					<gml:name>Yapese</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_yid">
+					<gml:description>Yiddish</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">yid</gml:identifier>
+					<gml:name>Yiddish</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_yor">
+					<gml:description>Yoruba</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">yor</gml:identifier>
+					<gml:name>Yoruba</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_ypk">
+					<gml:description>Yupik languages</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">ypk</gml:identifier>
+					<gml:name>Yupik languages</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_znd">
+					<gml:description>Zande</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">znd</gml:identifier>
+					<gml:name>Zande</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zap">
+					<gml:description>Zapotec</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zap</gml:identifier>
+					<gml:name>Zapotec</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zen">
+					<gml:description>Zenaga</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zen</gml:identifier>
+					<gml:name>Zenaga</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zul">
+					<gml:description>Zulu</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zul</gml:identifier>
+					<gml:name>Zulu</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zun">
+					<gml:description>Zuni</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zun</gml:identifier>
+					<gml:name>Zuni</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			<!--
+			<codeEntry>
+				<CodeDefinition gml:id="LanguageCode_zxx">
+					<gml:description>No linguistic content</gml:description>
+					<gml:identifier codeSpace="ISO 639-2">zxx</gml:identifier>
+					<gml:name>No linguistic content</gml:name>
+				</CodeDefinition>
+			</codeEntry>
+			-->
+		</CodeListDictionary>
+	</codelistItem>
+
+
+
+
+</CT_CodelistCatalogue>

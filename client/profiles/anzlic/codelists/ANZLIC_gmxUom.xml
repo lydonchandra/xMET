@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CT_UomCatalogue xmlns="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmx ../../gmx/gmx.xsd http://www.isotc211.org/2005/gco ../../gco/gco.xsd http://www.opengis.net/gml ../../gml/gml.xsd http://www.w3.org/1999/xlink ../../xlink/xlinks.xsd">
+	<!--=====Catalogue description=====-->
+	<name><gco:CharacterString>gmxUom</gco:CharacterString></name>
+	<scope><gco:CharacterString>units of measure dictionary compliant with SI definitions</gco:CharacterString></scope>
+	<fieldOfApplication><gco:CharacterString>ISO/TC 211 GMX (and imported) namespace</gco:CharacterString></fieldOfApplication>
+	<versionNumber><gco:CharacterString>1.0</gco:CharacterString></versionNumber>
+	<versionDate><gco:Date>2008-06-03</gco:Date></versionDate>
+	<!--============================================================================-->
+	<!--============================================================================-->
+	<!--============================= UOM items ======================================-->
+	<!--====== METRE =====-->
+	<uomItem>
+		<gml:BaseUnit gml:id="m">
+			<gml:description>The metre is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second</gml:description>
+			<gml:identifier codeSpace="http://www.bipm.fr/en/si/base_units">metre</gml:identifier>
+			<gml:quantityType>length</gml:quantityType>
+			<gml:catalogSymbol codeSpace="http://www.bipm.org/en/si/base_units">m</gml:catalogSymbol>
+			<gml:unitsSystem xlink:href="http://www.bipm.fr/en/si"/>
+		</gml:BaseUnit>
+	</uomItem>
+	<!--====== FOOT =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="ft">
+				<gml:description>The measure of one Imperial foot</gml:description>
+				<gml:identifier codeSpace="ISO31-1">foot</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>0.3048</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== FOOT (U.S. Survey)=====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="ft-us">
+				<gml:description>The measure of one US Survey foot</gml:description>
+				<gml:identifier codeSpace="ISO31-1">foot (US Survey)</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>0.304801</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== KILOMETRE =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="km">
+				<gml:description>The measure of one thousand metres</gml:description>
+				<gml:identifier codeSpace="ISO31-1">kilometre</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>1000</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== FATHOM =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="fath">
+				<gml:description>The measure of 6 Imperial feet</gml:description>
+				<gml:identifier codeSpace="ISO31-1">fathom</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>1.83</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== MILE =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="mile">
+				<gml:description>The measure of one statute mile is equal to 1760 Imperial yards</gml:description>
+				<gml:identifier codeSpace="ISO31-1">mile</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>1609.34</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== NAUTICAL MILE =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="nm">
+				<gml:description>The measure of one International Nautical Mile, defined as 1852 metres</gml:description>
+				<gml:identifier codeSpace="ISO31-1">nautical mile</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>1852</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== YARD =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="yd">
+				<gml:description>The measure of 3 Imperial feet</gml:description>
+				<gml:identifier codeSpace="ISO31-1">yard</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>0.9144</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== UNKNOWN =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="u">
+				<gml:description>Unknown unit of measure</gml:description>
+				<gml:identifier codeSpace="ISO31-1">unknown</gml:identifier>
+				<gml:quantityType>length</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='m'])"><gml:factor>1.0</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== DEGREE =====-->
+	<uomItem>
+		<gml:ConventionalUnit gml:id="deg">
+				<gml:description>Measure of angle equal to Pi/180 radians, widely used in geography</gml:description>
+				<gml:identifier codeSpace="ISO31-1">degree</gml:identifier>
+				<gml:quantityType>angle</gml:quantityType>
+				<gml:conversionToPreferredUnit uom="#xpointer(//*[@gml:id='rad'])"><gml:factor>1.74532925199433E-02</gml:factor></gml:conversionToPreferredUnit>
+			</gml:ConventionalUnit>
+	</uomItem>
+	<!--====== RADIAN =====-->
+	<uomItem>
+		<gml:DerivedUnit gml:id="rad">
+			<gml:description>Radian is an unit of angle measure. It is defined as the ratio of arc length to the radius of the circle.</gml:description>
+			<gml:identifier codeSpace="http://www.bipm.fr/en/s/derived_unitsi">radian</gml:identifier>
+			<gml:quantityType>plane angle</gml:quantityType>
+			<gml:catalogSymbol codeSpace="http://www1.bipm.org/en/si/derived_units">rad</gml:catalogSymbol>
+			<gml:derivationUnitTerm uom="#xpointer(//*[@gml:id='m'])" exponent="1"/>
+			<gml:derivationUnitTerm uom="#xpointer(//*[@gml:id='m'])" exponent="-1"/>
+		</gml:DerivedUnit>
+	</uomItem>
+	<!--=== EOF ===-->
+</CT_UomCatalogue>

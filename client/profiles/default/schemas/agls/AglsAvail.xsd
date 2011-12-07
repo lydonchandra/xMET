@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+cd ..<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/terms/" targetNamespace="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.agls.gov.au/agls/terms/" schemaLocation="AglsJuri.xsd" />
+	<xs:complexType name="AglsAvail">
+		<xs:sequence>
+			<xs:element name="personalName" minOccurs="0" />
+			<xs:element name="corporateName" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="jurisdiction" type="Jurisdiction" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="contact" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="address" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="email" minOccurs="0" maxOccurs="unbounded">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$ " />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="hours" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="cost" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="postcode" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

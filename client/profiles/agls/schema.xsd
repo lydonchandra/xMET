@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xMET's AGLS Profile -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:agls="http://www.agls.gov.au/agls/1.2/" xmlns:aglsterms="http://www.agls.gov.au/agls/terms/">
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" />
+	<xs:import namespace="http://purl.org/dc/terms/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd" />
+	<xs:import namespace="http://www.agls.gov.au/agls/1.2/" schemaLocation="http://www.agls.gov.au/schemas/xmls/2010/06/30/agls.xsd" />
+	<xs:import namespace="http://www.agls.gov.au/agls/terms/" schemaLocation="http://www.agls.gov.au/schemas/xmls/2010/06/30/aglsterms.xsd" />
+	<xs:element name="metadata">
+		<xs:complexType>
+			<xs:sequence>
+				<!-- Title -->
+				<xs:element ref="dc:title" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:alternative" minOccurs="0" maxOccurs="unbounded" />
+				<!-- Creator -->
+				<xs:element ref="dc:creator" minOccurs="0" maxOccurs="unbounded" />
+				<!-- Subject -->
+				<xs:element ref="dc:subject" minOccurs="0" maxOccurs="unbounded" />
+				<!-- Description -->
+				<xs:element ref="dc:description" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:tableOfContents" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:abstract" minOccurs="0" maxOccurs="unbounded" />
+				<!-- Publisher -->
+				<xs:element ref="dc:publisher" minOccurs="0" maxOccurs="unbounded" />
+				<!-- contributor -->
+				<xs:element ref="dc:contributor" minOccurs="0" maxOccurs="unbounded" />
+				<!-- date -->
+				<xs:element ref="dc:date" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:created" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:valid" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:available" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:issued" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:modified" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:dateAccepted" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:dateCopyrighted" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:dateSubmitted" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:dateLicensed" minOccurs="0" maxOccurs="unbounded" />
+				<!-- type -->
+				<xs:element ref="dc:type" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:aggregationLevel" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:category" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:documentType" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:serviceType" minOccurs="0" maxOccurs="unbounded" />
+				<!-- format -->
+				<xs:element ref="dc:format" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:extent" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:medium" minOccurs="0" maxOccurs="unbounded" />
+				<!-- identifier -->
+				<xs:element ref="dc:identifier" minOccurs="0" maxOccurs="unbounded" />
+				<!-- source -->
+				<xs:element ref="dc:source" minOccurs="0" maxOccurs="unbounded" />
+				<!-- language -->
+				<xs:element ref="dc:language" minOccurs="0" maxOccurs="unbounded" />
+				<!-- relation -->
+				<xs:element ref="dc:relation" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isVersionOf" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:hasVersion" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isReplacedBy" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:replaces" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isRequiredBy" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:requires" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isPartOf" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:hasPart" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isReferencedBy" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:references" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:isFormatOf" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:hasFormat" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:conformsTo" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:isBasisFor" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:hasBasis" minOccurs="0" maxOccurs="unbounded" />
+				<!-- coverage -->
+				<xs:element ref="dc:coverage" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:spatial" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:temporal" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:jurisdiction" minOccurs="0" maxOccurs="unbounded" />
+				<!-- rights -->
+				<xs:element ref="dc:rights" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:accessRights" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:rightsHolder" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:license" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:protectiveMarking" minOccurs="0" maxOccurs="unbounded" />
+				<!-- audiance -->
+				<xs:element ref="dcterms:audience" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:educationLevel" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="agls:audience" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="dcterms:mediator" minOccurs="0" maxOccurs="unbounded" />
+				<!-- mandate -->
+				<xs:element ref="agls:mandate" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:mandate" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:act" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:case" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="aglsterms:regulation" minOccurs="0" maxOccurs="unbounded" />
+				
+				<!-- Availability -->
+				<xs:element ref="aglsterms:availability" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="agls:availability" minOccurs="0" maxOccurs="unbounded" />
+				<!-- Function -->
+				<xs:element ref="aglsterms:function" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="agls:function" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

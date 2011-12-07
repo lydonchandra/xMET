@@ -1,0 +1,27 @@
+<profile>
+	<name>Dublin Core</name>
+	<root>simpledc</root>
+	<profileSchema>
+		<nsUri>http://purl.org/dc/elements/1.1/</nsUri>
+		<nsPrefix>dc</nsPrefix>
+		<schemaURL>http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd
+		</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://purl.org/dc/terms/</nsUri>
+		<nsPrefix>dcterms</nsPrefix>
+		<schemaURL> http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd
+		</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://purl.org/dc/dcmitype/</nsUri>
+		<nsPrefix>dcmitype</nsPrefix>
+		<schemaURL> http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcmitype.xsd
+		</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<schemaURL>http://dublincore.org/schemas/xmls/qdc/2008/02/11/simpledc.xsd
+		</schemaURL>
+	</profileSchema>
+	<adminModeOnly>true</adminModeOnly>
+</profile>

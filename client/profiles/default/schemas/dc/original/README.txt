@@ -1,0 +1,1 @@
+Original Schemas from http://dublincore.org/schemas/xmls/qdc/2003/04/02/

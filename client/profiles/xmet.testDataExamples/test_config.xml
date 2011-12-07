@@ -1,0 +1,5 @@
+<profile>
+<name>Profile Config File Schema</name>
+<rootXsd>schema.xsd</rootXsd>
+<root>profile</root>
+</profile>

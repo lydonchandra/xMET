@@ -1,0 +1,67 @@
+<schemaLocations>
+	<!-- ISO Schemas -->
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gco/</schameURL>
+		<schemaFile>iso19115/gco/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gfc/</schameURL>
+		<schemaFile>iso19115/gfc/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gmd/</schameURL>
+		<schemaFile>iso19115/gmd/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gmi/</schameURL>
+		<schemaFile>iso19115/gmi/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gml/</schameURL>
+		<schemaFile>iso19115/gml/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gmx/</schameURL>
+		<schemaFile>iso19115/gmx/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gsr/</schameURL>
+		<schemaFile>iso19115/gsr/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gss/</schameURL>
+		<schemaFile>iso19115/gss/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/gts/</schameURL>
+		<schemaFile>iso19115/gts/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/srv/</schameURL>
+		<schemaFile>iso19115/srv/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.isotc211.org/2005/xlink/</schameURL>
+		<schemaFile>iso19115/xlink/</schemaFile>
+	</schemaLocation>
+	<!-- MCP Schemas -->
+	<schemaLocation>
+		<schameURL>http://bluenet3.antcrc.utas.edu.au/mcp/</schameURL>
+		<schemaFile>iso19115.mcp/</schemaFile>
+	</schemaLocation>
+	<!-- DC Schemas -->
+	<schemaLocation>
+		<schameURL>http://dublincore.org/schemas/xmls/qdc/2008/02/11/
+		</schameURL>
+		<schemaFile>dc/</schemaFile>
+	</schemaLocation>
+	<schemaLocation>
+		<schameURL>http://www.w3.org/2001/03/xml.xsd</schameURL>
+		<schemaFile>dc/xml.xsd</schemaFile>
+	</schemaLocation>
+	<!-- AGLS Schemas -->
+	<schemaLocation>
+		<schameURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/</schameURL>
+		<schemaFile>agls/</schemaFile>
+	</schemaLocation>
+</schemaLocations>

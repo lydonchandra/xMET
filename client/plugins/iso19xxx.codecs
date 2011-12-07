@@ -1,0 +1,8 @@
+<codecs>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19139DataCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19139CodelistCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19139ProfileCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19115SpatialCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19115ContactsCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.iso19xxx.ISO19115KeywordsCodec</codecClass>
+</codecs>

@@ -1,0 +1,12 @@
+<tools>
+  <tool>xmet.tools.metadata.manager.MetadataManagementTool</tool>
+  <tool>xmet.tools.metadata.editor.MetadataEditorTool</tool>
+  <tool>xmet.tools.metadata.editor.views.scv.designer.SemiCustomViewDesignerTool</tool>
+  <tool>xmet.tools.application.ToolsTool</tool>
+  <tool>xmet.tools.screen.StartScreenTool</tool>
+  <tool>xmet.tools.screen.StartScreenDesignerTool</tool>
+  <tool>xmet.tools.application.UserManualTool</tool>
+  <tool>xmet.tools.application.ProfileHelpTool</tool>
+  <tool>xmet.tools.application.SettingsTool</tool>
+  <tool>xmet.tools.application.ExitTool</tool>
+</tools>

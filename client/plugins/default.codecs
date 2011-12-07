@@ -1,0 +1,8 @@
+<codecs>
+	<codecClass>xmet.profiles.codecs.impl.XMLDataCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.impl.XSDSchemaDecoder</codecClass>
+	<codecClass>xmet.profiles.codecs.impl.TextCodelistCatalogCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.impl.StringSpatialExtentCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.impl.StringContactsInformationCodec</codecClass>
+	<codecClass>xmet.profiles.codecs.impl.StringKeywordsCodec</codecClass>
+</codecs>

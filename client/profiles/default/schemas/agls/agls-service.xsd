@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/terms/agls-service" targetNamespace="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="AglsServiceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Applications" />
+			<xs:enumeration value="Benefits and Entitlements" />
+			<xs:enumeration value="Bills, Rates and Levies" />
+			<xs:enumeration value="Bonds" />
+			<xs:enumeration value="Bookings and Reservations" />
+			<xs:enumeration value="Business Advisory" />
+			<xs:enumeration value="Certificates" />
+			<xs:enumeration value="Claims" />
+			<xs:enumeration value="Communications Forum" />
+			<xs:enumeration value="Complaints and Appeals" />
+			<xs:enumeration value="Data Exchange" />
+			<xs:enumeration value="Enquiries" />
+			<xs:enumeration value="Enrolments" />
+			<xs:enumeration value="Financial" />
+			<xs:enumeration value="Grants" />
+			<xs:enumeration value="Infringements and Fines" />
+			<xs:enumeration value="Legal Advisory" />
+			<xs:enumeration value="Licences and Permits" />
+			<xs:enumeration value="Lodgements" />
+			<xs:enumeration value="Orders and Purchases" />
+			<xs:enumeration value="Refunds" />
+			<xs:enumeration value="Registrations" />
+			<xs:enumeration value="Renewals" />
+			<xs:enumeration value="Subscriptions" />
+			<xs:enumeration value="Technical" />
+			<xs:enumeration value="Tenders" />
+			<xs:enumeration value="Testing" />
+			<xs:enumeration value="Training" />
+			<xs:enumeration value="Transactions" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

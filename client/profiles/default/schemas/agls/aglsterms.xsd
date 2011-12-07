@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:agls="http://www.agls.gov.au/agls/1.2/" targetNamespace="http://www.agls.gov.au/agls/terms/" xmlns="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd" />
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="../dc/dc.xsd" />
+	<xs:import namespace="http://www.agls.gov.au/agls/1.2/" schemaLocation="agls.xsd" />
+	<xs:element name="act" type="dc:SimpleLiteral" />
+	<xs:element name="aggregationLevel">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="item|collection" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="availability" type="dc:SimpleLiteral" />
+	<xs:element name="case" type="dc:SimpleLiteral" />
+	<xs:element name="category">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="agent|document|service" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="dateLicensed" type="dc:SimpleLiteral" />
+	<xs:element name="documentType" type="dc:SimpleLiteral" />
+	<xs:element name="function" type="dc:SimpleLiteral" />
+	<xs:element name="hasBasis" type="dc:SimpleLiteral" />
+	<xs:element name="isBasisFor" type="dc:SimpleLiteral" />
+	<xs:element name="jurisdiction" type="dc:SimpleLiteral" />
+	<xs:element name="mandate" type="dc:SimpleLiteral" />
+	<xs:element name="protectiveMarking" type="dc:SimpleLiteral" />
+	<xs:element name="regulation" type="dc:SimpleLiteral" />
+	<xs:element name="serviceType" type="dc:SimpleLiteral" />
+	<!-- Syntax Encoding Schemes -->
+	<xs:complexType name="AglsAgent">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="AglsAvail">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Geocode">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="GOLD">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!-- Vocabulary Encoding Schemes -->
+	<xs:complexType name="AGIFT">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="agls-audience">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="AglsJuri">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="agls-document">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="agls-service">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ANZSCO">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ANZSIC">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="APAIS">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="APT">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ASGC">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="edna-audience">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Postcode">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="roleCode">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="TAGS">
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string" />
+				</xs:simpleType>
+				<xs:attribute ref="xml:lang" use="prohibited" />
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:group name="elementGroup">
+		<xs:sequence>
+			<xs:element ref="availability" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="function" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element ref="mandate" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:group>
+</xs:schema>

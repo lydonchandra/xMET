@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/1.2/" targetNamespace="http://www.agls.gov.au/agls/1.2/" xmlns:dc="http://purl.org/dc/elements/1.1/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd">
+	</xs:import>
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="../dc/dc.xsd" />
+	<xs:element name="availability" type="dc:SimpleLiteral" />
+	<xs:element name="function" type="dc:SimpleLiteral" />
+	<xs:element name="mandate" type="dc:SimpleLiteral" />
+	<xs:element name="audience" type="dc:SimpleLiteral" />
+	<!-- I am assuming this is the idea? the container element has both the
+		dc elements and the agls elements. -->
+	<xs:complexType name="elementContainer">
+		<xs:complexContent>
+			<xs:extension base="dc:elementContainer">
+				<xs:sequence>
+					<xs:element ref="availability" minOccurs="0" maxOccurs="unbounded" />
+					<xs:element ref="function" minOccurs="0" maxOccurs="unbounded" />
+					<xs:element ref="mandate" minOccurs="0" maxOccurs="unbounded" />
+					<xs:element ref="audience" minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

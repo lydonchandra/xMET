@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:DS_Sensor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gmi="http://www.isotc211.org/2005/gmi" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd     http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd      http://www.isotc211.org/2005/gts http://www.isotc211.org/2005/gts/gts.xsd      http://www.isotc211.org/2005/gsr http://www.isotc211.org/2005/gsr/gsr.xsd      http://www.isotc211.org/2005/gss http://www.isotc211.org/2005/gss/gss.xsd      http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd      http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd     http://www.isotc211.org/2005/gmi http://eden.ign.fr/xsd/isotc211/iso19115p2/20100730/gmi/gmi.xsd">
+    <gmd:composedOf gco:nilReason="inapplicable"/>
+    <gmd:seriesMetadata>
+        <gmi:MI_Metadata>
+            <gmd:hierarchyLevel>
+                <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="sensorSeries">sensorSeries</gmd:MD_ScopeCode>
+            </gmd:hierarchyLevel>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty id="seriesContat">
+                    <gmd:individualName>
+                        <gco:CharacterString>John Hockaday</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:dateStamp>
+                <gco:Date>20101214</gco:Date>
+            </gmd:dateStamp>
+            <gmd:spatialRepresentationInfo>
+                <gmd:MD_GridSpatialRepresentation id="high">
+                    <gmd:numberOfDimensions>
+                        <gco:Integer>2</gco:Integer>
+                    </gmd:numberOfDimensions>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>3072</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>2304</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:cellGeometry/>
+                    <gmd:transformationParameterAvailability/>
+                </gmd:MD_GridSpatialRepresentation>
+            </gmd:spatialRepresentationInfo>
+            <gmd:spatialRepresentationInfo>
+                <gmd:MD_GridSpatialRepresentation id="intermediate">
+                    <gmd:numberOfDimensions>
+                        <gco:Integer>2</gco:Integer>
+                    </gmd:numberOfDimensions>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>2048</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>1536</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:cellGeometry/>
+                    <gmd:transformationParameterAvailability/>
+                </gmd:MD_GridSpatialRepresentation>
+            </gmd:spatialRepresentationInfo>
+            <gmd:spatialRepresentationInfo>
+                <gmd:MD_GridSpatialRepresentation id="low">
+                    <gmd:numberOfDimensions>
+                        <gco:Integer>2</gco:Integer>
+                    </gmd:numberOfDimensions>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>640</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:axisDimensionProperties>
+                        <gmd:MD_Dimension>
+                            <gmd:dimensionName>
+                                <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+                            </gmd:dimensionName>
+                            <gmd:dimensionSize>
+                                <gco:Integer>480</gco:Integer>
+                            </gmd:dimensionSize>
+                            <gmd:resolution gco:nilReason="unknown"/>
+                        </gmd:MD_Dimension>
+                    </gmd:axisDimensionProperties>
+                    <gmd:cellGeometry/>
+                    <gmd:transformationParameterAvailability/>
+                </gmd:MD_GridSpatialRepresentation>
+            </gmd:spatialRepresentationInfo>
+            <gmd:identificationInfo>
+                <gmd:MD_DataIdentification>
+                    <gmd:citation>
+                        <gmd:CI_Citation>
+                            <gmd:title>
+                                <gco:CharacterString>John and Amy's Photo Collection</gco:CharacterString>
+                            </gmd:title>
+                            <gmd:date/>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty id="john">
+                                    <gmd:individualName>
+                                        <gco:CharacterString>John Hockaday</gco:CharacterString>
+                                    </gmd:individualName>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                            <gmd:citedResponsibleParty>
+                                <gmd:CI_ResponsibleParty id="amy">
+                                    <gmd:individualName>
+                                        <gco:CharacterString>Amy Hockaday</gco:CharacterString>
+                                    </gmd:individualName>
+                                    <gmd:role>
+                                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                    </gmd:role>
+                                </gmd:CI_ResponsibleParty>
+                            </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                    </gmd:citation>
+                    <gmd:abstract/>
+                    <gmd:resourceFormat>
+                        <gmd:MD_Format id="superHighQuality">
+                            <gmd:name>
+                                <gco:CharacterString>superHighQualityJPEG</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="unknown"/>
+                        </gmd:MD_Format>
+                    </gmd:resourceFormat>
+                    <gmd:resourceFormat>
+                        <gmd:MD_Format id="highQuality">
+                            <gmd:name>
+                                <gco:CharacterString>highQualityJPEG</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="unknown"/>
+                        </gmd:MD_Format>
+                    </gmd:resourceFormat>
+                    <gmd:resourceFormat>
+                        <gmd:MD_Format id="standardQuality1">
+                            <gmd:name>
+                                <gco:CharacterString>standardQualityJPEG1</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="unknown"/>
+                        </gmd:MD_Format>
+                    </gmd:resourceFormat>
+                    <gmd:resourceFormat>
+                        <gmd:MD_Format id="standardQuality2">
+                            <gmd:name>
+                                <gco:CharacterString>standardQualityJPEG2</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="unknown"/>
+                        </gmd:MD_Format>
+                    </gmd:resourceFormat>
+                    <gmd:language/>
+                </gmd:MD_DataIdentification>
+            </gmd:identificationInfo>
+            <gmi:acquisitionInformation>
+                <gmi:MI_AcquisitionInformation>
+                    <gmi:instrument>
+                        <gmi:MI_Instrument>
+                            <gmi:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>User's Guide for Olympus u780</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="unknown"/>
+                                </gmd:CI_Citation>
+                            </gmi:citation>
+                            <gmi:identifier>
+                                <gmd:MD_Identifier>
+                                    <gmd:code>
+                                        <gco:CharacterString>Amy and John's Olympus u780</gco:CharacterString>
+                                    </gmd:code>
+                                </gmd:MD_Identifier>
+                            </gmi:identifier>
+                            <gmi:type>
+                                <gco:CharacterString>Digital Camers</gco:CharacterString>
+                            </gmi:type>
+                            <gmi:description>
+                                <gco:CharacterString>This is a digital camera that can take pictures at four formats: Super High Quality, High Quality, Standard Quality, Standard Quality</gco:CharacterString>
+                            </gmi:description>
+                        </gmi:MI_Instrument>
+                    </gmi:instrument>
+                </gmi:MI_AcquisitionInformation>
+            </gmi:acquisitionInformation>
+        </gmi:MI_Metadata>
+    </gmd:seriesMetadata>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Pictures Taken by Amy</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#amy"/>
+                            <gmd:resourceFormat xlink:href="#superHighQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:geographicElement>
+                                        <gmd:EX_GeographicDescription>
+                                            <gmd:geographicIdentifier>
+                                                <gmd:MD_Identifier>
+                                                    <gmd:code>
+                                                        <gco:CharacterString>China</gco:CharacterString>
+                                                    </gmd:code>
+                                                </gmd:MD_Identifier>
+                                            </gmd:geographicIdentifier>
+                                        </gmd:EX_GeographicDescription>
+                                    </gmd:geographicElement>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_TemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="china1">
+                                                    <gml:beginPosition>20081201</gml:beginPosition>
+                                                    <gml:endPosition>20090131</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                        </gmd:EX_TemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>High Quality Photos taken by Amy</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#amy"/>
+                            <gmd:resourceFormat xlink:href="#highQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:geographicElement>
+                                        <gmd:EX_GeographicDescription>
+                                            <gmd:geographicIdentifier>
+                                                <gmd:MD_Identifier>
+                                                    <gmd:code>
+                                                        <gco:CharacterString>China</gco:CharacterString>
+                                                    </gmd:code>
+                                                </gmd:MD_Identifier>
+                                            </gmd:geographicIdentifier>
+                                        </gmd:EX_GeographicDescription>
+                                    </gmd:geographicElement>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_TemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="china2">
+                                                    <gml:beginPosition>20091201</gml:beginPosition>
+                                                    <gml:endPosition>20100131</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                        </gmd:EX_TemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Photos taken by John</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#john"/>
+                            <gmd:resourceFormat xlink:href="#superHighQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_SpatialTemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="xian">
+                                                    <gml:beginPosition>20071001</gml:beginPosition>
+                                                    <gml:endPosition>20071031</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                            <gmd:spatialExtent>
+                                                <gmd:EX_GeographicDescription>
+                                                    <gmd:geographicIdentifier>
+                                                        <gmd:MD_Identifier>
+                                                            <gmd:code>
+                                                                <gco:CharacterString>Xian</gco:CharacterString>
+                                                            </gmd:code>
+                                                        </gmd:MD_Identifier>
+                                                    </gmd:geographicIdentifier>
+                                                </gmd:EX_GeographicDescription>
+                                            </gmd:spatialExtent>
+                                        </gmd:EX_SpatialTemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Photos taken by John</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#john"/>
+                            <gmd:resourceFormat xlink:href="#superHighQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_SpatialTemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="aus1">
+                                                    <gml:beginPosition>20071201</gml:beginPosition>
+                                                    <gml:endPosition>20081130</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                            <gmd:spatialExtent>
+                                                <gmd:EX_GeographicDescription>
+                                                    <gmd:geographicIdentifier>
+                                                        <gmd:MD_Identifier>
+                                                            <gmd:code>
+                                                                <gco:CharacterString>Australia</gco:CharacterString>
+                                                            </gmd:code>
+                                                        </gmd:MD_Identifier>
+                                                    </gmd:geographicIdentifier>
+                                                </gmd:EX_GeographicDescription>
+                                            </gmd:spatialExtent>
+                                        </gmd:EX_SpatialTemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Photos taken by John</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#john"/>
+                            <gmd:resourceFormat xlink:href="#highQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_SpatialTemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="aus2">
+                                                    <gml:beginPosition>20090201</gml:beginPosition>
+                                                    <gml:endPosition>20100331</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                            <gmd:spatialExtent>
+                                                <gmd:EX_GeographicDescription>
+                                                    <gmd:geographicIdentifier>
+                                                        <gmd:MD_Identifier>
+                                                            <gmd:code>
+                                                                <gco:CharacterString>Australia</gco:CharacterString>
+                                                            </gmd:code>
+                                                        </gmd:MD_Identifier>
+                                                    </gmd:geographicIdentifier>
+                                                </gmd:EX_GeographicDescription>
+                                            </gmd:spatialExtent>
+                                        </gmd:EX_SpatialTemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Photos taken by John</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#john"/>
+                            <gmd:resourceFormat xlink:href="#highQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_SpatialTemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="cop">
+                                                    <gml:beginPosition>20090401</gml:beginPosition>
+                                                    <gml:endPosition>20100531</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                            <gmd:spatialExtent>
+                                                <gmd:EX_GeographicDescription>
+                                                    <gmd:geographicIdentifier>
+                                                        <gmd:MD_Identifier>
+                                                            <gmd:code>
+                                                                <gco:CharacterString>Copenhagen</gco:CharacterString>
+                                                            </gmd:code>
+                                                        </gmd:MD_Identifier>
+                                                    </gmd:geographicIdentifier>
+                                                </gmd:EX_GeographicDescription>
+                                            </gmd:spatialExtent>
+                                        </gmd:EX_SpatialTemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+    <gmd:subset>
+        <gmd:DS_Series>
+            <gmd:composedOf/>
+            <gmd:seriesMetadata>
+                <gmi:MI_Metadata>
+                    <gmd:hierarchyLevel>
+                        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="collectionSession">collectionSession</gmd:MD_ScopeCode>
+                    </gmd:hierarchyLevel>
+                    <gmd:contact xlink:href="#seriesContact"/>
+                    <gmd:dateStamp/>
+                    <gmd:identificationInfo>
+                        <gmd:MD_DataIdentification>
+                            <gmd:citation>
+                                <gmd:CI_Citation>
+                                    <gmd:title>
+                                        <gco:CharacterString>Super High Quality Photos taken by John</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date gco:nilReason="inapplicable"/>
+                                </gmd:CI_Citation>
+                            </gmd:citation>
+                            <gmd:abstract/>
+                            <gmd:pointOfContact xlink:href="#john"/>
+                            <gmd:resourceFormat xlink:href="#highQuality"/>
+                            <gmd:language/>
+                            <gmd:extent>
+                                <gmd:EX_Extent>
+                                    <gmd:temporalElement>
+                                        <gmd:EX_SpatialTemporalExtent>
+                                            <gmd:extent>
+                                                <gml:TimePeriod gml:id="aus3">
+                                                    <gml:beginPosition>20090601</gml:beginPosition>
+                                                    <gml:endPosition>20101131</gml:endPosition>
+                                                </gml:TimePeriod>
+                                            </gmd:extent>
+                                            <gmd:spatialExtent>
+                                                <gmd:EX_GeographicDescription>
+                                                    <gmd:geographicIdentifier>
+                                                        <gmd:MD_Identifier>
+                                                            <gmd:code>
+                                                                <gco:CharacterString>Australia</gco:CharacterString>
+                                                            </gmd:code>
+                                                        </gmd:MD_Identifier>
+                                                    </gmd:geographicIdentifier>
+                                                </gmd:EX_GeographicDescription>
+                                            </gmd:spatialExtent>
+                                        </gmd:EX_SpatialTemporalExtent>
+                                    </gmd:temporalElement>
+                                </gmd:EX_Extent>
+                            </gmd:extent>
+                        </gmd:MD_DataIdentification>
+                    </gmd:identificationInfo>
+                </gmi:MI_Metadata>
+            </gmd:seriesMetadata>
+        </gmd:DS_Series>
+    </gmd:subset>
+</gmd:DS_Sensor>

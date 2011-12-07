@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CT_CodelistCatalogue xmlns="http://www.isotc211.org/2005/gmx" 
+	xmlns:gco="http://www.isotc211.org/2005/gco" 
+	xmlns:gml="http://www.opengis.net/gml" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd 
+                      http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd 
+                      http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd 
+                      http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+
+	<!--=====Catalogue description=====-->
+	<name>
+		<gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+	</name>
+	<scope>
+		<gco:CharacterString>ANZLIC Jurisdictions, as defined by ANZLIC - the Spatial Information Council</gco:CharacterString>
+	</scope>
+	<fieldOfApplication>
+		<gco:CharacterString>ANZLIC Metadata Profile XML version 1.1</gco:CharacterString>
+	</fieldOfApplication>
+	<versionNumber>
+		<gco:CharacterString>2.1</gco:CharacterString>
+		<!-- Changes:
+		Version 2.1 2008-10-29 by John Hockaday
+			- Added the "International" jurisdiction to allow international organisations to select a jurisdiction.
+			
+		-->
+	</versionNumber>
+	<versionDate>
+		<gco:Date>2008-10-29</gco:Date>
+	</versionDate>
+	<!--============================================================================-->	
+
+	<!--============================================================================-->
+	<!--============================= Codelists =======================================-->
+	<codelistItem>
+		<CodeListDictionary gml:id="anzlic-jurisdic">
+			<gml:description>codelist for Australian jurisdictions, as defined by Australia New Zealand Land Information Council</gml:description>
+			<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">anzlic-jurisdic</gml:identifier>
+			<codeEntry>
+				<CodeDefinition gml:id="Australia">
+					<gml:description>Australia</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Australia</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Australian-Capital-Territory">
+					<gml:description>Australian Capital Territory</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Australian Capital Territory</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="International">
+					<gml:description>International</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">International</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="New-South-Wales">
+					<gml:description>New South Wales</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">New South Wales</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="New-Zealand">
+					<gml:description>New Zealand</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">New Zealand</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Northern-Territory">
+					<gml:description>Northern Territory</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Northern Territory</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Queensland">
+					<gml:description>Queensland</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Queensland</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="South-Australia">
+					<gml:description>South Australia</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">South Australia</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Tasmania">
+					<gml:description>Tasmania</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Tasmania</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Victoria">
+					<gml:description>Victoria</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Victoria</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Western-Australia">
+					<gml:description>Western Australia</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Western Australia</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+			<codeEntry>
+				<CodeDefinition gml:id="Other">
+					<gml:description>Other</gml:description>
+					<gml:identifier codeSpace="http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml">Other</gml:identifier>
+				</CodeDefinition>
+			</codeEntry>
+		</CodeListDictionary>
+	</codelistItem>
+	</CT_CodelistCatalogue>

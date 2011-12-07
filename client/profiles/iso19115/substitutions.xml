@@ -1,0 +1,8 @@
+
+<substitutions>
+<substitution>
+<abstract>gmd:AbstractMD_Identification</abstract>
+
+<child>gmd:MD_DataIdentification</child>
+</substitution>
+</substitutions>

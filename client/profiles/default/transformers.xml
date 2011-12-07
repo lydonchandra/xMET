@@ -1,0 +1,14 @@
+<XSLTStyleSheetList>
+<XSLTStyleSheet>
+<fileName>xslt/anzMeta_v2toProfile.xslt</fileName>
+<name>ANZLIC v2 to ANZLIC (19115) Metadata Converter</name>
+</XSLTStyleSheet>
+<XSLTStyleSheet>
+<fileName>xslt/ANZLICtoHTML.xsl</fileName>
+<name>ANZLIC to HTML Converter</name>
+</XSLTStyleSheet>
+<XSLTStyleSheet>
+<fileName>xslt/Collections_V1_2_V2.xsl</fileName>
+<name>Collections V1 to V2 Converter</name>
+</XSLTStyleSheet>
+</XSLTStyleSheetList>

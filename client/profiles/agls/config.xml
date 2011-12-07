@@ -1,0 +1,44 @@
+<profile>
+	<name>Australian Government Locator Service</name>
+	<root>metadata</root>
+	<baseProfile>dc</baseProfile>
+	<adminModeOnly>true</adminModeOnly>
+	<profileSchema>
+		<nsUri>http://www.agls.gov.au/agls/1.2/</nsUri>
+		<nsPrefix>agls</nsPrefix>
+		<schemaURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/agls.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.agls.gov.au/agls/terms/</nsUri>
+		<nsPrefix>aglsterms</nsPrefix>
+		<schemaURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/aglsterms.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.agls.gov.au/agls/agentterms/</nsUri>
+		<nsPrefix>agentterms</nsPrefix>
+		<schemaURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/agentterms.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.agls.gov.au/agls/availterms/</nsUri>
+		<nsPrefix>availterms</nsPrefix>
+		<schemaURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/availterms.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.agls.gov.au/agls/adminterms/</nsUri>
+		<nsPrefix>adminterms</nsPrefix>
+		<schemaURL>http://www.agls.gov.au/schemas/xmls/2010/06/30/adminterms.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.w3.org/2001/XMLSchema#</nsUri>
+		<nsPrefix>xsd</nsPrefix>
+		<schemaURL>xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.w3.org/2001/XMLSchema-instance</nsUri>
+		<nsPrefix>xsi</nsPrefix>
+		<schemaURL>xsi</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<schemaPath>schema.xsd</schemaPath>
+	</profileSchema>
+</profile>

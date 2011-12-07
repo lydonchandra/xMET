@@ -1,0 +1,75 @@
+<profile>
+	<name>ISO19115 4-May-2006</name>
+	<root>gmd:MD_Metadata</root>
+	<rootHidden>true</rootHidden>
+	<substitutionFile>substitutions.xml</substitutionFile>
+	<profileCodec>iso19139</profileCodec>
+	<spatialCodec>iso19115</spatialCodec>
+	<keywordsCodec>iso19115</keywordsCodec>
+<previewTemplate>preview.xsl</previewTemplate>
+	<contactsCodec>iso19115</contactsCodec>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gco</nsUri>
+		<nsPrefix>gco</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gco/gco.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gfc</nsUri>
+		<nsPrefix>gfc</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gfc/gfc.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gmd</nsUri>
+		<nsPrefix>gmd</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gmd/gmd.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gmi</nsUri>
+		<nsPrefix>gmi</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gmi/gmi.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.opengis.net/gml</nsUri>
+		<nsPrefix>gml</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gml/gml.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gmx</nsUri>
+		<nsPrefix>gmx</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gmx/gmx.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gsr</nsUri>
+		<nsPrefix>gsr</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gsr/gsr.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gss</nsUri>
+		<nsPrefix>gss</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gss/gss.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/gts</nsUri>
+		<nsPrefix>gts</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/gts/gts.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.isotc211.org/2005/srv</nsUri>
+		<nsPrefix>srv</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/srv/srv.xsd</schemaURL>
+	</profileSchema>
+	<profileSchema>
+		<nsUri>http://www.w3.org/1999/xlink</nsUri>
+		<nsPrefix>xlink</nsPrefix>
+		<schemaURL>http://www.isotc211.org/2005/xlink/xlinks.xsd</schemaURL>
+	</profileSchema>
+	<schematron>validation/ISO19139TableA1ConformanceRules.sch</schematron>
+	<schematron>validation/codeListValidation.sch</schematron>
+	<!-- <schematron>validation/geographicIdentifierValidator.sch</schematron> -->
+	<!-- <schematron>validation/keywordValidation.sch</schematron> -->
+	<!-- these two are invalid for plain ISO19115 profile. Where there are substitutables, 
+		for example in the case of gmd:MD_DataIdentification and gmd:MD_ServiceIdentification, 
+		it should only relate to the substitutable used <abstractPath>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString 
+		</abstractPath> <titlePath>/gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString 
+		</titlePath> -->
+</profile>

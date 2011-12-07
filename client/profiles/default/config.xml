@@ -1,0 +1,8 @@
+<profile>
+	<name>Root Profile</name>
+	<codeListCatalog>
+		<url>http://xmet/languages.xmettextcodelist</url>
+		<file>languages.xmettextcodelist</file>
+	</codeListCatalog>
+	<previewTemplate>preview.xsl</previewTemplate>
+</profile>

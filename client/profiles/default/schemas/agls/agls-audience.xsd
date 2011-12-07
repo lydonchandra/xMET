@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/terms/agls-audience"
+	targetNamespace="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xs:simpleType name="AglsAudienceType">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Aboriginal and Torres Strait Islanders" />
+					<xs:enumeration value="all" />
+					<xs:enumeration value="Australian Antarctic Territory" />
+					<xs:enumeration value="Australian Capital Territory" />
+					<xs:enumeration value="Australians overseas" />
+					<xs:enumeration value="business" />
+					<xs:enumeration value="carers" />
+					<xs:enumeration value="children" />
+					<xs:enumeration value="community groups" />
+					<xs:enumeration value="employees" />
+					<xs:enumeration value="funding applicants" />
+					<xs:enumeration value="gay and lesbian" />
+					<xs:enumeration value="government" />
+					<xs:enumeration value="Indian Ocean Territories" />
+					<xs:enumeration value="jobseekers" />
+					<xs:enumeration value="low income earners" />
+					<xs:enumeration value="media" />
+					<xs:enumeration value="men" />
+					<xs:enumeration value="migrants" />
+					<xs:enumeration value="New South Wales" />
+					<xs:enumeration value="non-Australians" />
+					<xs:enumeration value="non-government organisations" />
+					<xs:enumeration value="Norfolk Island" />
+					<xs:enumeration value="Northern Territory" />
+					<xs:enumeration value="parents" />
+					<xs:enumeration value="people with disabilities" />
+					<xs:enumeration value="primary industry" />
+					<xs:enumeration value="Queensland" />
+					<xs:enumeration value="rural" />
+					<xs:enumeration value="seniors" />
+					<xs:enumeration value="South Australia" />
+					<xs:enumeration value="students" />
+					<xs:enumeration value="Tasmania" />
+					<xs:enumeration value="teachers" />
+					<xs:enumeration value="tourists" />
+					<xs:enumeration value="veterans" />
+					<xs:enumeration value="Victoria" />
+					<xs:enumeration value="Western Australia" />
+					<xs:enumeration value="women" />
+					<xs:enumeration value="youth" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+</xs:schema>

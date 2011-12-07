@@ -1,0 +1,9 @@
+<profile>
+	<name>Test Schema</name>
+	<root>root</root>
+	<uuidPath>/root/fileIdentifier</uuidPath>
+        <adminModeOnly>true</adminModeOnly>
+        <profileSchema> 
+	<schemaPath>schema.xsd</schemaPath>
+        </profileSchema>
+</profile>

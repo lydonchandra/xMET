@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/availterms/" targetNamespace="http://www.agls.gov.au/agls/availterms/" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="../dc/dc.xsd" />
+	<xs:element name="corporateName" type="dc:SimpleLiteral" />
+	<xs:element name="cost" type="dc:SimpleLiteral" />
+	<xs:element name="country" type="dc:SimpleLiteral" />
+	<xs:element name="email" type="dc:SimpleLiteral" />
+	<xs:element name="fax" type="dc:SimpleLiteral" />
+	<xs:element name="hours" type="dc:SimpleLiteral" />
+	<xs:element name="instructions" type="dc:SimpleLiteral" />
+	<xs:element name="localityName" type="dc:SimpleLiteral" />
+	<xs:element name="personalName" type="dc:SimpleLiteral" />
+	<xs:element name="physicalAccess" type="dc:SimpleLiteral" />
+	<xs:element name="physicalAddress" type="dc:SimpleLiteral" />
+	<xs:element name="positionName" type="dc:SimpleLiteral" />
+	<xs:element name="postalAddress" type="dc:SimpleLiteral" />
+	<xs:element name="postcode" type="dc:SimpleLiteral" />
+	<xs:element name="role" type="dc:SimpleLiteral" />
+	<xs:element name="sector">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="government|non-government" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="stateTerritory" type="dc:SimpleLiteral" />
+	<xs:element name="telephone" type="dc:SimpleLiteral" />
+	<xs:element name="web" type="dc:SimpleLiteral" />
+	<xs:group name="elementGroup">
+		<xs:sequence>
+			<xs:element ref="corporateName" />
+			<xs:element ref="cost" />
+			<xs:element ref="country" />
+			<xs:element ref="email" />
+			<xs:element ref="fax" />
+			<xs:element ref="hours" />
+			<xs:element ref="instructions" />
+			<xs:element ref="localityName" />
+			<xs:element ref="personalName" />
+			<xs:element ref="physicalAccess" />
+			<xs:element ref="physicalAddress" />
+			<xs:element ref="positionName" />
+			<xs:element ref="postalAddress" />
+			<xs:element ref="postcode" />
+			<xs:element ref="role" />
+			<xs:element ref="sector" />
+			<xs:element ref="stateTerritory" />
+			<xs:element ref="telephone" />
+			<xs:element ref="web" />
+		</xs:sequence>
+	</xs:group>
+</xs:schema>

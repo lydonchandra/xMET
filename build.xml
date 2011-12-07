@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="buildAll" name="xmet">
+
+	<property environment="env" />
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+	<property name="findbugs.home" value="../build/findbugs" />
+
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" />
+	<taskdef resource="checkstyletask.properties" />
+	<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask" />
+
+
+	<path id="xmet.classpath">
+		<pathelement location="bin" />
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="buildAll">
+		<echo message="Building All" />
+
+		<antcall target="clean" />
+		<antcall target="build" />
+		<antcall target="test" />
+
+	</target>
+
+	<target name="clean">
+		<echo message="Cleaning ... " />
+		<delete dir="bin" />
+		<delete dir="doc" />
+		<delete dir="docs" />
+	</target>
+
+	<target depends="buildJar,buildExe,buildDocs" name="build">
+	</target>
+
+	<target depends="compileSources" name="buildJar">
+		<echo message="Building jar..." />
+		<jar destfile="client.jar">
+			<manifest>
+				<attribute name="Main-Class" value="xmet.Client" />
+
+			</manifest>
+			<fileset dir="bin" />
+			<zipfileset excludes="META-INF/*.SF" src="lib/njcommon.jar" />
+		</jar>
+	</target>
+
+	<target name="buildExe">
+		<launch4j>
+			<config headerType="gui" outfile="xmet.exe" jarPath="client.jar" dontWrapJar="true" icon="xmet.ico" chdir=".">
+				<splash file="core/xmet/resources/images/splash.bmp">
+				</splash>
+				<jre minVersion="1.6.0_0" />
+			</config>
+		</launch4j>
+	</target>
+
+	<target name="compileSources">
+		<echo message="Compiling ... " />
+		<echo message="Copying files to bin directory" />
+		<mkdir dir="bin" />
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="core">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+				<exclude name="*/.svn/" />
+				<exclude name="**/.svn/" />
+				<exclude name=".svn/" />
+				<exclude name="xmet/.svn/" />
+			</fileset>
+			<fileset dir="extra">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+				<exclude name="*/.svn/" />
+				<exclude name="**/.svn/" />
+				<exclude name=".svn/" />
+				<exclude name="xmet/.svn/" />
+			</fileset>
+			<fileset dir="test">
+				<exclude name="**/*.launch" />
+				<exclude name="**/*.java" />
+				<exclude name="*/.svn/" />
+				<exclude name="**/.svn/" />
+				<exclude name=".svn/" />
+				<exclude name="xmet/.svn/" />
+			</fileset>
+		</copy>
+		<echo message="Compiling sources" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}" includeantruntime="false">
+			<src path="core" />
+			<src path="extra" />
+			<src path="test" />
+			<exclude name="*/.svn/" />
+			<exclude name=".svn/" />
+			<exclude name="xmet/.svn/" />
+			<classpath refid="xmet.classpath" />
+		</javac>
+	</target>
+
+	<target name="buildDocs">
+		<echo message="Building Documentation" />
+		<echo message="Building User Documentation" />
+		<jar destfile="client/help/xMET_help.jar">
+			<fileset dir="userdocs" excludes="**/.svn" />
+		</jar>
+		<echo message="Building Admin Documentation" />
+		<jar destfile="client/help/xMETAdmin_help.jar">
+			<fileset dir="admindocs" excludes="**/.svn" />
+		</jar>
+		<echo message="Building Javadoc" />
+		<unjar src="lib/njcommon.jar" dest="bin/njcommon">
+		</unjar>
+		<javadoc destdir="docs" packagenames="xmet.*,n.*" verbose="false" useexternalfile="true" linksource="true">
+			<sourcepath>
+				<dirset dir="core" />
+				<dirset dir="extra" />
+				<dirset dir="test" />
+				<dirset dir="bin/njcommon" />
+			</sourcepath>
+			<classpath refid="xmet.classpath" />
+		</javadoc>
+	</target>
+
+	<target name="test">
+		<antcall target="testJUnit" />
+		<antcall target="testFindbugs" />
+		<antcall target="testCheckstyle" />
+	</target>
+
+	<target name="testJUnit">
+		<echo message="Running JUnit tests" />
+		<junit haltonfailure="false" showoutput="false">
+			<classpath refid="xmet.classpath" />
+			<classpath path="client.jar" />
+
+			<batchtest>
+				<fileset dir="test">
+					<exclude name="**/Abstract*.java" />
+					<exclude name="**/*Util.java" />
+					<exclude name="**/*Utils.java" />
+					<exclude name="**/*UserTest.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="testFindbugs">
+		<echo message="Checking Bugs" />
+		<findbugs home="${findbugs.home}" output="xml" outputFile="bin/findbugs.xml" effort="max" excludeFilter="../build/findbugs/exceptions.xml" failOnError="true">
+			<auxClasspath refid="xmet.classpath" />
+			<sourcePath path="${source}" />
+			<class location="client.jar" />
+		</findbugs>
+	</target>
+
+	<target name="testCheckstyle">
+		<echo message="Checking style" />
+		<checkstyle config="../build/checkstyle/checks.xml" failOnViolation="true" classpathref="xmet.classpath">
+			<fileset dir="core">
+				<include name="**/*.java" />
+			</fileset>
+			<fileset dir="extra">
+				<include name="**/*.java" />
+			</fileset>
+			<fileset dir="test">
+				<include name="**/*.java" />
+			</fileset>
+			<formatter toFile="bin/checkstyle.xml" type="xml" />
+		</checkstyle>
+	</target>
+
+	<target name="run" depends="compileSources">
+		<echo message="Running Client" />
+		<java classname="xmet.Client" failonerror="true" fork="yes">
+			<classpath refid="xmet.classpath" />
+		</java>
+	</target>
+
+	<target depends="build" name="package">
+		<echo message="Building release.tar.gz" />
+		<delete file="releaze.tar.gz" />
+		<tar destfile="release.tar.gz" compression="gzip" excludes="**/.*, **/*.class, bin/**, .idea/**, lib/external/**, release.tar.gz, **/*.iml" basedir=".">
+		</tar>
+	</target>
+
+</project>

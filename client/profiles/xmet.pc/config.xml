@@ -1,0 +1,14 @@
+
+<profile>
+	<name>Profile Config File Schema</name><root>profile</root>
+
+	<codeListCatalog>
+		<name></name>
+
+		<url></url>
+
+		<file></file>
+	</codeListCatalog>
+	<adminModeOnly>true</adminModeOnly>        <profileSchema> 
+	<schemaPath>schema.xsd</schemaPath>
+        </profileSchema></profile>

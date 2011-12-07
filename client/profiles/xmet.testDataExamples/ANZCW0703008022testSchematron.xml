@@ -1,0 +1,2405 @@
+<?xml version="1.0"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:gmd="http://www.isotc211.org/2005/gmd"
+   xmlns:gco="http://www.isotc211.org/2005/gco" 
+   xmlns:gts="http://www.isotc211.org/2005/gts" 
+   xmlns:gsr="http://www.isotc211.org/2005/gsr"
+   xmlns:gss="http://www.isotc211.org/2005/gss" 
+   xmlns:gmx="http://www.isotc211.org/2005/gmx"
+   xmlns:gml="http://www.opengis.net/gml" 
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd
+   http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd 
+   http://www.isotc211.org/2005/gts http://www.isotc211.org/2005/gts/gts.xsd 
+   http://www.isotc211.org/2005/gsr http://www.isotc211.org/2005/gsr/gsr.xsd 
+   http://www.isotc211.org/2005/gss http://www.isotc211.org/2005/gss/gss.xsd 
+     
+   http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd 
+   http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd"> 
+   <!-- 
+   http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd
+   
+   This document is based on a Geoscience Australia ANZLIC Version 2.0 metadata record and is
+   for the purpose of demonstraiting the XML format for an ANZLIC Metadata Profile record.
+   -->
+   
+   <!--
+   http://i.creativecommons.org/l/by/2.5/au/80x15.png
+   
+   Copyright Commonwealth of Australia (Geoscience Australia) 2008.  This product is released under the
+   Creative Commons Attribution 2.5 Australia Licence (http://creativecommons.org/licenses/by-nd/2.5/au/)
+   -->
+   
+   <!-- Note: This file uses the copy of gmxCodelists.xml located at URL:
+      http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml
+      rather than the official one located at URL:      
+      http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml
+   because the official file does not validate whereas the one on the ASDD web site does.
+   Once the ISO TC 211 one works then all these references to the ASDD copy should be 
+   changed to the official XML document.
+   John Hockaday 2008-11-11.-->
+   <gmd:fileIdentifier>
+      <gco:CharacterString>9CB0DD28-5FD4-3787-94E3-74D4D374246A</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gco:CharacterString>eng</gco:CharacterString>
+   </gmd:language>
+   
+   <!--<gmd:language>
+      <gmd:LanguageCode
+         codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode"
+         codeListValue="eng">English</gmd:LanguageCode>
+         </gmd:language>-->
+   
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode
+         codeList="file:///O:/downloads/ISO19139/ISO19139schemas/ISO19139schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"
+         codeListValue="utf8">UTF 8</gmd:MD_CharacterSetCode>
+   </gmd:characterSet>
+   <gmd:parentIdentifier>
+      <gco:CharacterString>74D4D374246A-3787-94E3-9CB0DD28-5FD4</gco:CharacterString>
+   </gmd:parentIdentifier>
+   <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode
+         codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" 
+         codeListValue="dataset">Dataset</gmd:MD_ScopeCode>
+   </gmd:hierarchyLevel>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName gco:nilReason="withheld">
+            <!-- The sub element gco:CharacterString and its content should be removed 
+               during presentation of this metadata because the gco:nilReason is set to "withheld". -->
+            <gco:CharacterString>John Hockaday</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:organisationName>
+            <gco:CharacterString>Geoscience Australia (GA)</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:positionName>
+            <gco:CharacterString>Director, Sales and Distribution,
+            CIMA</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>+61 2 6249
+                        9966</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>+61 2 6249
+                        9960</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>GPO Box 378 </gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Canberra</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>ACT</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>2601</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>sales@ga.gov.au</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+               codeListValue="custodian"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:Date>2007</gco:Date>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+         <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.1</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+
+   <!-- Test content -->
+   <gmd:dataSetURI gco:nilReason="missing"/>
+
+   <!-- Removed because the
+   http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml is not in
+   the same format as the other codeLists. -->
+   <!-- 
+      <gmd:locale>
+      <gmd:PT_Locale>
+         <gmd:languageCode>
+            <gmd:LanguageCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#LanguageCode"
+               codeListValue="eng">English</gmd:LanguageCode>
+         </gmd:languageCode>
+         <gmd:country>
+            <gmd:Country
+               codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#Country"
+               codeListValue="AU">Australia</gmd:Country>
+         </gmd:country>
+         <gmd:characterEncoding></gmd:characterEncoding>
+      </gmd:PT_Locale>
+   </gmd:locale> -->
+   <!-- -->
+
+   <gmd:spatialRepresentationInfo 
+      xlink:title="referenceSystemInfo" 
+      xlink:href="#rs1" 
+      xlink:show="none" 
+      xlink:actuate="none">
+      <gmd:MD_Georectified id="gr1">
+         <gmd:numberOfDimensions>
+            <gco:Integer>2</gco:Integer>
+         </gmd:numberOfDimensions>
+         <gmd:axisDimensionProperties uuidref="aDP1" >
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                     codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>1</gco:Integer>
+               </gmd:dimensionSize>
+               <gmd:resolution>
+                  <gco:Measure uom="metre">20</gco:Measure>
+               </gmd:resolution>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                     codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>20</gco:Integer>
+               </gmd:dimensionSize>
+               <gmd:resolution>
+                  <gco:Measure uom="m">20</gco:Measure>
+               </gmd:resolution>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:cellGeometry>
+            <gmd:MD_CellGeometryCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CellGeometryCode"
+               codeListValue="point"/>
+         </gmd:cellGeometry>
+         <gmd:transformationParameterAvailability>
+            <gco:Boolean>true</gco:Boolean>
+         </gmd:transformationParameterAvailability>
+         <gmd:checkPointAvailability>
+            <gco:Boolean>1</gco:Boolean>
+         </gmd:checkPointAvailability>
+
+         <gmd:checkPointDescription>
+            <gco:CharacterString>Some information about the check points.</gco:CharacterString>
+         </gmd:checkPointDescription>
+         <gmd:cornerPoints>
+            <gml:Point gml:id="crn1">
+               <gml:pos>130 -30</gml:pos>
+            </gml:Point>
+         </gmd:cornerPoints>
+         <gmd:cornerPoints>
+            <gml:Point gml:id="crn2">
+               <gml:coordinates decimal=".">120 -35</gml:coordinates>
+            </gml:Point>
+         </gmd:cornerPoints>
+         <gmd:centerPoint>
+            <gml:Point gml:id="cnt1">
+               <gml:coordinates decimal=".">125 -32.5</gml:coordinates>
+            </gml:Point>
+         </gmd:centerPoint>
+
+         <gmd:pointInPixel>
+            <gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+         </gmd:pointInPixel>
+         <gmd:transformationDimensionDescription>
+            <gco:CharacterString>no transforamtion really.  Just some text to
+               fill out this element.</gco:CharacterString>
+         </gmd:transformationDimensionDescription>
+         <gmd:transformationDimensionMapping>
+            <gco:CharacterString>one</gco:CharacterString>
+         </gmd:transformationDimensionMapping>
+      </gmd:MD_Georectified>
+
+   </gmd:spatialRepresentationInfo>
+
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_VectorSpatialRepresentation id="vsr2">
+         <gmd:topologyLevel>
+            <gmd:MD_TopologyLevelCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_TopologyLevelCode"
+               codeListValue="abstract">Abstract</gmd:MD_TopologyLevelCode>
+         </gmd:topologyLevel>
+         <gmd:geometricObjects>
+            <gmd:MD_GeometricObjects>
+               <gmd:geometricObjectType>
+                  <gmd:MD_GeometricObjectTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_GeometricObjectTypeCode"
+                     codeListValue="curve">Curve</gmd:MD_GeometricObjectTypeCode>
+               </gmd:geometricObjectType>
+               <gmd:geometricObjectCount>
+                  <gco:Integer>2</gco:Integer>
+               </gmd:geometricObjectCount>
+            </gmd:MD_GeometricObjects>
+         </gmd:geometricObjects>
+      </gmd:MD_VectorSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+
+   <gmd:spatialRepresentationInfo>
+      <gmd:MD_GridSpatialRepresentation id="gr2">
+         <gmd:numberOfDimensions>
+            <gco:Integer>3</gco:Integer>
+         </gmd:numberOfDimensions>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_DimensionNameTypeCode"
+                     codeListValue="line">Line</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>1</gco:Integer>
+               </gmd:dimensionSize>
+               <gmd:resolution>
+                  <gco:Measure uom="m">30</gco:Measure>
+               </gmd:resolution>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:cellGeometry>
+            <gmd:MD_CellGeometryCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CellGeometryCode"
+               codeListValue="point">Point</gmd:MD_CellGeometryCode>
+         </gmd:cellGeometry>
+         <gmd:transformationParameterAvailability>
+            <gco:Boolean>true</gco:Boolean>
+         </gmd:transformationParameterAvailability>
+      </gmd:MD_GridSpatialRepresentation>
+   </gmd:spatialRepresentationInfo>
+   <!-- End test content -->
+
+   <!-- Test content -->
+   <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem id="rs1">
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <!-- Geocentric Datum of Australia 1994 -->
+                  <gco:CharacterString>4938 </gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>urn:ogc:def:datum:EPSG::</gco:CharacterString>
+               </gmd:codeSpace>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   
+   <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem id="rs2">
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <!-- Australian Height Datum -->
+                  <gco:CharacterString>5111</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>urn:ogc:def:datum:EPSG::</gco:CharacterString>
+               </gmd:codeSpace>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <!-- End test content -->
+
+   <!-- Test content -->
+   <gmd:metadataExtensionInfo>
+      <gmd:MD_MetadataExtensionInformation>
+         <gmd:extendedElementInformation>
+            <gmd:MD_ExtendedElementInformation>
+               <gmd:name>
+                  <gco:CharacterString>fileIdentifier</gco:CharacterString>
+               </gmd:name>
+               <gmd:shortName>
+                  <gco:CharacterString>mdFileId</gco:CharacterString>
+               </gmd:shortName>
+               <gmd:domainCode>
+                  <gco:Integer>1</gco:Integer>
+               </gmd:domainCode>
+               <gmd:definition>
+                  <gco:CharacterString>Existing ISO 19115 element (2)</gco:CharacterString>
+               </gmd:definition>
+               <gmd:obligation>
+                  <gmd:MD_ObligationCode>mandatory</gmd:MD_ObligationCode>
+               </gmd:obligation>
+               <gmd:dataType>
+                  <gmd:MD_DatatypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_DatatypeCode"
+                     codeListValue="codelistElement">Character String</gmd:MD_DatatypeCode>
+               </gmd:dataType>
+               <gmd:maximumOccurrence>
+                  <gco:CharacterString>1</gco:CharacterString>
+               </gmd:maximumOccurrence>
+               <gmd:domainValue>
+                  <gco:CharacterString> free text</gco:CharacterString>
+               </gmd:domainValue>
+               <gmd:parentEntity>
+                  <gco:CharacterString>MD_Metadata</gco:CharacterString>
+               </gmd:parentEntity>
+               <gmd:rule>
+                  <gco:CharacterString>Change obligation to mandatory.</gco:CharacterString>
+               </gmd:rule>
+               <gmd:rationale>
+                  <gco:CharacterString>To ensure file identifier is always
+                     entered.</gco:CharacterString>
+               </gmd:rationale>
+               <gmd:source>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>ANZLIC - the Spatial Information
+                           Council</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                           codeListValue="owner">Owner</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+
+               </gmd:source>
+            </gmd:MD_ExtendedElementInformation>
+
+         </gmd:extendedElementInformation>
+
+         <gmd:extendedElementInformation>
+            <gmd:MD_ExtendedElementInformation>
+               <gmd:name>
+                  <gco:CharacterString>revisionDate</gco:CharacterString>
+               </gmd:name>
+
+               <gmd:shortName>
+                  <gco:CharacterString>revDate</gco:CharacterString>
+               </gmd:shortName>
+
+               <gmd:domainCode>
+                  <gco:Integer>2</gco:Integer>
+               </gmd:domainCode>
+               <gmd:definition>
+                  <gco:CharacterString>Date the metadata was last revised.</gco:CharacterString>
+               </gmd:definition>
+
+               <gmd:obligation>
+                  <gmd:MD_ObligationCode>optional</gmd:MD_ObligationCode>
+               </gmd:obligation>
+               <gmd:dataType>
+                  <gmd:MD_DatatypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_DatatypeCode"
+                     codeListValue="class">Class</gmd:MD_DatatypeCode>
+               </gmd:dataType>
+               <gmd:maximumOccurrence>
+                  <gco:CharacterString>1</gco:CharacterString>
+               </gmd:maximumOccurrence>
+               <gmd:domainValue>
+                  <gco:CharacterString>Date</gco:CharacterString>
+               </gmd:domainValue>
+               <gmd:parentEntity>
+                  <gco:CharacterString>MD_Metadata</gco:CharacterString>
+               </gmd:parentEntity>
+               <gmd:rule>
+                  <gco:CharacterString>New element</gco:CharacterString>
+               </gmd:rule>
+               <gmd:rationale>
+                  <gco:CharacterString>To describe the date when the metadata was revised. This element will default to dateStamp.</gco:CharacterString>
+               </gmd:rationale>
+               <gmd:source>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Australian Oceans Data Centre
+                           Joint Facility</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                           codeListValue="owner">Owner</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:source>
+            </gmd:MD_ExtendedElementInformation>
+
+         </gmd:extendedElementInformation>
+      </gmd:MD_MetadataExtensionInformation>
+   </gmd:metadataExtensionInfo>
+   <!-- End test content -->
+
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Australian bathymetry and topography
+                     grid, June 2005</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2007-02-12</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                           codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               
+               <gmd:identifier>
+                  <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation id="cit1">
+                           <gmd:title>
+                              <gco:CharacterString>ANZLIC Identifier</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2001-02</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode
+                                       codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                       codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                           <gmd:edition>
+                              <gco:CharacterString>Version 2</gco:CharacterString>
+                           </gmd:edition>
+                           <gmd:editionDate>
+                              <gco:Date>2001-02</gco:Date>
+                           </gmd:editionDate>
+                           <gmd:citedResponsibleParty>
+                              <gmd:CI_ResponsibleParty>
+                                 <gmd:organisationName>
+                                    <gco:CharacterString>ANZLIC the Spatial
+                                       Information Council</gco:CharacterString>
+                                 </gmd:organisationName>
+                                 <gmd:role>
+                                    <gmd:CI_RoleCode
+                                       codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                       codeListValue="owner">Owner</gmd:CI_RoleCode>
+                                 </gmd:role>
+                              </gmd:CI_ResponsibleParty>
+                           </gmd:citedResponsibleParty>
+                           <gmd:otherCitationDetails>
+                              <gco:CharacterString>Defined in ANZLIC Metadata
+                                 Guidelines Version 2
+                                 http://www.anzlic.org.au/download.html?oid=2358011755</gco:CharacterString>
+                           </gmd:otherCitationDetails>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
+                     <gmd:code>
+                        <gco:CharacterString>ANZCW0703008022</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               
+               <!-- Test data for authors -->
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName gco:nilReason="withheld">
+                        <!-- The content of the following element should not be displayed because the 
+                        parent element has a gco:nilReason="withheld". -->
+                        <gco:CharacterString>John Hockaday</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode 
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" 
+                           codeListValue="author"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                  
+               </gmd:citedResponsibleParty>
+               <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:individualName gco:nilReason="withheld">
+                        <gco:CharacterString>Joe Blo</gco:CharacterString>
+                     </gmd:individualName>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Geoscience
+                        Australia</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                           <gmd:address>
+                              <gmd:CI_Address>
+                                 <gmd:administrativeArea>
+                                    <gco:CharacterString>UNKNOWN ADMINISTRATIVE
+                                       AREA - Australia </gco:CharacterString>
+                                 </gmd:administrativeArea>
+                              </gmd:CI_Address>
+                           </gmd:address>
+                        </gmd:CI_Contact>
+                     </gmd:contactInfo>
+                     <gmd:role>
+                        <gmd:CI_RoleCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                           codeListValue="custodian"/>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>Geoscience Australia and the National Oceans
+               Office carried out a joint venture project to produce a
+               consistent, high-quality 9 arc second (0.0025? or ~250m at the
+               equator) bathymetric data grid of those parts of the Australian
+               water column jurisdiction lying between 92E &amp; 172E and 8S
+               &amp; 60S. As well as the waters adjacent to the continent of
+               Australia and Tasmania, the area selected also covers the area of
+               water column jurisdiction surrounding Macquarie Island, and the
+               Australian Territories of Norfolk Island, Christmas Island, and
+               Cocos (Keeling) Islands. The area selected does not include
+               Australia's marine jurisdiction off of the Territory of Heard and
+               McDonald Islands and the Australian Antarctic Territory. This
+               report provides a list of the datasets and procedures used to
+               produce a grid of 9 arc second cell dimensions. The underlying
+               data from which this grid is derived can only support this
+               resolution in areas where direct bathymetric observations are
+               sufficiently dense (eg. where swath bathymetry data or digitised
+               chart data exist). In areas where only track-line data exist, the
+               grid resolution is high along-line but low perpendicular to
+               lines. In areas where no sounding data are available, the grid is
+               based on interpolated or indirectly observed bathymetry, and
+               these data can only support a resolution of 2 arc minutes (2
+               nautical miles or ~3.7 km). The grid covers an area of
+               approximately 41 million square kilometres. Its dimensions are
+               32003 x 20803 cells resulting in a file size slightly in excess
+               of 1.3 Gb of 2-bytes integer numbers representing the bathymetric
+               values. The grid synthesises approximately 1.7 billion observed
+               data points. This grid is not suitable for use as an aid to
+               navigation, or to replace any products produced by the Australian
+               Hydrographic Service. </gco:CharacterString>
+         </gmd:abstract>
+         <gmd:status>
+            <gmd:MD_ProgressCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode"
+               codeListValue="completed"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Geoscience Australia
+                  (GA)</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName>
+                  <gco:CharacterString>Director, Sales and Distribution,
+                  CIMA</gco:CharacterString>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice>
+                              <gco:CharacterString>+61 2 6249
+                              9966</gco:CharacterString>
+                           </gmd:voice>
+                           <gmd:facsimile>
+                              <gco:CharacterString>+61 2 6249
+                              9960</gco:CharacterString>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>GPO Box 378
+                              </gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Canberra</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>ACT</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>2601</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>Australia</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>sales@ga.gov.au</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                     codeListValue="pointOfContact"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <!-- Testing of data quality information from INSPIRE -->
+
+
+         <!-- End of testing data quality for INSPIRE -->
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation id="mi1">
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                     codeListValue="notPlanned"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation id="mi2">
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode 
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" 
+                     codeListValue="continual"></gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+            
+         </gmd:resourceMaintenance>
+         
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>http://www.ga.gov.au/servlet/BigObjFileManager?bigobjid=GA3349</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>Map index of Australia 1:1,000,000</gco:CharacterString>
+               </gmd:fileDescription>
+               <gmd:fileType>
+                  <gco:CharacterString>GIF</gco:CharacterString>
+               </gmd:fileType>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ArcGIS-grid ArcInfo grid
+                     Geographic WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ascii ASCII text Geographic
+                     WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - bil Band interleaved by line
+                     (BIL) image Geographic WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+         
+         <gmd:resourceFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ermapper ERMapper dataset file
+                     Geographic WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:resourceFormat>
+      
+         <!-- Content to test OSDM Schedule -->
+         
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>other</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" 
+                     codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>OSDM schedule names</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-11-10</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" 
+                                 codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 1.1</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2008-11-10</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/osdm-schedule.xml#osdm-schedule</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Office of Spatial Data
+                                 Management</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                 codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+        
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Australia</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" 
+                     codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-10-29</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                 codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 2.1</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2008-10-29</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial
+                                 Information Council</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                 codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation> 
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>MARINE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MARINE-Coasts</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OCEANOGRAPHY-Physical</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode"
+                     codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>ANZLIC Search
+                        Words</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-05-16</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                 codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 2.1</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2008-05-16</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial
+                                 Information Council</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                 codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>MARINE</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>MARINE Coasts</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>OCEANOGRAPHY Physical</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode"
+                     codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>ANZLIC Search
+                           Words</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-05-16</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                 codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:edition>
+                        <gco:CharacterString>Version 2.1</gco:CharacterString>
+                     </gmd:edition>
+                     <gmd:editionDate>
+                        <gco:Date>2008-05-16</gco:Date>
+                     </gmd:editionDate>
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                              <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-theme.xml#anzlic-theme</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:identifier>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>ANZLIC the Spatial
+                                 Information Council</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                 codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         
+         <!-- Geoscience Australia's internal Classification Scheme -->
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>physiography</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>bathymetry</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode"
+                     codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Geoscience Australia's Corporate Data Classification Scheme.</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:alternateTitle>
+                        <gco:CharacterString>CDCS</gco:CharacterString>
+                     </gmd:alternateTitle>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2007</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                 codeListValue="creation"
+                                 >creation</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <!--
+                     <gmd:identifier>
+                        <gmd:MD_Identifier>
+                           <gmd:code>
+                               This should be a link to the XML document that is created from the Oracle database but is in the ISO 19139 format 
+                              <gco:CharacterString>http://www.ga.gov.au:88/newintranet/data_quality/data_classification_project.html</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                        
+                     </gmd:identifier>
+                     -->
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:individualName gco:nilReason="withheld">
+                              <gco:CharacterString>Andrew Marshall</gco:CharacterString>
+                           </gmd:individualName>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:positionName>
+                              <gco:CharacterString>Information Services Branch - Metadata Custodian</gco:CharacterString>
+                           </gmd:positionName>
+                           <gmd:role>
+                              <gmd:CI_RoleCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                 codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>                        
+                     </gmd:citedResponsibleParty>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+                  
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Copyright Commonwealth of Australia  (Geoscience Australia) 2008</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+                     codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+               </gmd:useConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>   http://i.creativecommons.org/l/by/2.5/au/80x15.png
+                     This product is released under the
+                     Creative Commons Attribution 2.5 Australia Licence (http://creativecommons.org/licenses/by-nd/2.5/au/) </gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+                     codeListValue="license">license</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>   
+         </gmd:resourceConstraints>
+
+<gmd:resourceConstraints xlink:type="simple">
+   <gmd:MD_Constraints>
+      <gmd:useLimitation>
+         <gco:CharacterString>not for public access</gco:CharacterString>
+      </gmd:useLimitation>
+   </gmd:MD_Constraints>
+</gmd:resourceConstraints>
+         
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>No restrictions Order
+                  Product</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode"
+                     codeListValue="copyright"/>
+               </gmd:useConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         
+         <!-- Test information for GEOMET SPOTs data -->
+         
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Licence conditions apply to access this dataset.</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+                     codeListValue="license">licence</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+
+<!-- Test aggregation information for GEOMET SPOTS tables-->
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:authority>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Geoscience Australia's TRIM system</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2008</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" 
+                                       codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:authority>
+                     <gmd:code>
+                        <gco:CharacterString>TRIM NUmber</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#DS_AssociationTypeCode" 
+                     codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+            </gmd:MD_AggregateInformation>      
+         </gmd:aggregationInfo>
+         <!-- End test aggregation information for GEOMET SPOTS tables  -->
+         
+         
+         <!-- Test content  -->
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Some other thing like a document.</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2007</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode
+                                 codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                 codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:aggregateDataSetName>
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>identifier code for the test
+                           aggregate title.</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#DS_AssociationTypeCode"
+                     codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+            </gmd:MD_AggregateInformation>
+
+         </gmd:aggregationInfo>
+         <!-- End test content -->
+
+         <!-- Testing only -->
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:distance>
+                  <gco:Distance uom="m">100</gco:Distance>
+               </gmd:distance>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+
+         <!-- End test -->
+
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <!--        <gmd:language>
+            <gmd:LanguageCode
+               codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode"
+               codeListValue="eng">English</gmd:LanguageCode>
+         </gmd:language>-->
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode
+               codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode"
+               codeListValue="utf8">UTF 8</gmd:MD_CharacterSetCode>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>92</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>172</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-60</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>-8</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <!-- Test mulit bounding boxes -->
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>87.8</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>179.9</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>-65</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>-50</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+                  
+               </gmd:geographicElement>
+
+<!-- test multi-polygons -->
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon>
+                        <gml:Polygon gml:id="p1" srsName="EPSG:4283 " uomLabels="degree">
+                           <gml:exterior>
+                              <gml:LinearRing>
+                                 <gml:pos/>
+                                 <gml:pos>-8 92</gml:pos>
+                                 <gml:pos>-60 85</gml:pos>
+                                 <gml:pos>-80 153</gml:pos>
+                                 <gml:pos>-8 172</gml:pos>
+                                 <gml:pos>-40 120</gml:pos>
+                                 <gml:pos>-8 92</gml:pos>
+                              </gml:LinearRing>
+                           </gml:exterior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+               
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:polygon>
+                        <gml:Polygon gml:id="p2" srsName="EPSG:4283 " uomLabels="degree">
+                           <gml:interior>
+                              <gml:LinearRing>
+                                 <gml:pos>-10 120</gml:pos>
+                                 <gml:pos>-20 130</gml:pos>
+                                 <gml:pos>-35 120</gml:pos>
+                                 <gml:pos>-40 100</gml:pos>
+                                 <gml:pos>-30 120</gml:pos>
+                                 <gml:pos>-10 120</gml:pos>
+                              </gml:LinearRing>
+                           </gml:interior>
+                        </gml:Polygon>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+                  
+               </gmd:geographicElement>
+
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:authority>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>ANZLIC Geographic
+                                Extent Name
+                                Register - Australia</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2006-10-10</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:edition>
+                                    <gco:CharacterString>Version 2</gco:CharacterString>
+                                 </gmd:edition>
+                                 <gmd:editionDate>
+                                    <gco:Date>2001-02</gco:Date>
+                                 </gmd:editionDate>
+                                 <gmd:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-marsden_10</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmd:identifier>
+                                 <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>ANZLIC the
+                                    Spatial Information
+                                    Council</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                             codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                 </gmd:citedResponsibleParty>
+                              </gmd:CI_Citation>
+                           </gmd:authority>
+
+                           <gmd:code>
+                              <gco:CharacterString>610</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>
+
+<!-- test information for the ANZLIC MET tool -->
+
+                  <gmd:geographicElement>
+                     <gmd:EX_GeographicDescription>
+                        <gmd:geographicIdentifier>
+                           <gmd:MD_Identifier>
+                              <gmd:authority xlink:type="simple">
+                                 <gmd:CI_Citation>
+                                    <gmd:title>
+                                       <gco:CharacterString>ANZLIC Geographic Extent Name Register</gco:CharacterString>
+                                    </gmd:title>
+                                    <gmd:date xlink:type="simple">
+                                       <gmd:CI_Date>
+                                          <gmd:date>
+                                             <gco:Date>2006-10-10</gco:Date>
+                                             </gmd:date>
+                                             <gmd:dateType>
+                                                <gmd:CI_DateTypeCode 
+                                                   codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" 
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                                   </gmd:dateType>
+                                       </gmd:CI_Date>
+                                    </gmd:date>
+                                    <gmd:edition>
+                                       <gco:CharacterString>Version 2</gco:CharacterString>
+                                    </gmd:edition>
+                                    <gmd:editionDate>
+                                       <gco:Date>2001-02</gco:Date>
+                                    </gmd:editionDate>
+                                    <gmd:identifier>
+                                       <gmd:MD_Identifier>
+                                          <gmd:code>
+                                             <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-marsden_10</gco:CharacterString>
+                                          </gmd:code>
+                                       </gmd:MD_Identifier>
+                                    </gmd:identifier>
+                                    <gmd:citedResponsibleParty>
+                                       <gmd:CI_ResponsibleParty>
+                                          <gmd:organisationName>
+                                             <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                                          </gmd:organisationName>
+                                          <gmd:role>
+                                             <gmd:CI_RoleCode
+                                                codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                                codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                          </gmd:role>
+                                       </gmd:CI_ResponsibleParty>
+                                    </gmd:citedResponsibleParty>
+                                 </gmd:CI_Citation>
+                              </gmd:authority>
+                              <gmd:code>
+                                 <gco:CharacterString>318</gco:CharacterString>
+                              </gmd:code>
+                           </gmd:MD_Identifier>
+                        </gmd:geographicIdentifier>
+                     </gmd:EX_GeographicDescription>
+                  </gmd:geographicElement>
+
+               <!-- end test content for the ANZLIC Met tool -->
+               
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:authority>
+                              <gmd:CI_Citation id="csquare">
+                                 <gmd:title>
+                                    <gco:CharacterString>ANZLIC Geographic
+                                       Extent Name
+                                    Register - Australia</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2006-10-10</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:edition>
+                                    <gco:CharacterString>Version 2</gco:CharacterString>
+                                 </gmd:edition>
+                                 <gmd:editionDate>
+                                    <gco:Date>2001-02</gco:Date>
+                                 </gmd:editionDate>
+                                 <gmd:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-state_territory</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmd:identifier>
+                                 <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>ANZLIC the
+                                        Spatial Information
+                                        Council</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                             codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                 </gmd:citedResponsibleParty>
+                              </gmd:CI_Citation>
+                           </gmd:authority>
+                           <gmd:code>
+                              <gco:CharacterString>ACT</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>
+
+
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:authority>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>ANZLIC Geographic
+                                       Extent Name Register - Ocean and Sea Regions</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2006-10-10</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:edition>
+                                    <gco:CharacterString>Version 2</gco:CharacterString>
+                                 </gmd:edition>
+                                 <gmd:editionDate>
+                                    <gco:Date>2001-02</gco:Date>
+                                 </gmd:editionDate>
+                                 <gmd:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-allgens.xml#anzlic-ocean_sea</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmd:identifier>
+                                 <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>ANZLIC - the
+                                             Spatial Information Council</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode
+                                             codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                                             codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+
+                                 </gmd:citedResponsibleParty>
+                              </gmd:CI_Citation>
+                           </gmd:authority>
+                           <gmd:code>
+                              <gco:CharacterString>AUSTRALIAN EEZ</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>
+               
+               <!-- test the AHO Australian Navigation Charts GEN list -->
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicDescription>
+                     <gmd:geographicIdentifier>
+                        <gmd:MD_Identifier>
+                           <gmd:authority>
+                              <gmd:CI_Citation>
+                                 <gmd:title>
+                                    <gco:CharacterString>AHO Australian Navigation Charts</gco:CharacterString>
+                                 </gmd:title>
+                                 <gmd:date>
+                                    <gmd:CI_Date>
+                                       <gmd:date>
+                                          <gco:Date>2008-11-19</gco:Date>
+                                       </gmd:date>
+                                       <gmd:dateType>
+                                          <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" 
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                                       </gmd:dateType>
+                                    </gmd:CI_Date>
+                                 </gmd:date>
+                                 <gmd:edition>
+                                    <gco:CharacterString>2.0</gco:CharacterString>
+                                 </gmd:edition>
+                                 <gmd:editionDate>
+                                    <gco:Date>2008-11-19</gco:Date>
+                                 </gmd:editionDate>
+                                 <gmd:identifier>
+                                    <gmd:MD_Identifier>
+                                       <gmd:code>
+                                          <gco:CharacterString>http://www.hydro.gov.au/asdd/aho-genlist.xml#aho-navigational-charts</gco:CharacterString>
+                                       </gmd:code>
+                                    </gmd:MD_Identifier>
+                                 </gmd:identifier>
+                                 <gmd:citedResponsibleParty>
+                                    <gmd:CI_ResponsibleParty>
+                                       <gmd:organisationName>
+                                          <gco:CharacterString>Australian Hydrographic Office</gco:CharacterString>
+                                       </gmd:organisationName>
+                                       <gmd:role>
+                                          <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" 
+                                             codeListValue="originator">originator</gmd:CI_RoleCode>
+                                       </gmd:role>
+                                    </gmd:CI_ResponsibleParty>
+                                 </gmd:citedResponsibleParty>
+                              </gmd:CI_Citation>                              
+                           </gmd:authority>
+                           <gmd:code>
+                              <gco:CharacterString>Aus4_1</gco:CharacterString>
+                           </gmd:code>
+                        </gmd:MD_Identifier>
+                     </gmd:geographicIdentifier>
+                  </gmd:EX_GeographicDescription>
+               </gmd:geographicElement>               
+               <!-- End of test content for AHO Australian Navigational Charts -->
+               
+            </gmd:EX_Extent>
+         </gmd:extent>
+         
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d1e77">
+                           <gml:beginPosition indeterminatePosition="unknown"/>
+                           <gml:endPosition>2005-07-28</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="pa12">
+                           <gml:timePosition>Jurasic</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="t2">
+                           <gml:beginPosition>2005</gml:beginPosition>
+                           <gml:endPosition indeterminatePosition="unknown">Unknown</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeNode gml:id="t4">
+                           <gml:description>
+                              January to March
+                           </gml:description>
+                        </gml:TimeNode>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeEdge gml:id="t5">
+                           <gml:start>
+                              <gml:TimeNode gml:id="t6">
+                                 <gml:name>January</gml:name>
+                              </gml:TimeNode>
+                           </gml:start>
+                           <gml:end>
+                              <gml:TimeNode gml:id="t7">
+                                 <gml:name>March</gml:name>
+                              </gml:TimeNode>
+                           </gml:end>
+                        </gml:TimeEdge>
+                        
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+                  
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+
+<!-- Example of a single timeinstance extent -->
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeInstant gml:id="TI1">
+                           <gml:timePosition>2005</gml:timePosition>
+                        </gml:TimeInstant>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <!-- End of Example of a single timeinstance extent -->
+         
+         <!-- Example of average of particular month (February) over several years (2006/2007) By Andrew Walsh for MCP -->
+         <!-- Feb 2006 -->
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+               <gmd:EX_TemporalExtent>
+                  <gmd:extent>
+                     <gml:TimeNode gml:id="iwwi">
+                        
+                        <gml:description>February</gml:description>
+                        <gml:position>
+                           <gml:TimeInstant gml:id="fhfh">
+                              <gml:timePosition>2006-02</gml:timePosition>
+                           </gml:TimeInstant>
+                        </gml:position>
+                     </gml:TimeNode>
+                  </gmd:extent>
+                </gmd:EX_TemporalExtent>
+              </gmd:temporalElement>
+               <!--Feb 2007-->
+
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimeNode gml:id="iwwg">
+                           <gml:description>February</gml:description>
+                           <gml:position>
+                              <gml:TimeInstant gml:id="fhfhg">
+                                 <gml:timePosition>2007-02</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:position>
+                        </gml:TimeNode>
+                     </gmd:extent>
+                   </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>         
+         <!-- End of example of average of particular month over several years By Adnrew Walsh for MCP -->
+
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>-10</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>2700</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS>
+                        <gml:VerticalCRS gml:id="v1">
+                           <gml:identifier codeSpace="urn:ogc:def:crs:EPSG::">5711
+                           </gml:identifier>
+                           <gml:scope>Australia</gml:scope>
+                           <gml:verticalCS>
+                              <gml:VerticalCS gml:id="v2">
+                                 <gml:identifier codeSpace="urn:ogc:def:cs:EPSG::">6499
+                                 </gml:identifier>
+                                 <gml:axis>
+                                    <gml:CoordinateSystemAxis gml:uom="m" gml:id="v4">
+                                       <gml:identifier codeSpace="urn:ogc:def:axis:EPSG::">5711</gml:identifier>
+                                       <gml:axisAbbrev>AHD</gml:axisAbbrev>
+                                       <gml:axisDirection codeSpace="urn:ogc:def:axisDirection:EPSG::">up</gml:axisDirection>
+                                    </gml:CoordinateSystemAxis>
+                                 </gml:axis>
+                              </gml:VerticalCS>
+                           </gml:verticalCS>
+                           <gml:verticalDatum/>
+                        </gml:VerticalCRS>
+                     </gmd:verticalCRS>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+
+               <!-- Test content for AADC depth Vertical CRS -->
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>2</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>45</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS>
+                        <gml:VerticalCRS gml:id=" a2d0c5662-4d78-4d0a-b10b-b636deac28d6">
+                           <gml:identifier codeSpace="urn:ogc:def:crs:EPSG::"/>
+                           <gml:scope/>
+                           <gml:verticalCS>
+                              <gml:VerticalCS gml:id="epsg-cs-6499">
+                                 <gml:identifier codeSpace="urn:ogc:def:cs:EPSG::">urn:ogc:def:cs:EPSG::6499</gml:identifier>
+                                 <gml:name>Vertical CS. Axis: height (H). Orientation: up. UoM: m. m.</gml:name>
+                                 <gml:axis>
+                                    <gml:CoordinateSystemAxis gml:id="epsg-axis-114"
+                                       gml:uom="urn:ogc:def:uom:EPSG::9001">
+                                       <gml:identifier codeSpace="urn:ogc:def:axis:EPSG::">urn:ogc:def:axis:EPSG::114</gml:identifier>
+                                       <gml:name>height</gml:name>
+                                       <gml:axisAbbrev>H</gml:axisAbbrev>
+                                       <gml:axisDirection codeSpace="urn:ogc:def:axisDirection:EPSG::">up</gml:axisDirection>
+                                    </gml:CoordinateSystemAxis>
+                                 </gml:axis>
+                              </gml:VerticalCS>
+                           </gml:verticalCS>
+                           <gml:verticalDatum>
+                              <gml:VerticalDatum gml:id=" abc86e72f-b929-418c-8178-d0bfa8f328b1">
+                                 <gml:identifier codeSpace="urn:ogc:def:datum:EPSG::"/>
+                                 <gml:scope/>
+                              </gml:VerticalDatum>
+                           </gml:verticalDatum>
+                        </gml:VerticalCRS>
+                     </gmd:verticalCRS>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+               
+               <gmd:verticalElement>
+                  <gmd:EX_VerticalExtent>
+                     <gmd:minimumValue>
+                        <gco:Real>0</gco:Real>
+                     </gmd:minimumValue>
+                     <gmd:maximumValue>
+                        <gco:Real>500</gco:Real>
+                     </gmd:maximumValue>
+                     <gmd:verticalCRS>
+                        <gml:VerticalCRS gml:id="d1e325">
+                           <gml:identifier codeSpace="urn:ogc:def:crs:EPSG::"/>
+                           <gml:scope/>
+                           <gml:verticalCS>
+                              <gml:VerticalCS gml:id="epsg-cs-6498">
+                                 <gml:identifier codeSpace="urn:ogc:def:cs:EPSG::">urn:ogc:def:cs:EPSG::6498</gml:identifier>
+                                 <gml:name>Vertical CS. Axis: depth (D). Orientation: down. UoM: m.</gml:name>
+                                 <gml:axis>
+                                    <gml:CoordinateSystemAxis gml:id="epsg-axis-113"
+                                       gml:uom="urn:ogc:def:uom:EPSG::9001">
+                                       <gml:identifier codeSpace="urn:ogc:def:axis:EPSG::">urn:ogc:def:axis:EPSG::113</gml:identifier>
+                                       <gml:name>depth</gml:name>
+                                       <gml:axisAbbrev>D</gml:axisAbbrev>
+                                       <gml:axisDirection codeSpace="urn:ogc:def:axisDirection:EPSG::">down</gml:axisDirection>
+                                    </gml:CoordinateSystemAxis>
+                                 </gml:axis>
+                              </gml:VerticalCS>
+                           </gml:verticalCS>
+                           <gml:verticalDatum>
+                              <gml:VerticalDatum gml:id=" a35900bec-b284-4974-99bb-72c19a10f11e">
+                                 <gml:identifier codeSpace="urn:ogc:def:datum:EPSG::"/>
+                                 <gml:scope/>
+                              </gml:VerticalDatum>
+                           </gml:verticalDatum>
+                        </gml:VerticalCRS>
+                     </gmd:verticalCRS>
+                  </gmd:EX_VerticalExtent>
+               </gmd:verticalElement>
+               <!-- End of test content for AADC depth Vertical CRS -->
+
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+
+   <!-- Test content -->
+
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ArcGIS-grid ArcInfo grid
+                     Geographic WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ascii ASCII text Geographic
+                     WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>DIGITAL - ermapper ERMapper dataset file
+                     Geographic WGS84</gco:CharacterString>
+               </gmd:name>
+               <gmd:version>
+                  <gco:CharacterString>none</gco:CharacterString>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+
+         <!-- Test content -->
+         <gmd:distributor>
+            <gmd:MD_Distributor>
+               <gmd:distributorContact>
+                  <gmd:CI_ResponsibleParty>
+                     <gmd:organisationName>
+                        <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+                     </gmd:organisationName>
+                     <gmd:role>
+                        <gmd:CI_RoleCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode"
+                           codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                     </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+               </gmd:distributorContact>
+               <gmd:distributionOrderProcess gco:nilReason="withheld">
+                  <gmd:MD_StandardOrderProcess>
+                     <gmd:fees>
+                        <gco:CharacterString>Charge as much as they will spend.</gco:CharacterString>
+                     </gmd:fees>
+                     <gmd:plannedAvailableDateTime>
+                        <gco:DateTime>2008-08-08T13:00:00</gco:DateTime>
+                     </gmd:plannedAvailableDateTime>
+                  </gmd:MD_StandardOrderProcess>
+               </gmd:distributionOrderProcess>
+               <gmd:distributorFormat>
+                  <gmd:MD_Format>
+                     <gmd:name>
+                        <gco:CharacterString>DIGITAL - ermapper ERMapper dataset file
+                           Geographic WGS84</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:version>
+                        <gco:CharacterString>None</gco:CharacterString>
+                     </gmd:version>
+                  </gmd:MD_Format>
+               </gmd:distributorFormat>
+               <gmd:distributorTransferOptions>
+                  <gmd:MD_DigitalTransferOptions>
+                     <gmd:offLine>
+                        <gmd:MD_Medium>
+                           <gmd:density>
+                              <gco:Real>12</gco:Real>
+                           </gmd:density>
+                           <gmd:densityUnits>
+                              <gco:CharacterString>metre</gco:CharacterString>
+                           </gmd:densityUnits>
+                        </gmd:MD_Medium>
+                     </gmd:offLine>
+                  </gmd:MD_DigitalTransferOptions>
+               </gmd:distributorTransferOptions>
+            </gmd:MD_Distributor>
+         </gmd:distributor>
+         <!-- GEOMET SPOT example -->
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>value from urilink</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:name>
+                        <gco:CharacterString>Geoscience Australia</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Australian Government Geoscience Australia - is a world leader in providing first class geoscientific information and knowledge which enables government and community to make informed decisions about: 
+                           - the exploitation of resources,  
+                           - the management of the environment,  
+                           - the safety of critical infrastructure and 
+                           - the resultant wellbeing of all Australians.</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         
+         <!-- Test content for GeoNetwork OGC WMS -->
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.ga.gov.au/wms/getmap?dataset=national</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-capabilities
+                        </gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>NAT</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Geoscience Australia national geoscience datasets</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode"
+                           codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.ga.gov.au/wms/getmap?dataset=national</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>georeg_lm</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Geological regions</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode"
+                           codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.ga.gov.au/wms/getmap?dataset=national</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>landss_lm</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Geoscience Australia's onshore seismic traverses</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode 
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" 
+                           codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.ga.gov.au/wms/getmap?dataset=national</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>minlocdd</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Occurrences of all minerals</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode 
+                           codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_OnLineFunctionCode" 
+                           codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <!-- End test content -->
+
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level gco:nilReason="missing"/>
+               <gmd:levelDescription gco:nilReason="missing"/>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:source>
+                  <gmd:LI_Source>
+                     <gmd:sourceExtent>
+                        <gmd:EX_Extent>
+                           <gmd:temporalElement>
+                              <gmd:EX_TemporalExtent>
+                                 <gmd:extent>
+                                    <gml:TimeInstant gml:id="timinst1">
+                                       <gml:timePosition>2007</gml:timePosition>
+                                    </gml:TimeInstant>
+
+                                 </gmd:extent>
+                              </gmd:EX_TemporalExtent>
+
+                           </gmd:temporalElement>
+                        </gmd:EX_Extent>
+                     </gmd:sourceExtent>
+                     <gmd:sourceStep>
+                        <gmd:LI_ProcessStep>
+                           <gmd:description>
+                              <gco:CharacterString>This is an example LI_ProcessStep to see what dates can be used</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:dateTime>
+                              <gco:DateTime>2009-10-12T12:34:56</gco:DateTime>
+                           </gmd:dateTime>
+                        </gmd:LI_ProcessStep>
+                        
+                     </gmd:sourceStep>
+                  </gmd:LI_Source>
+               </gmd:source>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode"
+                     codeListValue="attribute">attribute</gmd:MD_ScopeCode>
+               </gmd:level>
+               <gmd:levelDescription gco:nilReason="missing"/>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_CompletenessOmission>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="missing"/>
+                                 <gmd:dateType gco:nilReason="missing"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>This dataset is
+                        complete.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass gco:nilReason="missing">
+                        <gco:Boolean>0</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_CompletenessOmission>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>The grid incorporates data from
+                           surveys acquired since 1963. Modern surveys which
+                           used GPS have a positional accuracy of 5 - 30 m
+                           depending on several factors, while earlier surveys
+                           which used dead reckoning and Transit satellite fixes
+                           had positions accurate to 50-2000 m depending upon
+                           the water depth and strength of currents. These
+                           surveys overlap in an irregular distribution. The
+                           grid cell size is 0.025 deg (close to 250m), and it
+                           is estimated that 90% of cells give depths within 1
+                           cell of their measured position. Nominal scale:
+                           1:10,000,000 when imaged at 300
+                        dpi</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>0</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+         <gmd:report>
+            <gmd:DQ_NonQuantitativeAttributeAccuracy>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title gco:nilReason="missing"/>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date gco:nilReason="unknown"/>
+                                 <gmd:dateType gco:nilReason="unknown"/>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>All data is in gridded
+                        format</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>0</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_NonQuantitativeAttributeAccuracy>
+         </gmd:report>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+
+   <!-- Some test quality data for the GA SPOTS information -->
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope gco:nilReason="missing">
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueType>
+                        <gco:RecordType>horizontal accuracy</gco:RecordType>
+                     </gmd:valueType>
+                     <gmd:valueUnit  xlink:href="urn:ogc:def:uom:UCUM::m"/>
+                     <gmd:value>
+                        <gco:Record>Value of the horizontal accuracy field in the GEOMET database.
+                        </gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   <!-- End of some test quality data for the GA SPOTS information -->
+   
+   <!-- Test some of Teb Habermann's report using REST links -->
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode 
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" 
+                     codeListValue="dataset"></gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_QuantitativeAttributeAccuracy>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueType>
+                        <gco:RecordType 
+                           xlink:href="http://www.unidata.ucar.edu/schemas/netcdf/ncml-2.2.xsd#xpointer(//complextype[@name='group'])">netCDF Variable</gco:RecordType>
+                     </gmd:valueType>
+                     <gmd:valueUnit gco:nilReason="inapplicable"/>
+                     <gmd:value>
+                        <gco:Record 
+                           xlink:href="http://www.ngdc.noaa.gov/ncmlService/granuleIdentifier#xpointer(/netcdf/group[@name=qualityInformation])">
+                           Quality Information for granule = granuleIdentifier</gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_QuantitativeAttributeAccuracy>
+         </gmd:report>
+         
+      </gmd:DQ_DataQuality>
+      
+   </gmd:dataQualityInfo>
+   <!-- -->
+   
+   <!-- Example for a feature absolute positional accuracy for Hans-Jörg Stark -->
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode 
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" 
+                     codeListValue="feature"></gmd:MD_ScopeCode>
+               </gmd:level>
+               <gmd:levelDescription>
+                  <gmd:MD_ScopeDescription>
+                     <gmd:features/>
+                  </gmd:MD_ScopeDescription>
+               </gmd:levelDescription>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+               <gmd:result>
+                  <gmd:DQ_QuantitativeResult>
+                     <gmd:valueUnit>
+                        <gml:BaseUnit gml:id="metre">
+                           <gml:identifier codeSpace="urn:ogc:def:uom:UCUM::m"></gml:identifier>
+                           <gml:unitsSystem/>
+                        </gml:BaseUnit>
+                     </gmd:valueUnit>
+                     <gmd:value>
+                        <gco:Record>
+                           <gco:CharacterString>20</gco:CharacterString>
+                        </gco:Record>
+                     </gmd:value>
+                  </gmd:DQ_QuantitativeResult>
+               </gmd:result>
+            </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+         </gmd:report>
+      </gmd:DQ_DataQuality>   
+   </gmd:dataQualityInfo>
+   
+   <!-- Example for a feature thematic accuracy for Hans-Jörg Stark -->
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode 
+                     codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" 
+                     codeListValue="feature"></gmd:MD_ScopeCode>
+               </gmd:level>
+               <gmd:levelDescription>
+                  <gmd:MD_ScopeDescription>
+                     <gmd:features/>
+                  </gmd:MD_ScopeDescription>
+               </gmd:levelDescription>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_ThematicClassificationCorrectness>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification gco:nilReason="unknown"/>
+                     <gmd:explanation>
+                        <gco:CharacterString>The range of rainfall was selected to be:
+                        0 to 10mm, 11 to 20mm, 21 to 50mm, >50mm. The measurements were taken
+                        to the nearest millimetre.</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_ThematicClassificationCorrectness>
+         </gmd:report>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+   
+   <gmd:metadataConstraints>
+      <gmd:MD_Constraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>This document is based on a Geoscience Australia ANZLIC Version 2.0 metadata record and is
+               for the purpose of demonstrating the XML format for an ANZLIC Metadata Profile record.</gco:CharacterString>
+         </gmd:useLimitation>
+      </gmd:MD_Constraints>
+   </gmd:metadataConstraints>
+  
+   <gmd:metadataConstraints>
+      <gmd:MD_LegalConstraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>Copyright Commonwealth of Australia  (Geoscience Australia) 2008</gco:CharacterString>
+         </gmd:useLimitation>
+         <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+               codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+         </gmd:useConstraints>
+      </gmd:MD_LegalConstraints>
+   </gmd:metadataConstraints>
+   
+   <gmd:metadataConstraints>
+      <gmd:MD_LegalConstraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>   http://i.creativecommons.org/l/by/2.5/au/80x15.png
+               This product is released under the
+               Creative Commons Attribution 2.5 Australia Licence (http://creativecommons.org/licenses/by-nd/2.5/au/) </gco:CharacterString>
+         </gmd:useLimitation>
+         <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" 
+               codeListValue="license">license</gmd:MD_RestrictionCode>
+         </gmd:accessConstraints>
+      </gmd:MD_LegalConstraints>
+   </gmd:metadataConstraints>
+    
+   <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation>
+         <gmd:maintenanceAndUpdateFrequency gco:nilReason="missing"/>
+         <gmd:dateOfNextUpdate>
+            <gco:Date>2008-01-30</gco:Date>
+         </gmd:dateOfNextUpdate>
+         <gmd:maintenanceNote>
+            <gco:CharacterString>This date is the date the metadata was updated.
+             Not when it is due to be updated.</gco:CharacterString>
+         </gmd:maintenanceNote>
+      </gmd:MD_MaintenanceInformation>
+   </gmd:metadataMaintenance>
+
+</gmd:MD_Metadata>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="root" type="RootType"></xs:element>
+	<xs:complexType name="RootType">
+		<xs:sequence>
+			<xs:element name="fileIdentifier" type="xs:string"
+				minOccurs="0" />
+			<xs:element name="mandatoryElement1" type="xs:string" />
+			<xs:element name="mandatoryElement2" type="xs:string" />
+			<xs:element name="mandatoryElement3" type="xs:string" />
+			<xs:element name="mandatoryElement4" type="xs:string" />
+			<xs:element name="mandatoryElement5" type="xs:string" />
+			<xs:element name="mandatoryElement6" type="xs:string" />
+			<xs:element name="mandatoryElement7" type="xs:string" />
+			<xs:element name="mandatoryElement8" type="xs:string" />
+			<xs:element name="mandatoryElement9" type="xs:string" />
+			<xs:element name="mandatoryElement10" type="xs:string" />
+			<xs:element name="mandatoryElement11" type="xs:string" />
+			<xs:element name="optionalElement1" type="xs:string" />
+			<xs:element name="repeatedElement1" type="xs:string"
+				minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="repeatedElement2" minOccurs="1"
+				maxOccurs="5">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="repeatedElement2subElement" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="repeatedElement3" minOccurs="1"
+				maxOccurs="5">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="repeatedElement3repeatedSubElement"
+							type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="choiceElement1">
+				<xs:complexType>
+					<xs:choice>
+						<xs:element name="choice1string" type="xs:string" />
+						<xs:element name="choice2boolean" type="xs:boolean" />
+						<xs:element name="choice3date" type="xs:date" />
+
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="repeatedChoiceElement1" minOccurs="1"
+				maxOccurs="5">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="subElement1">
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="subElementChoice1" type="SubType" />
+									<xs:element name="subElementChoice2" type="SubType" />
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="repeatedChoiceElement2" minOccurs="1"
+				maxOccurs="5">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="subElement2">
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="subElementChoice1" type="xs:string" />
+									<xs:element name="subElementChoice2" type="xs:string" />
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+    <xs:attribute name="schema" fixed="testing schema" />
+	</xs:complexType>
+	<xs:complexType name="SubType">
+		<xs:sequence>
+			<xs:element name="SubTypeElement"  minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:choice>
+						<xs:element name="SubTypeC1">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="CharacterString" type="xs:string" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="SubTypeC2">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="CharacterString" type="xs:string" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:choice>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

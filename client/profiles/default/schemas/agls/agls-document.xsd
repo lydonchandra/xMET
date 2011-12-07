@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/terms/agls-document" targetNamespace="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="AglsDocumentType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="agenda" />
+			<xs:enumeration value="checklist" />
+			<xs:enumeration value="contract" />
+			<xs:enumeration value="dataset" />
+			<xs:enumeration value="diary" />
+			<xs:enumeration value="digital certificate" />
+			<xs:enumeration value="digital signature" />
+			<xs:enumeration value="electronic message" />
+			<xs:enumeration value="fact sheet" />
+			<xs:enumeration value="form" />
+			<xs:enumeration value="government gazette" />
+			<xs:enumeration value="guidelines" />
+			<xs:enumeration value="homepage" />
+			<xs:enumeration value="image" />
+			<xs:enumeration value="index" />
+			<xs:enumeration value="instruction" />
+			<xs:enumeration value="instructional" />
+			<xs:enumeration value="journal" />
+			<xs:enumeration value="letter" />
+			<xs:enumeration value="log" />
+			<xs:enumeration value="media release" />
+			<xs:enumeration value="meeting minutes" />
+			<xs:enumeration value="memorandum" />
+			<xs:enumeration value="metadata" />
+			<xs:enumeration value="minute" />
+			<xs:enumeration value="moving image" />
+			<xs:enumeration value="note for file" />
+			<xs:enumeration value="other" />
+			<xs:enumeration value="policy statement" />
+			<xs:enumeration value="procedure" />
+			<xs:enumeration value="presentation" />
+			<xs:enumeration value="promotion" />
+			<xs:enumeration value="promotional" />
+			<xs:enumeration value="report" />
+			<xs:enumeration value="software" />
+			<xs:enumeration value="sound" />
+			<xs:enumeration value="still image" />
+			<xs:enumeration value="video" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

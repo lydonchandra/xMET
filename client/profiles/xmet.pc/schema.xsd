@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- root element -->
+  <xs:element name="profile">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Name of the profile -->
+        <xs:element name="name" type="xs:string"/>
+        <!-- root xsd file of the profile -->
+        <xs:element name="rootXsd" type="xs:string"/>
+        <!-- root element of the profile -->
+        <xs:element name="root" type="xs:string"/>
+        <!-- whether root is to be displayed in the advanced view. TODO: Remove -->
+        <xs:element name="rootHidden" type="xs:string" minOccurs="0"/>
+        <xs:element name="rootNamespaceUrl" type="xs:string" minOccurs="0"/>
+        <xs:element name="previewTemplate" type="xs:string" minOccurs="0"/>
+        <xs:element name="profileCodec" type="xs:string" minOccurs="0"/>
+        <xs:element name="dataCodec" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="editorStylesheet" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="schematron" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="labelFile" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="substitutionFile" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="editorSheet" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <!-- codelists -->
+        <!-- A codelist, repeatable for multiple codelists -->
+        <xs:element name="codeListCatalog" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- name of codelist -->
+              <xs:element name="name" type="xs:string" />
+              <!-- URL of codelist -->
+              <xs:element name="url" type="xs:string" />
+              <!-- Local codelist file associated with this codelist -->
+              <xs:element name="file" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <!-- Namespace shortening -->
+        <!-- Currently, this information can't be pulled from the xsds directly using the xsom api.
+        We might be able to do it in the future... But we can manually do that here. -->
+        <xs:element name="namespaceAbbreviation" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- uri of the namespace. e.g. http://www.w3.org/2001/XMLSchema -->
+              <xs:element name="uri" type="xs:string" />
+              <!-- short name. e.g. xs -->
+              <xs:element name="short" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

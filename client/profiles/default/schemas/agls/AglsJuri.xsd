@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.agls.gov.au/agls/terms/AglsJuri" targetNamespace="http://www.agls.gov.au/agls/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="Jurisdiction">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="AAT" />
+			<xs:enumeration value="ACT" />
+			<xs:enumeration value="AU" />
+			<xs:enumeration value="Australia" />
+			<xs:enumeration value="Australian Antarctic Territory" />
+			<xs:enumeration value="Australian Capital Territory" />
+			<xs:enumeration value="Commonwealth of Australia" />
+			<xs:enumeration value="Indian Ocean Territories" />
+			<xs:enumeration value="IOT" />
+			<xs:enumeration value="New South Wales" />
+			<xs:enumeration value="NF" />
+			<xs:enumeration value="NI" />
+			<xs:enumeration value="Norfolk Island" />
+			<xs:enumeration value="Northern Territory" />
+			<xs:enumeration value="NSW" />
+			<xs:enumeration value="NT" />
+			<xs:enumeration value="QLD" />
+			<xs:enumeration value="Qld" />
+			<xs:enumeration value="Queensland" />
+			<xs:enumeration value="SA" />
+			<xs:enumeration value="South Australia" />
+			<xs:enumeration value="TAS" />
+			<xs:enumeration value="Tas" />
+			<xs:enumeration value="Tasmania" />
+			<xs:enumeration value="VIC" />
+			<xs:enumeration value="Vic" />
+			<xs:enumeration value="Victoria" />
+			<xs:enumeration value="WA" />
+			<xs:enumeration value="Western Australia" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

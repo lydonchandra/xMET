@@ -1,0 +1,11 @@
+
+<profile>
+<name>Data Substitution File Schema</name>
+
+<root>substitutions</root>
+        <adminModeOnly>true</adminModeOnly>
+        <profileSchema> 
+	<schemaPath>schema.xsd</schemaPath>
+        </profileSchema>
+
+</profile>

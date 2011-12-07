@@ -1,0 +1,11 @@
+<services>
+  <service>xmet.tools.metadata.manager.fs.FilesystemPluginWrapper</service>
+  <service>xmet.tools.metadata.manager.gn.GeonetowrkPluginWrapper</service>
+  <service>xmet.tools.metadata.editor.views.scv.Wrapper</service>
+  <service>xmet.tools.metadata.editor.views.generated.Wrapper</service>
+  <service>xmet.tools.metadata.editor.views.custom.Wrapper</service>
+  <service>xmet.tools.substanceImpl.Wrapper</service>
+  <service>xmet.tools.application.OrdinaryUserManual</service>
+  <service>xmet.tools.application.AdministratorUserManual</service>
+  <service>xmet.ui.mapping.swingxws.JXMapKitModule2</service>
+</services>

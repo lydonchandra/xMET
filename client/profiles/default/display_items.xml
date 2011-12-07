@@ -1,0 +1,2978 @@
+<?xml-stylesheet type="text/xsl" href="change.xsl"?>
+<display_items>
+    
+    <item>
+        <name>gmd:CI_OnlineResource</name>
+        <displayName>OnLine resource</displayName>
+        <description>Information about online sources from which the resource can be
+		obtained</description>
+    </item>
+    
+    <item>
+        <name>gmd:aggregateDataSetIdentifier</name>
+        <displayName>Aggregate data set identifier</displayName>
+        <description>Aggregate data set identifier</description>
+    </item>
+    
+    <item>
+        <name>gmd:aggregateDataSetName</name>
+        <displayName>Aggregate data set name</displayName>
+        <description>Aggregate data set name</description>
+    </item>
+    
+    <item>
+        <name>gmd:aggregationInfo</name>
+        <displayName>Aggregation info</displayName>
+        <description>Aggregation info</description>
+    </item>
+    
+    <item>
+        <name>gmd:associationType</name>
+        <displayName>Association type</displayName>
+        <description>Association type</description>
+    </item>
+    
+    <item>
+        <name>gmd:axisDimensionProperties</name>
+        <displayName>Axis dimension properties</displayName>
+        <description>Axis dimension properties</description>
+    </item>
+    
+    <item>
+        <name>gmd:characterEncoding</name>
+        <displayName>Character encoding</displayName>
+        <description>Character encoding</description>
+    </item>
+    
+    <item>
+        <name>gmd:codeSpace</name>
+        <displayName>Code space</displayName>
+        <description>Code space</description>
+    </item>
+    
+    <item>
+        <name>gmd:composedOf</name>
+        <displayName>Composed of</displayName>
+        <description>Composed of</description>
+    </item>
+    
+    <item>
+        <name>gmd:Country</name>
+        <displayName>Country</displayName>
+        <description>Country</description>
+    </item>
+    
+    <item>
+        <name>gmd:dataSetURI</name>
+        <displayName>Data Set URI</displayName>
+        <description>Data Set URI</description>
+    </item>
+    
+    <item>
+        <name>gmd:describes</name>
+        <displayName>Describes</displayName>
+        <description>Describes</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributionOrderProcess</name>
+        <displayName>Distribution order process</displayName>
+        <description>Distribution order process</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_Association</name>
+        <displayName>Association</displayName>
+        <description>Justification for the correlation of two datasets</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_DataSet</name>
+        <displayName>Data set</displayName>
+        <description>Data set</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_Initiative</name>
+        <displayName>Initiative</displayName>
+        <description>Initiative</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_OtherAggregate</name>
+        <displayName>Other aggregate</displayName>
+        <description>Other aggregate</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_Platform</name>
+        <displayName>Platform</displayName>
+        <description>Platform</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_ProductionSeries</name>
+        <displayName>Production series</displayName>
+        <description>Production series</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_Sensor</name>
+        <displayName>Sensor</displayName>
+        <description>Sensor</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_Series</name>
+        <displayName>Series</displayName>
+        <description>Series</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_StereoMate</name>
+        <displayName>Stereo mate</displayName>
+        <description>Stereo mate</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_SpatialTemporalExtent</name>
+        <displayName>Spatial temporal extent</displayName>
+        <description>Spatial temporal extent</description>
+    </item>
+    
+    <item>
+        <name>gmd:featureAttribute</name>
+        <displayName>Feature attribute</displayName>
+        <description>Feature attribute</description>
+    </item>
+    
+    <item>
+        <name>gmd:featureType</name>
+        <displayName>Feature type</displayName>
+        <description>Feature type</description>
+    </item>
+    
+    <item>
+        <name>gmd:georeferencedParameters</name>
+        <displayName>Georeferenced parameters</displayName>
+        <description>Georeferenced parameters</description>
+    </item>
+    
+    <item>
+        <name>gmd:has</name>
+        <displayName>Has</displayName>
+        <description>Has</description>
+    </item>
+    
+    <item>
+        <name>gmd:initiativeType</name>
+        <displayName>Initiative type</displayName>
+        <description>Initiative type</description>
+    </item>
+    
+    <item>
+        <name>gmd:LanguageCode</name>
+        <displayName>Language code</displayName>
+        <description>Language code</description>
+    </item>
+    
+    <item>
+        <name>gmd:locale</name>
+        <displayName>Locale</displayName>
+        <description>Locale</description>
+    </item>
+    
+    <item>
+        <name>gmd:LocalisedCharacterString</name>
+        <displayName>Localised character string</displayName>
+        <description>Localised character string</description>
+    </item>
+    
+    <item>
+        <name>gmd:localisedString</name>
+        <displayName>Localised string</displayName>
+        <description>Localised string</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_AggregateInformation</name>
+        <displayName>Aggregate information</displayName>
+        <description>Aggregate information</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_DistributionUnits</name>
+        <displayName>Distribution units</displayName>
+        <description>Distribution units</description>
+    </item>
+    
+    <item>
+        <name>gmd:onlineResource</name>
+        <displayName>Online resource</displayName>
+        <description>Online resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:partOf</name>
+        <displayName>Part of</displayName>
+        <description>Part of</description>
+    </item>
+    
+    <item>
+        <name>gmd:propertyType</name>
+        <displayName>Property type</displayName>
+        <description>Property type</description>
+    </item>
+    
+    <item>
+        <name>gmd:PT_Locale</name>
+        <displayName>Locale</displayName>
+        <description>Locale</description>
+    </item>
+    
+    <item>
+        <name>gmd:PT_LocaleContainer</name>
+        <displayName>Locale container</displayName>
+        <description>Locale container</description>
+    </item>
+    
+    <item>
+        <name>gmd:responsibleParty</name>
+        <displayName>Responsible party</displayName>
+        <description>Responsible party</description>
+    </item>
+    
+    <item>
+        <name>gmd:seriesMetadata</name>
+        <displayName>Series metadata</displayName>
+        <description>Series metadata</description>
+    </item>
+    
+    <item>
+        <name>gmd:subset</name>
+        <displayName>Subset</displayName>
+        <description>Subset</description>
+    </item>
+    
+    <item>
+        <name>gmd:superset</name>
+        <displayName>Superset</displayName>
+        <description>Superset</description>
+    </item>
+    
+    <item>
+        <name>gmd:textGroup</name>
+        <displayName>Text group</displayName>
+        <description>Text group</description>
+    </item>
+    
+    <item>
+        <name>gmd:URL</name>
+        <displayName>URL</displayName>
+        <description>URL</description>
+    </item>
+    
+    <item>
+        <name>gmd:verticalCRS</name>
+        <displayName>Vertical CRS</displayName>
+        <description>Vertical CRS</description>
+    </item>
+    
+    <item>
+        <name>gmd:abstract</name>
+        <displayName>Abstract</displayName>
+        <description>Brief narrative summary of the content of the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:accessConstraints</name>
+        <displayName>Access constraints</displayName>
+        <description>Access constraints applied to assure the protection of privacy or intellectual
+			property, and any special restrictions or limitations on obtaining the
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:address</name>
+        <displayName>Address</displayName>
+        <description>Physical and email address at which the organization or individual may be
+			contacted</description>
+    </item>
+    
+    <item>
+        <name>gmd:administrativeArea</name>
+        <displayName>State</displayName>
+        <description>State, province of the location</description>
+    </item>
+    
+    <item>
+        <name>gmd:alternateTitle</name>
+        <displayName>Alternate title</displayName>
+        <description>Short name or other language name by which the cited information is known.
+			Example: "DCW" as an alternative title for "Digital Chart of the World</description>
+    </item>
+    
+    <item>
+        <name>gmd:amendmentNumber</name>
+        <displayName>Amendment number</displayName>
+        <description>Amendment number of the format version</description>
+    </item>
+    
+    <item>
+        <name>gmd:applicationProfile</name>
+        <displayName>Application profile</displayName>
+        <description>Name of an application profile that can be used with the online
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:applicationSchemaInfo</name>
+        <displayName>Application schema info</displayName>
+        <description>Provides information about the conceptual schema of a dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:attributeDescription</name>
+        <displayName>Attribute description</displayName>
+        <description>Description of the attribute described by the measurement value</description>
+    </item>
+    
+    <item>
+        <name>gmd:attributeInstances</name>
+        <displayName>Attribute instances</displayName>
+        <description>Attribute instances to which the information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:attributes</name>
+        <displayName>Attributes</displayName>
+        <description>Attributes to which the information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:authority</name>
+        <displayName>Authority</displayName>
+        <description>Person or party responsible for maintenance of the namespace</description>
+    </item>
+    
+    <item>
+        <name>gmd:bitsPerValue</name>
+        <displayName>Bits per value</displayName>
+        <description>Maximum number of significant bits in the uncompressed representation for the
+			value in each band of each pixel</description>
+    </item>
+    
+    <item>
+        <name>gmd:cameraCalibrationInformationAvailability</name>
+        <displayName>Camera calibration information availability</displayName>
+        <description>Indication of whether or not constants are available which allow for camera
+			calibration corrections</description>
+    </item>
+    
+    <item>
+        <name>gmd:cellGeometry</name>
+        <displayName>Cell geometry</displayName>
+        <description>Identification of grid data as point or cell</description>
+    </item>
+    
+    <item>
+        <name>gmd:centerPoint</name>
+        <displayName>Center point</displayName>
+        <description>Earth location in the coordinate system defined by the Spatial Reference System
+			and the grid coordinate of the cell halfway between opposite ends of the grid in the
+			spatial dimensions</description>
+    </item>
+    
+    <item>
+        <name>gmd:characterSet</name>
+        <displayName>Character set</displayName>
+        <description>Full name of the character coding standard used for the metadata set</description>
+    </item>
+    
+    <item>
+        <name>gmd:checkPointAvailability</name>
+        <displayName>Check point availability</displayName>
+        <description>Indication of whether or not geographic position points are available to test the
+			accuracy of the georeferenced grid data</description>
+    </item>
+    
+    <item>
+        <name>gmd:checkPointDescription</name>
+        <displayName>Check point description</displayName>
+        <description>Description of geographic position points used to test the accuracy of the
+			georeferenced grid data</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Address</name>
+        <displayName>Address</displayName>
+        <description>Location of the responsible individual or organization</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Citation</name>
+        <displayName>Citation</displayName>
+        <description>Standardized resource reference</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Contact</name>
+        <displayName>Contact</displayName>
+        <description>Information required to enable contact with the responsible person and/or
+			organization</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Date</name>
+        <displayName>Date</displayName>
+        <description>Reference date and event used to describe it (YYYY-MM-DD)</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_DateTypeCode</name>
+        <displayName>Date type code</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_OnLineFunctionCode</name>
+        <displayName>OnLine function code</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_PresentationFormCode</name>
+        <displayName>Presentation form code</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_ResponsibleParty</name>
+        <displayName>Responsible party</displayName>
+        <description>Identification of, and means of communication with, person(s) and organizations
+			associated with the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_RoleCode</name>
+        <displayName>Role code</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Series</name>
+        <displayName>Series</displayName>
+        <description>Information about the series, or aggregate dataset, to which a dataset
+		belongs</description>
+    </item>
+    
+    <item>
+        <name>gmd:CI_Telephone</name>
+        <displayName>Telephone</displayName>
+        <description>Telephone numbers for contacting the responsible individual or
+		organization</description>
+    </item>
+    
+    <item>
+        <name>gmd:citation</name>
+        <displayName>Citation</displayName>
+        <description>Citation data for the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:citedResponsibleParty</name>
+        <displayName>Cited responsible party</displayName>
+        <description>Name and position information for an individual or organization that is
+			responsible for the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:city</name>
+        <displayName>City</displayName>
+        <description>City of the location</description>
+    </item>
+    
+    <item>
+        <name>gmd:classification</name>
+        <displayName>Classification</displayName>
+        <description>Name of the handling restrictions on the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:classificationSystem</name>
+        <displayName>Classification system</displayName>
+        <description>Name of the classification system</description>
+    </item>
+    
+    <item>
+        <name>gmd:cloudCoverPercentage</name>
+        <displayName>Cloud cover percentage</displayName>
+        <description>Area of the dataset obscured by clouds, expressed as a percentage of the spatial
+			extent</description>
+    </item>
+    
+    <item>
+        <name>gmd:code</name>
+        <displayName>Code</displayName>
+        <description>alphanumeric value identifying an instance in the namespace eg. coordinate system in EPSG namespace</description>
+    </item>
+    
+    <item>
+        <name>gmd:collectiveTitle</name>
+        <displayName>Collective title</displayName>
+        <description>Common title with holdings note. NOTE title identifies elements of a series
+			collectively, combined with information about what volumes are available at the source
+			cited</description>
+    </item>
+    
+    <item>
+        <name>gmd:complianceCode</name>
+        <displayName>Compliance code</displayName>
+        <description>Indication of whether or not the cited feature catalogue complies with ISO
+		19110</description>
+    </item>
+    
+    <item>
+        <name>gmd:compressionGenerationQuantity</name>
+        <displayName>Compression generation quantity</displayName>
+        <description>Count of the number the number of lossy compression cycles performed on the
+		image</description>
+    </item>
+    
+    <item>
+        <name>gmd:condition</name>
+        <displayName>Condition</displayName>
+        <description>Condition under which the extended element is mandatory</description>
+    </item>
+    
+    <item>
+        <name>gmd:constraintLanguage</name>
+        <displayName>Constraint language</displayName>
+        <description>Formal language used in Application Schema</description>
+    </item>
+    
+    <item>
+        <name>gmd:contact</name>
+        <displayName>Contact</displayName>
+        <description>party responsible for the information provided</description>
+    </item>
+    
+    <item>
+        <name>gmd:contactInfo</name>
+        <displayName>Contact info</displayName>
+        <description>Address of the responsible party</description>
+    </item>
+    
+    <item>
+        <name>gmd:contactInstructions</name>
+        <displayName>Contact instructions</displayName>
+        <description>Supplemental instructions on how or when to contact the individual or
+			organization</description>
+    </item>
+    
+    <item>
+        <name>gmd:contentInfo</name>
+        <displayName>Content info</displayName>
+        <description>Provides information about the feature catalogue and describes the coverage and
+			image data characteristics</description>
+    </item>
+    
+    <item>
+        <name>gmd:contentType</name>
+        <displayName>Content type</displayName>
+        <description>Type of information represented by the cell value</description>
+    </item>
+    
+    <item>
+        <name>gmd:controlPointAvailability</name>
+        <displayName>Control point availability</displayName>
+        <description>Indication of whether or not control point(s) exists</description>
+    </item>
+    
+    <item>
+        <name>gmd:cornerPoints</name>
+        <displayName>Corner points</displayName>
+        <description>Earth location in the coordinate system defined by the Spatial Reference System
+			and the grid coordinate of the cells at opposite ends of grid coverage along two diagonals
+			in the grid spatial dimensions. There are four corner points in a georectified grid; at
+			least two corner points along one diagonal are required</description>
+    </item>
+    
+    <item>
+        <name>gmd:country</name>
+        <displayName>Country</displayName>
+        <description>Country of the physical address</description>
+    </item>
+    
+    <item>
+        <name>gmd:credit</name>
+        <displayName>Credit</displayName>
+        <description>Recognition of those who contributed to the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dataQualityInfo</name>
+        <displayName>Data quality info</displayName>
+        <description>Provides overall assessment of quality of a resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dataset</name>
+        <displayName>Dataset</displayName>
+        <description>Dataset to which the information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:dataType</name>
+        <displayName>Data type</displayName>
+        <description>Code which identifies the kind of valueprovidedeprovided in the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:date</name>
+        <displayName>Date</displayName>
+        <description>Reference date for the cited resource (YYYY-MM-DD)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dateOfNextUpdate</name>
+        <displayName>Date of next update</displayName>
+        <description>Scheduled revision date for resource (YYYY-MM-DD)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dateStamp</name>
+        <displayName>Date stamp</displayName>
+        <description>Date that the metadata was created (YYYY-MM-DDThh:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dateTime</name>
+        <displayName>Date and Time</displayName>
+        <description>Date and time or range of date and time on or over which the process step
+			occurred (YYYY-MM-DDThh:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gmd:dateType</name>
+        <displayName>Date type</displayName>
+        <description>Event used for reference date</description>
+    </item>
+    
+    <item>
+        <name>gmd:definition</name>
+        <displayName>Definition</displayName>
+        <description>Definition of the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:deliveryPoint</name>
+        <displayName>Delivery point</displayName>
+        <description>Address line for the location (as described in ISO 11180, annex A)</description>
+    </item>
+    
+    <item>
+        <name>gmd:denominator</name>
+        <displayName>Denominator</displayName>
+        <description>The number below the line in a vulgar fraction</description>
+    </item>
+    
+    <item>
+        <name>gmd:density</name>
+        <displayName>Density</displayName>
+        <description>Density at which the data is recorded</description>
+    </item>
+    
+    <item>
+        <name>gmd:densityUnits</name>
+        <displayName>Density units</displayName>
+        <description>Units of measure for the recording density</description>
+    </item>
+    
+    <item>
+        <name>gmd:description</name>
+        <displayName>Description</displayName>
+        <description>Description of the event, including related parameters or tolerances</description>
+    </item>
+    
+    <item>
+        <name>gmd:descriptiveKeywords</name>
+        <displayName>Descriptive keywords</displayName>
+        <description>Provides category keywords, their type, and reference source</description>
+    </item>
+    
+    <item>
+        <name>gmd:descriptor</name>
+        <displayName>Descriptor</displayName>
+        <description>Description of the range of a cell measurement value</description>
+    </item>
+    
+    <item>
+        <name>gmd:dimension</name>
+        <displayName>Dimension</displayName>
+        <description>Information on the dimensions of the cell measurement value</description>
+    </item>
+    
+    <item>
+        <name>gmd:dimensionName</name>
+        <displayName>Dimension name</displayName>
+        <description>Name of the axis</description>
+    </item>
+    
+    <item>
+        <name>gmd:dimensionSize</name>
+        <displayName>Dimension size</displayName>
+        <description>Number of elements along the axis</description>
+    </item>
+    
+    <item>
+        <name>gmd:distance</name>
+        <displayName>Distance</displayName>
+        <description>Ground sample distance</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributionFormat</name>
+        <displayName>Distribution format</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:distributionInfo</name>
+        <displayName>Distribution and On-line Resource(s)</displayName>
+        <description>Provides information about the distributor of and options for obtaining the
+			resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributor</name>
+        <displayName>Distributor</displayName>
+        <description>Provides information about the distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributorContact</name>
+        <displayName>Distributor contact</displayName>
+        <description>Party from whom the resource may be obtained. This list need not be exhaustive</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributorFormat</name>
+        <displayName>Distributor format</displayName>
+        <description>Provides information about the format used by the distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:distributorTransferOptions</name>
+        <displayName>Distributor transfer options</displayName>
+        <description>Provides information about the technical means and media used by the
+		distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:domainCode</name>
+        <displayName>Domain code</displayName>
+        <description>Three digit code assigned to the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:domainOfValidity</name>
+        <displayName>Domain of validity</displayName>
+        <description>Range which is valid for the referencesystem</description>
+    </item>
+    
+    <item>
+        <name>gmd:domainValue</name>
+        <displayName>Domain value</displayName>
+        <description>Valid values that can be assigned to the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_AbsoluteExternalPositionalAccuracy</name>
+        <displayName>Absolute external positional accuracy</displayName>
+        <description>Closeness of reported coordinate values to values accepted as or being
+		true</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_AccuracyOfATimeMeasurement</name>
+        <displayName>Accuracy of time measurement</displayName>
+        <description>Correctness of the temporal references of an item (reporting of error in time
+			measurement)</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_CompletenessCommission</name>
+        <displayName>Completeness commission</displayName>
+        <description>Excess data present in the dataset, as described by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_CompletenessOmission</name>
+        <displayName>Completeness omission</displayName>
+        <description>Data absent from the dataset, as described by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_ConceptualConsistency</name>
+        <displayName>Conceptual consistency</displayName>
+        <description>Adherence to rules of the conceptual schema</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_ConformanceResult</name>
+        <displayName>Conformance result</displayName>
+        <description>Information about the outcome of evaluating the obtained value (or set of values)
+			against a specified acceptable conformance quality level</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_DataQuality</name>
+        <displayName>Data quality</displayName>
+        <description>Quality information for the data specified by a data quality scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_DomainConsistency</name>
+        <displayName>Domain consistency</displayName>
+        <description>Adherence of values to the value domains</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_EvaluationMethodTypeCode</name>
+        <displayName>Evaluation method type code</displayName>
+        <description>Type of method for evaluating an identified data quality measure</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_FormatConsistency</name>
+        <displayName>Format consistency</displayName>
+        <description>Degree to which data is stored in accordance with the physical structure of the
+			dataset, as described by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_GriddedDataPositionalAccuracy</name>
+        <displayName>Gridded data positional accuracy</displayName>
+        <description>Closeness of gridded data position values to values accepted as or being
+		true</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_NonQuantitativeAttributeAccuracy</name>
+        <displayName>Non quantitative attribute accuracy</displayName>
+        <description>Correctness of non-quantitative attributes</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_QuantitativeAttributeAccuracy</name>
+        <displayName>Quantitative attribute accuracy</displayName>
+        <description>Accuracy of quantitative attributes</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_QuantitativeResult</name>
+        <displayName>Quantitative result</displayName>
+        <description>Information about the value (or set of values) obtained from applying a data
+			quality measure</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_RelativeInternalPositionalAccuracy</name>
+        <displayName>Relative internal positional accuracy</displayName>
+        <description>Closeness of the relative positions of features in the scope to their respective
+			relative positions accepted as or being true</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_Scope</name>
+        <displayName>Scope</displayName>
+        <description>Description of the data specified by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_TemporalConsistency</name>
+        <displayName>Temporal consistency</displayName>
+        <description>Correctness of ordered events or sequences, if reported</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_TemporalValidity</name>
+        <displayName>Temporal validity</displayName>
+        <description>Validity of data specified by the scope with respect to time</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_ThematicClassificationCorrectness</name>
+        <displayName>Thematic classification correctness</displayName>
+        <description>Comparison of the classes assigned to features or their attributes to a universe
+			of discourse</description>
+    </item>
+    
+    <item>
+        <name>gmd:DQ_TopologicalConsistency</name>
+        <displayName>Topological consistency</displayName>
+        <description>Correctness of the explicitly encoded topological characteristics of the dataset
+			as described by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_AssociationTypeCode</name>
+        <displayName>Association type code</displayName>
+        <description>Justification for the correlation of two datasets</description>
+    </item>
+    
+    <item>
+        <name>gmd:DS_InitiativeTypeCode</name>
+        <displayName>Initiative type code</displayName>
+        <description>Type of aggregation activity in which datasets are related</description>
+    </item>
+    
+    <item>
+        <name>gmd:eastBoundLongitude</name>
+        <displayName>East bound longitude</displayName>
+        <description>Eastern-most coordinate of the limit of the dataset extent, expressed in
+			longitude in decimal degrees (positive east)</description>
+    </item>
+    
+    <item>
+        <name>gmd:edition</name>
+        <displayName>Edition</displayName>
+        <description>Version of the cited resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:editionDate</name>
+        <displayName>Edition date</displayName>
+        <description>Date of the edition (YYYY-MM-DD)</description>
+    </item>
+    
+    <item>
+        <name>gmd:electronicMailAddress</name>
+        <displayName>Email</displayName>
+        <description>Address of the electronic mailbox of the responsible organization or
+		individual</description>
+    </item>
+    
+    <item>
+        <name>gmd:environmentDescription</name>
+        <displayName>Environment description</displayName>
+        <description>Description of the dataset in the producer_s processing environment, including
+			items such as the software, the computer operating system, file name, and the dataset
+		size</description>
+    </item>
+    
+    <item>
+        <name>gmd:equivalentScale</name>
+        <displayName>Equivalent scale</displayName>
+        <description>Level of detail expressed as the scale of a comparable hardcopy map or chart</description>
+    </item>
+    
+    <item>
+        <name>gmd:errorStatistic</name>
+        <displayName>Error statistic</displayName>
+        <description>Statistical method used to determine the value</description>
+    </item>
+    
+    <item>
+        <name>gmd:evaluationMethodDescription</name>
+        <displayName>Evaluation method description</displayName>
+        <description>Description of the evaluation method</description>
+    </item>
+    
+    <item>
+        <name>gmd:evaluationMethodType</name>
+        <displayName>Evaluation method type code</displayName>
+        <description>Type of method used to evaluate quality of the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:evaluationProcedure</name>
+        <displayName>Evaluation procedure</displayName>
+        <description>Reference to the procedure information</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_BoundingPolygon</name>
+        <displayName>EX_BoundingPolygon</displayName>
+        <description>Boundary enclosing the dataset, expressed as the closed set of (x,y) coordinates
+			of the polygon (last point replicates first point)</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_Extent</name>
+        <displayName>Extent</displayName>
+        <description>Information about spatial, vertical, and temporal extent</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_GeographicBoundingBox</name>
+        <displayName>Geographic bounding box</displayName>
+        <description>Geographic position of the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_GeographicDescription</name>
+        <displayName>Geographic description</displayName>
+        <description>Description of the geographic area using identifiers</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_TemporalExtent</name>
+        <displayName>Temporal Extent</displayName>
+        <description>Time period covered by the content of the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:EX_VerticalExtent</name>
+        <displayName>Vertical extent</displayName>
+        <description>Vertical domain of dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:explanation</name>
+        <displayName>Explanation</displayName>
+        <description>Explanation of the meaning of conformance for this result</description>
+    </item>
+    
+    <item>
+        <name>gmd:extendedElementInformation</name>
+        <displayName>Extended element information</displayName>
+        <description>Provides information about a new metadata element, not found in ISO 19115, which
+			is required to describe geographic data</description>
+    </item>
+    
+    <item>
+        <name>gmd:extensionOnLineResource</name>
+        <displayName>Extension Online resource</displayName>
+        <description>Information about on-line sources containing the community profile name and the
+			extended metadata elements. Information for all new metadata elements</description>
+    </item>
+    
+    <item>
+        <name>gmd:extent</name>
+        <displayName>Extent</displayName>
+        <description>Information about the spatial, vertical and temporal extent of the data specified
+			by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:extentTypeCode</name>
+        <displayName>Extent type code</displayName>
+        <description>Indication of whether the bounding polygon encompasses an area covered by the
+			data or an area where data is not present. Possible values: '1' for inclusion or '0' for exclusion</description>
+    </item>
+    
+    <item>
+        <name>gmd:facsimile</name>
+        <displayName>Fax</displayName>
+        <description>Telephone number of a facsimile machine for the responsible organization or
+			individual</description>
+    </item>
+    
+    <item>
+        <name>gmd:featureCatalogueCitation</name>
+        <displayName>Feature catalogue citation</displayName>
+        <description>Complete bibliographic reference to one or more external feature catalogues</description>
+    </item>
+    
+    <item>
+        <name>gmd:featureInstances</name>
+        <displayName>Feature instances</displayName>
+        <description>Feature instances to which the information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:features</name>
+        <displayName>Features</displayName>
+        <description>Features to which the information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:featureTypes</name>
+        <displayName>Feature types</displayName>
+        <description>Subset of feature types from cited feature catalogue occurring in
+		data</description>
+    </item>
+    
+    <item>
+        <name>gmd:fees</name>
+        <displayName>Fees</displayName>
+        <description>Fees and terms for retrieving the resource. Include monetary units (as specified
+			in ISO 4217)</description>
+    </item>
+    
+    <item>
+        <name>gmd:fileDecompressionTechnique</name>
+        <displayName>File decompression technique</displayName>
+        <description>Recommendations of algorithms or processes that can be applied to read or expand
+			resources to which compression techniques have been applied</description>
+    </item>
+    
+    <item>
+        <name>gmd:fileDescription</name>
+        <displayName>File description</displayName>
+        <description>Text description of the illustration</description>
+    </item>
+    
+    <item>
+        <name>gmd:fileIdentifier</name>
+        <displayName>File identifier</displayName>
+        <description>Unique identifier for this metadata file</description>
+    </item>
+    
+    <item>
+        <name>gmd:fileName</name>
+        <displayName>File name</displayName>
+        <description>Name of the file that contains a graphic that provides an illustration of the
+			dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:fileType</name>
+        <displayName>File type</displayName>
+        <description>Format in which the illustration is encoded</description>
+    </item>
+    
+    <item>
+        <name>gmd:filmDistortionInformationAvailability</name>
+        <displayName>Film distortion information availability</displayName>
+        <description>Indication of whether or not Calibration Reseau information is
+		available</description>
+    </item>
+    
+    <item>
+        <name>gmd:formatDistributor</name>
+        <displayName>Format distributor</displayName>
+        <description>Provides information about the distributor fformat</description>
+    </item>
+    
+    <item>
+        <name>gmd:function</name>
+        <displayName>Function</displayName>
+        <description>Code for function performed by the online resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:geographicElement</name>
+        <displayName>Geographic element</displayName>
+        <description>Provides geographic component of the extent of the referring object</description>
+    </item>
+    
+    <item>
+        <name>gmd:geographicIdentifier</name>
+        <displayName>Geographic identifier</displayName>
+        <description>Identifier used to represent a geographic area</description>
+    </item>
+    
+    <item>
+        <name>gmd:geometricObjectCount</name>
+        <displayName>Geometric object count</displayName>
+        <description>Total number of the point or vector object type occurring in the
+		dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:geometricObjects</name>
+        <displayName>Geometric objects</displayName>
+        <description>Information about the geometric objects used in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:geometricObjectType</name>
+        <displayName>Geometric object type</displayName>
+        <description>Name of point and vector spatial objects used to locate zero-, one-, and
+			two-dimensional spatial locations in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:graphicOverview</name>
+        <displayName>Graphic overview</displayName>
+        <description>Provides a graphic that illustrates the resource(s) (should include a legend for
+			the graphic)</description>
+    </item>
+    
+    <item>
+        <name>gmd:graphicsFile</name>
+        <displayName>Graphics file</displayName>
+        <description>Full application schema given as a graphics file</description>
+    </item>
+    
+    <item>
+        <name>gmd:handlingDescription</name>
+        <displayName>Handling description</displayName>
+        <description>Additional information about the restrictions on handling the
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:hierarchyLevel</name>
+        <displayName>Hierarchy level</displayName>
+        <description>Scope to which the metadata applies (see annex H for more information about
+			metadata hierarchy levels)</description>
+    </item>
+    
+    <item>
+        <name>gmd:hierarchyLevelName</name>
+        <displayName>Hierarchy level name</displayName>
+        <description>Name of the hierarchy levels for which the metadata is provided</description>
+    </item>
+    
+    <item>
+        <name>gmd:hoursOfService</name>
+        <displayName>Hours of service</displayName>
+        <description>Time period (including time zone) when individuals can contact the organization
+			or individual</description>
+    </item>
+    
+    <item>
+        <name>gmd:identificationInfo</name>
+        <displayName>Identification info</displayName>
+        <description>Basic information about the resource(s) to which the metadata applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:identifier</name>
+        <displayName>Identifier</displayName>
+        <description>Unique identifier for the resource. EXAMPLE: Universal Product Code (UPC),
+			National Stock Number (NSN)</description>
+    </item>
+    
+    <item>
+        <name>gmd:illuminationAzimuthAngle</name>
+        <displayName>Illumination azimuth angle</displayName>
+        <description>Illumination azimuth measured in degrees clockwise from true north at the time
+			the image is taken. For images from a scanning device, refer to the centre pixel of the
+			image</description>
+    </item>
+    
+    <item>
+        <name>gmd:illuminationElevationAngle</name>
+        <displayName>Illumination elevation angle</displayName>
+        <description>Illumination elevation measured in degrees clockwise from the target plane at
+			intersection of the optical line of sight with the Earth_s surface. For images from a
+			scanning device, refer to the centre pixel of the image</description>
+    </item>
+    
+    <item>
+        <name>gmd:imageQualityCode</name>
+        <displayName>Image quality code</displayName>
+        <description>Specifies the image quality</description>
+    </item>
+    
+    <item>
+        <name>gmd:imagingCondition</name>
+        <displayName>Imaging condition</displayName>
+        <description>Conditions affected the image</description>
+    </item>
+    
+    <item>
+        <name>gmd:includedWithDataset</name>
+        <displayName>Included with dataset</displayName>
+        <description>Indication of whether or not the feature catalogue is included with the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:individualName</name>
+        <displayName>Individual name</displayName>
+        <description>Name of the responsible person- surname, given name, title separated by a
+			delimiter</description>
+    </item>
+    
+    <item>
+        <name>gmd:ISBN</name>
+        <displayName>ISBN</displayName>
+        <description>International Standard Book Number</description>
+    </item>
+    
+    <item>
+        <name>gmd:ISSN</name>
+        <displayName>ISSN</displayName>
+        <description>International Standard Serial Number</description>
+    </item>
+    
+    <item>
+        <name>gmd:issueIdentification</name>
+        <displayName>Issue identification</displayName>
+        <description>Information identifying the issue of the series</description>
+    </item>
+    
+    <item>
+        <name>gmd:keyword</name>
+        <displayName>Subject</displayName>
+        <description>Commonly used word(s) or formalised word(s) or phrase(s) used to describe the subject</description>
+    </item>
+    
+    <item>
+        <name>gmd:language</name>
+        <displayName>Language</displayName>
+        <description>Language used for documenting metadata</description>
+    </item>
+    
+    <item>
+        <name>gmd:languageCode</name>
+        <displayName>Language code</displayName>
+        <description>Language used for documenting a plain text</description>
+    </item>
+    
+    <item>
+        <name>gmd:lensDistortionInformationAvailability</name>
+        <displayName>Lens distortion information availability</displayName>
+        <description>Indication of whether or not lens aberration correction information is
+		available</description>
+    </item>
+    
+    <item>
+        <name>gmd:level</name>
+        <displayName>Hierarchy level</displayName>
+        <description>Hierarchical level of the data specified by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:levelDescription</name>
+        <displayName>Level description</displayName>
+        <description>Detailed description about the level of the data specified by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:LI_Lineage</name>
+        <displayName>Lineage</displayName>
+        <description>Information about the events or source data used in constructing the data
+			specified by the scope or lack of knowledge about lineage</description>
+    </item>
+    
+    <item>
+        <name>gmd:LI_ProcessStep</name>
+        <displayName>Process step</displayName>
+        <description>Information about an event in the creation process for the data specified by the
+			scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:LI_Source</name>
+        <displayName>Source</displayName>
+        <description>Information about the source data used in creating the data specified by the
+			scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:lineage</name>
+        <displayName>Lineage</displayName>
+        <description>Non-quantitative quality information about the lineage of the data specified by
+			the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:linkage</name>
+        <displayName>Linkage</displayName>
+        <description>Location (address) for on-line access using a Uniform Resource Locator address or
+			similar addressing scheme such as http://www.statkart.no/isotc211</description>
+    </item>
+    
+    <item>
+        <name>gmd:maintenanceAndUpdateFrequency</name>
+        <displayName>Maintenance and update frequency</displayName>
+        <description>Frequency with which changes and additions are made to the resource after the
+			initial resource is completed</description>
+    </item>
+    
+    <item>
+        <name>gmd:maintenanceNote</name>
+        <displayName>Maintenance note</displayName>
+        <description>Information regarding specific requirements for maintaining the
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:maximumOccurrence</name>
+        <displayName>Maximum occurrence</displayName>
+        <description>Maximum occurrence of the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:maximumValue</name>
+        <displayName>Maximum value</displayName>
+        <description>Highest vertical extent contained in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:maxValue</name>
+        <displayName>Maximum value</displayName>
+        <description>Longest wavelength that the sensor is capable of collecting within a designated
+			band</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ApplicationSchemaInformation</name>
+        <displayName>Application schema info</displayName>
+        <description>Information about the application schema used to build the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Band</name>
+        <displayName>Band</displayName>
+        <description>Range of wavelengths in the electromagnetic spectrum</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_BrowseGraphic</name>
+        <displayName>MD_BrowseGraphic</displayName>
+        <description>Graphic that provides an illustration of the dataset (should include a legend for
+			the graphic)</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_CellGeometryCode</name>
+        <displayName>Cell geometry code</displayName>
+        <description>Code indicating whether grid data is point or area</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_CharacterSetCode</name>
+        <displayName>Character set code</displayName>
+        <description>Name of the character coding standard used for the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ClassificationCode</name>
+        <displayName>Classification code</displayName>
+        <description>Name of the handling restrictions on the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Constraints</name>
+        <displayName>Constraints</displayName>
+        <description>Restrictions on the access and use of a resource or metadata</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_CoverageContentTypeCode</name>
+        <displayName>Content type code</displayName>
+        <description>Specific type of information represented in the cell</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_CoverageDescription</name>
+        <displayName>Coverage description</displayName>
+        <description>Information about the content of a grid data cell</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_DataIdentification</name>
+        <displayName>Data identification</displayName>
+        <description>Information required to identify a dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_DatatypeCode</name>
+        <displayName>Data type code</displayName>
+        <description>Datatype of element or entity</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_DigitalTransferOptions</name>
+        <displayName>Digital transfer options</displayName>
+        <description>Technical means and media by which a resource is obtained from the
+		distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Dimension</name>
+        <displayName>Dimension</displayName>
+        <description>Axis properties</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_DimensionNameTypeCode</name>
+        <displayName>Dimension name type code</displayName>
+        <description>Name of the dimension</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Distribution</name>
+        <displayName>Distribution</displayName>
+        <description>Information about the distributor of and options for obtaining the
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Distributor</name>
+        <displayName>Distributor</displayName>
+        <description>Information about the distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ExtendedElementInformation</name>
+        <displayName>Extended elemen information</displayName>
+        <description>New metadata element, not found in ISO 19115, which is required to describe
+			geographic data</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_FeatureCatalogueDescription</name>
+        <displayName>Feature catalogue description</displayName>
+        <description>Information identifying the feature catalogue</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Format</name>
+        <displayName>Format</displayName>
+        <description>Description of the computer language construct that specifies the representation
+			of data objects in a record, file, message, storage device or transmission
+		channel</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_GeometricObjects</name>
+        <displayName>Geometric objects</displayName>
+        <description>Number of objects, listed by geometric object type, used in the
+		dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_GeometricObjectTypeCode</name>
+        <displayName>Geometric object type code</displayName>
+        <description>Name of point and vector spatial objects used to locate zero-, one-, and
+			two-dimensional spatial locations in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Georectified</name>
+        <displayName>Georectified</displayName>
+        <description>Grid whose cells are regularly spaced in a geographic (i.e., lat / long) or map
+			coordinate system defined in the Spatial Referencing System (SRS) so that any cell in the
+			grid can be geolocated given its grid coordinate and the grid origin, cell spacing, and
+			orientation</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Georeferenceable</name>
+        <displayName>Georeferenceable</displayName>
+        <description>Grid with cells irregularly spaced in any given geographic/map projection
+			coordinate system, whose individual cells can be geolocated using geolocation information
+			supplied with the data but cannot be geolocated from the grid properties
+		alone</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_GridSpatialRepresentation</name>
+        <displayName>Grid spatial representation</displayName>
+        <description>Information about grid spatial objects in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Identifier</name>
+        <displayName>Identifier</displayName>
+        <description>Value uniquely identifying an object within a namespace</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ImageDescription</name>
+        <displayName>Image description</displayName>
+        <description>Information about an image_s suitability for use</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ImagingConditionCode</name>
+        <displayName>Imaging condition code</displayName>
+        <description>Code which indicates conditions which may affect the image</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Keywords</name>
+        <displayName>Keywords</displayName>
+        <description>Keywords, their type and reference source</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_KeywordTypeCode</name>
+        <displayName>Keyword type code</displayName>
+        <description>Methods used to group similar keywords</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_LegalConstraints</name>
+        <displayName>Legal constraints</displayName>
+        <description>Restrictions and legal prerequisites for accessing and using the
+		resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_MaintenanceFrequencyCode</name>
+        <displayName>Maintenance frequency code</displayName>
+        <description>Code frequency with which modifications and deletions are made to the data after
+			it isfirst produced</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_MaintenanceInformation</name>
+        <displayName>Maintenance information</displayName>
+        <description>Information about the scope and frequency of updating</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Medium</name>
+        <displayName>Medium</displayName>
+        <description>Information about the media on which the resource can be
+		distributed</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_MediumFormatCode</name>
+        <displayName>Medium format</displayName>
+        <description>Method used to write to the medium</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_MediumNameCode</name>
+        <displayName>Medium name code</displayName>
+        <description>Name of the medium</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Metadata</name>
+        <displayName>Metadata</displayName>
+        <description>Root entity which defines metadata about a resource or resources</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_MetadataExtensionInformation</name>
+        <displayName>Metadata extension info</displayName>
+        <description>Information describing metadata extensions</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ObligationCode</name>
+        <displayName>Obligation code</displayName>
+        <description>Obligation of the element or entity</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_PixelOrientationCode</name>
+        <displayName>Pixel orientation code</displayName>
+        <description>Point in a pixel corresponding to the Earth location of the pixel</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_PortrayalCatalogueReference</name>
+        <displayName>Portrayal catalogue reference</displayName>
+        <description>Information identifying the portrayal catalogue used</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ProgressCode</name>
+        <displayName>Progress code</displayName>
+        <description>Status of the dataset or progress of a review</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_RangeDimension</name>
+        <displayName>Range dimension</displayName>
+        <description>Information on the range of each dimension of a cell measurement
+		value</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ReferenceSystem</name>
+        <displayName>Reference system</displayName>
+        <description>Information about the reference system.</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_RepresentativeFraction</name>
+        <displayName>Representative fraction</displayName>
+        <description>Derived from Scale where MD_RepresentativeFraction.denominator = 1 /
+			Scale.measure And Scale.targetUnits = Scale.sourceUnits</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Resolution</name>
+        <displayName>Resolution</displayName>
+        <description>Level of detail expressed as a scale factor or a ground distance</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_RestrictionCode</name>
+        <displayName>Restriction code</displayName>
+        <description>Limitation(s) placed upon the access or use of the data</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ScopeCode</name>
+        <displayName>Scope code</displayName>
+        <description>Class of information to which the referencing entity applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ScopeDescription</name>
+        <displayName>Scope description</displayName>
+        <description>Description of the class of information covered by the information</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_SecurityConstraints</name>
+        <displayName>Security constraints</displayName>
+        <description>Handling restrictions imposed on the resource for national security or similar
+			security concerns</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_ServiceIdentification</name>
+        <displayName>Service identification</displayName>
+        <description>Identification of capabilities which a serviceprovider makes available to a
+			service user through a set of interfaces that define a behaviour - See ISO 19119 ? Services
+			for furtherinformation</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_SpatialRepresentationTypeCode</name>
+        <displayName>Spatial representation type code</displayName>
+        <description>Method used to represent geographic information in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_StandardOrderProcess</name>
+        <displayName>Standard order process</displayName>
+        <description>Common ways in which the resource may be obtained or received, and related
+			instructions and fee information</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_TopicCategoryCode</name>
+        <displayName>Topic category code</displayName>
+        <description>High-level geographic data thematic classification to assist in the grouping and
+			search of available geographic data sets. Can be used to group keywords as well. Listed
+			examples are not exhaustive. NOTE It is understood there are overlaps between general
+			categories and the user is encouraged to select the one most appropriate.</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_TopologyLevelCode</name>
+        <displayName>Topology level code</displayName>
+        <description>Degree of complexity of the spatial relationships</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_Usage</name>
+        <displayName>Usage</displayName>
+        <description>Brief description of ways in which the resource(s) is/are currently
+		used</description>
+    </item>
+    
+    <item>
+        <name>gmd:MD_VectorSpatialRepresentation</name>
+        <displayName>Vector spatial representation</displayName>
+        <description>Information about the vector spatial objects in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:measureDescription</name>
+        <displayName>Measure description</displayName>
+        <description>Description of the measure being determined</description>
+    </item>
+    
+    <item>
+        <name>gmd:measureIdentification</name>
+        <displayName>Measure identification</displayName>
+        <description>Code identifying a registered standard procedure</description>
+    </item>
+    
+    <item>
+        <name>gmd:mediumFormat</name>
+        <displayName>Medium format</displayName>
+        <description>Method used to write to the medium</description>
+    </item>
+    
+    <item>
+        <name>gmd:mediumNote</name>
+        <displayName>Medium note</displayName>
+        <description>Description of other limitations or requirements for using the
+		medium</description>
+    </item>
+    
+    <item>
+        <name>gmd:metadataConstraints</name>
+        <displayName>Metadata constraints</displayName>
+        <description>Provides restrictions on the access and use of data</description>
+    </item>
+    
+    <item>
+        <name>gmd:metadataExtensionInfo</name>
+        <displayName>Metadata extension info</displayName>
+        <description>Information describing metadata extensions</description>
+    </item>
+    
+    <item>
+        <name>gmd:metadataMaintenance</name>
+        <displayName>Metadata maintenance</displayName>
+        <description>Provides information about the frequency of metadata updates, and the scope of
+			those updates</description>
+    </item>
+    
+    <item>
+        <name>gmd:metadataStandardName</name>
+        <displayName>Metadata standard name</displayName>
+        <description>Name of the metadata standard (including profile name) used</description>
+    </item>
+    
+    <item>
+        <name>gmd:metadataStandardVersion</name>
+        <displayName>Metadata standard version</displayName>
+        <description>Version (profile) of the metadata standard used</description>
+    </item>
+    
+    <item>
+        <name>gmd:minimumValue</name>
+        <displayName>Minimum value</displayName>
+        <description>Lowest vertical extent contained in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:minValue</name>
+        <displayName>Minimum value</displayName>
+        <description>Shortest wavelength that the sensor is capable of collecting within a designated
+			band</description>
+    </item>
+    
+    <item>
+        <name>gmd:name</name>
+        <displayName>Name</displayName>
+        <description>Name of the series, or aggregate dataset, of which the dataset is a part</description>
+    </item>
+    
+    <item>
+        <name>gmd:nameOfMeasure</name>
+        <displayName>Name of measure</displayName>
+        <description>Name of the test applied to the data</description>
+    </item>
+    
+    <item>
+        <name>gmd:northBoundLatitude</name>
+        <displayName>North bound latitude</displayName>
+        <description>Northern-most, coordinate of the limit of the dataset extent expressed in
+			latitude in decimal degrees (positive north)</description>
+    </item>
+    
+    <item>
+        <name>gmd:numberOfDimensions</name>
+        <displayName>Number of dimensions</displayName>
+        <description>Number of independent spatial-temporal axes</description>
+    </item>
+    
+    <item>
+        <name>gmd:obligation</name>
+        <displayName>Obligation</displayName>
+        <description>Obligation of the extended element</description>
+    </item>
+    
+    <item>
+        <name>gmd:offLine</name>
+        <displayName>Offline</displayName>
+        <description>Information about offline media on whichthe resource can be obtaned</description>
+    </item>
+    
+    <item>
+        <name>gmd:offset</name>
+        <displayName>Offset</displayName>
+        <description>The physical value corresponding to a cell value of zero</description>
+    </item>
+    
+    <item>
+        <name>gmd:onLine</name>
+        <displayName>OnLine resource</displayName>
+        <description>Information about online sources from which the resource can be
+		obtained</description>
+    </item>
+    
+    <item>
+        <name>gmd:orderingInstructions</name>
+        <displayName>Ordering instructions</displayName>
+        <description>General instructions, terms and services provided by the
+		distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:organisationName</name>
+        <displayName>Organisation name</displayName>
+        <description>Name of the responsible organization</description>
+    </item>
+    
+    <item>
+        <name>gmd:orientationParameterAvailability</name>
+        <displayName>Orientation parameter availability</displayName>
+        <description>Indication of whether or not orientation parameters are available</description>
+    </item>
+    
+    <item>
+        <name>gmd:orientationParameterDescription</name>
+        <displayName>Orientation parameter description</displayName>
+        <description> description of parameters used to describe sensor orientation</description>
+    </item>
+    
+    <item>
+        <name>gmd:other</name>
+        <displayName>Other</displayName>
+        <description>Class of information that does not fall into the other categories to which the
+			information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:otherCitationDetails</name>
+        <displayName>Other citation details</displayName>
+        <description>Other information required to complete the citation that is not recorded
+			elsewhere</description>
+    </item>
+    
+    <item>
+        <name>gmd:otherConstraints</name>
+        <displayName>Other constraints</displayName>
+        <description>Other restrictions and legal prerequisites for accessing and using the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:page</name>
+        <displayName>Page</displayName>
+        <description>Details on which pages of the publication the article was published</description>
+    </item>
+    
+    <item>
+        <name>gmd:parameterCitation</name>
+        <displayName>Parameter citation</displayName>
+        <description>Reference providing description of the parameters</description>
+    </item>
+    
+    <item>
+        <name>gmd:parentEntity</name>
+        <displayName>Parent entity</displayName>
+        <description>Name of the metadata entity(s) under which this extended metadata element may
+			appear. The name(s) may be standard metadata element(s) or other extended metadata
+			element(s).</description>
+    </item>
+    
+    <item>
+        <name>gmd:parentIdentifier</name>
+        <displayName>Parent identifier</displayName>
+        <description>File identifier of the metadata to which this metadata is a subset
+		(child)</description>
+    </item>
+    
+    <item>
+        <name>gmd:pass</name>
+        <displayName>Pass</displayName>
+        <description>Indication of the conformance result where 0 = fail and 1 = pass</description>
+    </item>
+    
+    <item>
+        <name>gmd:peakResponse</name>
+        <displayName>Peak response</displayName>
+        <description>Wavelength at which the response is the highest</description>
+    </item>
+    
+    <item>
+        <name>gmd:phone</name>
+        <displayName>Phone</displayName>
+        <description>Telephone numbers at which the organization or individual may be
+		contacted</description>
+    </item>
+    
+    <item>
+        <name>gmd:plannedAvailableDateTime</name>
+        <displayName>Planned available datetime</displayName>
+        <description>Date and time when the dataset will be available
+		(CCYY-MM-DDThh:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gmd:pointInPixel</name>
+        <displayName>PointIn pixel</displayName>
+        <description>Point in a pixel corresponding to the Earth location of the pixel</description>
+    </item>
+    
+    <item>
+        <name>gmd:pointOfContact</name>
+        <displayName>Point of contact</displayName>
+        <description>Identification of, and means of communication with, person(s) and
+			organizations(s) associated with the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:polygon</name>
+        <displayName>Polygon</displayName>
+        <description>Sets of points defining the bounding polygon</description>
+    </item>
+    
+    <item>
+        <name>gmd:portrayalCatalogueCitation</name>
+        <displayName>Portrayal catalogue citation</displayName>
+        <description>Bibliographic reference to the portrayal catalogue cited</description>
+    </item>
+    
+    <item>
+        <name>gmd:portrayalCatalogueInfo</name>
+        <displayName>Portrayal catalogue info</displayName>
+        <description>Provides information about the catalogue of rules defined for the portrayal of a
+			resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:positionName</name>
+        <displayName>Position name</displayName>
+        <description>Role or position of the responsible person</description>
+    </item>
+    
+    <item>
+        <name>gmd:postalCode</name>
+        <displayName>Postcode</displayName>
+        <description>ZIP or other postcode</description>
+    </item>
+    
+    <item>
+        <name>gmd:presentationForm</name>
+        <displayName>Presentation form</displayName>
+        <description>Mode in which the resource is represented</description>
+    </item>
+    
+    <item>
+        <name>gmd:processingLevelCode</name>
+        <displayName>Processing level code</displayName>
+        <description>Image distributor_s code that identifies the level of radiometric and geometric
+			processing that has been applied</description>
+    </item>
+    
+    <item>
+        <name>gmd:processor</name>
+        <displayName>Processor</displayName>
+        <description>Identification of, and means of communication with, person(s) and organization(s)
+			associated with the process step</description>
+    </item>
+    
+    <item>
+        <name>gmd:processStep</name>
+        <displayName>Process step</displayName>
+        <description>Information about an event in the creation process for the data specified by the
+			scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:protocol</name>
+        <displayName>Protocol</displayName>
+        <description>Connection protocol to be used</description>
+    </item>
+    
+    <item>
+        <name>gmd:PT_FreeText</name>
+        <displayName>Free text</displayName>
+        <description>Description of a multi-language free text metadata element</description>
+    </item>
+    
+    <item>
+        <name>gmd:purpose</name>
+        <displayName>Purpose</displayName>
+        <description>Summary of the intentions with which the resource(s) was developed</description>
+    </item>
+    
+    <item>
+        <name>gmd:radiometricCalibrationDataAvailability</name>
+        <displayName>Radiometric calibration data availability</displayName>
+        <description>Indication of whether or not the radiometric calibration information for
+			generating the radiometrically calibrated standard data product is available</description>
+    </item>
+    
+    <item>
+        <name>gmd:rationale</name>
+        <displayName>Rationale</displayName>
+        <description>Requirement or purpose for the process step</description>
+    </item>
+    
+    <item>
+        <name>gmd:referenceSystemIdentifier</name>
+        <displayName>Reference system identifier</displayName>
+        <description>Name of reference system</description>
+    </item>
+    
+    <item>
+        <name>gmd:referenceSystemInfo</name>
+        <displayName>Reference system info</displayName>
+        <description>Description of the spatial and temporal reference systems used in the
+		dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:report</name>
+        <displayName>Report</displayName>
+        <description>Quantitative quality information for the data specified by the scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:resolution</name>
+        <displayName>Resolution</displayName>
+        <description>Degree of detail in the grid dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:resourceConstraints</name>
+        <displayName>Resource constraints</displayName>
+        <description>Provides information about constraints which apply to the
+		resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:resourceFormat</name>
+        <displayName>Resource format</displayName>
+        <description>Provides a description of the format of the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:resourceMaintenance</name>
+        <displayName>Resource maintenance</displayName>
+        <description>Provides information about the frequency of resource updates, and the scope of
+			those updates</description>
+    </item>
+    
+    <item>
+        <name>gmd:resourceSpecificUsage</name>
+        <displayName>Resource specific usage</displayName>
+        <description>Provides basic information about specific application(s) for which the
+			resource(s) has/have been or is being used by different users</description>
+    </item>
+    
+    <item>
+        <name>gmd:result</name>
+        <displayName>Result</displayName>
+        <description>Value (or set of values) obtained from applying a data quality measure or the out
+			come of evaluating the obtained value (or set of values) against a specified acceptable
+			conformance quality level</description>
+    </item>
+    
+    <item>
+        <name>gmd:role</name>
+        <displayName>Role</displayName>
+        <description>Function performed by the responsible party</description>
+    </item>
+    
+    <item>
+        <name>gmd:RS_Identifier</name>
+        <displayName>RS identifier</displayName>
+        <description>Identifier used for reference systems</description>
+    </item>
+    
+    <item>
+        <name>gmd:rule</name>
+        <displayName>Rule</displayName>
+        <description>Specifies how the extended element relates to other existing elements and
+			entities</description>
+    </item>
+    
+    <item>
+        <name>gmd:scaleDenominator</name>
+        <displayName>Scale</displayName>
+        <description>denominator of the source data scale eg. for 1:1000 enter 1000</description>
+    </item>
+    
+    <item>
+        <name>gmd:scaleFactor</name>
+        <displayName>Scale factor</displayName>
+        <description>Scale factor which has been applied to the cell value</description>
+    </item>
+    
+    <item>
+        <name>gmd:schemaAscii</name>
+        <displayName>Schema ASCII</displayName>
+        <description>Full application schema given as an ASCII file</description>
+    </item>
+    
+    <item>
+        <name>gmd:schemaLanguage</name>
+        <displayName>Schema language</displayName>
+        <description>Identification of the schema language used</description>
+    </item>
+    
+    <item>
+        <name>gmd:scope</name>
+        <displayName>Scope</displayName>
+        <description>The specific data to which the data quality information applies</description>
+    </item>
+    
+    <item>
+        <name>gmd:sequenceIdentifier</name>
+        <displayName>Sequence identifier</displayName>
+        <description>Number that uniquely identifies instances of bands of wavelengths on which a
+			sensor operates</description>
+    </item>
+    
+    <item>
+        <name>gmd:series</name>
+        <displayName>Series</displayName>
+        <description>Information about the series, or aggregate dataset, of which the dataset is a
+			part</description>
+    </item>
+    
+    <item>
+        <name>gmd:shortName</name>
+        <displayName>Short name</displayName>
+        <description>Short form suitable for use in an implementation method such as XML or SGML. NOTE
+			other methods may be used</description>
+    </item>
+    
+    <item>
+        <name>gmd:softwareDevelopmentFile</name>
+        <displayName>Software development file</displayName>
+        <description>Full application schema given as a software development file</description>
+    </item>
+    
+    <item>
+        <name>gmd:softwareDevelopmentFileFormat</name>
+        <displayName>Software development file format</displayName>
+        <description>Software dependent format used for the application schema software dependent
+		file</description>
+    </item>
+    
+    <item>
+        <name>gmd:source</name>
+        <displayName>Source</displayName>
+        <description>Information about the source data used in creating the data specified by the
+			scope</description>
+    </item>
+    
+    <item>
+        <name>gmd:sourceCitation</name>
+        <displayName>Source citation</displayName>
+        <description>Recommended reference to be used for the source data</description>
+    </item>
+    
+    <item>
+        <name>gmd:sourceExtent</name>
+        <displayName>Source extent</displayName>
+        <description>Information about the spatial, vertical and temporal extent of the source data</description>
+    </item>
+    
+    <item>
+        <name>gmd:sourceReferenceSystem</name>
+        <displayName>Source reference system</displayName>
+        <description>Spatial reference system used by the source data</description>
+    </item>
+    
+    <item>
+        <name>gmd:sourceStep</name>
+        <displayName>Source step</displayName>
+        <description>Information about an event in the creation process for the source
+		data</description>
+    </item>
+    
+    <item>
+        <name>gmd:southBoundLatitude</name>
+        <displayName>South bound latitude</displayName>
+        <description>Southern-most coordinate of the limit of the dataset extent, expressed in
+			latitude in decimal degrees (positive north)</description>
+    </item>
+    
+    <item>
+        <name>gmd:spatialExtent</name>
+        <displayName>Spatial extent</displayName>
+        <description>Spatial extent component of composite spatial and temporal extent</description>
+    </item>
+    
+    <item>
+        <name>gmd:spatialRepresentationInfo</name>
+        <displayName>Spatial representation info</displayName>
+        <description>Digital representation of spatial information in the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:spatialRepresentationType</name>
+        <displayName>Spatial representation type</displayName>
+        <description>Method used to spatially represent geographic information</description>
+    </item>
+    
+    <item>
+        <name>gmd:spatialResolution</name>
+        <displayName>Spatial resolution</displayName>
+        <description>Factor which provides a general understanding of the density of spatial data in
+			the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:specification</name>
+        <displayName>Specification</displayName>
+        <description>Name of a subset, profile, or product specification of the format</description>
+    </item>
+    
+    <item>
+        <name>gmd:specificUsage</name>
+        <displayName>Specific usage</displayName>
+        <description>Brief description of the resource and/or resource series usage</description>
+    </item>
+    
+    <item>
+        <name>gmd:statement</name>
+        <displayName>Statement</displayName>
+        <description>General explanation of the data producer_s knowledge about the lineage of a dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:status</name>
+        <displayName>Status</displayName>
+        <description>Status of the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:supplementalInformation</name>
+        <displayName>Supplemental Information</displayName>
+        <description>Any other descriptive information about the dataset</description>
+    </item>
+    
+    <item>
+        <name>gmd:temporalElement</name>
+        <displayName>Temporal element</displayName>
+        <description>Provides temporal component of the extent of the referring object</description>
+    </item>
+    
+    <item>
+        <name>gmd:thesaurusName</name>
+        <displayName>Thesaurus name</displayName>
+        <description>Name of the formally registered thesaurus or a similar authoritative source of
+			keywords</description>
+    </item>
+    
+    <item>
+        <name>gmd:title</name>
+        <displayName>Title</displayName>
+        <description>Name by which the cited resource is known</description>
+    </item>
+    
+    <item>
+        <name>gmd:toneGradation</name>
+        <displayName>Tone gradation</displayName>
+        <description>Number of discrete numerical values in the grid data</description>
+    </item>
+    
+    <item>
+        <name>gmd:topicCategory</name>
+        <displayName>Topic category</displayName>
+        <description>Main theme(s) of the datset</description>
+    </item>
+    
+    <item>
+        <name>gmd:topologyLevel</name>
+        <displayName>Topology level</displayName>
+        <description>Code which identifies the degree of complexity of the spatial
+		relationships</description>
+    </item>
+    
+    <item>
+        <name>gmd:transferOptions</name>
+        <displayName>Transfer options</displayName>
+        <description>Provides information about technical means and media by which a resource is
+			obtained from the distributor</description>
+    </item>
+    
+    <item>
+        <name>gmd:transferSize</name>
+        <displayName>Transfer size</displayName>
+        <description>Estimated size of a unit in the specified transfer format, expressed in
+			megabytes. The transfer size is > 0.0</description>
+    </item>
+    
+    <item>
+        <name>gmd:transformationDimensionDescription</name>
+        <displayName>Transformation dimension description</displayName>
+        <description>Description of the information about which grid dimensions are the spatial
+			dimensions</description>
+    </item>
+    
+    <item>
+        <name>gmd:transformationDimensionMapping</name>
+        <displayName>Transformation dimension mapping</displayName>
+        <description>Information about which grid dimensions are the spatial dimensions</description>
+    </item>
+    
+    <item>
+        <name>gmd:transformationParameterAvailability</name>
+        <displayName>Transformation parameter availability</displayName>
+        <description>Indication of whether or not parameters for transformation exists</description>
+    </item>
+    
+    <item>
+        <name>gmd:triangulationIndicator</name>
+        <displayName>Triangulation indicator</displayName>
+        <description>Indication of whether or not triangulation has been performed upon the
+		image</description>
+    </item>
+    
+    <item>
+        <name>gmd:turnaround</name>
+        <displayName>Turnaround</displayName>
+        <description>Typical turnaround time for the filling of an order</description>
+    </item>
+    
+    <item>
+        <name>gmd:type</name>
+        <displayName>Type</displayName>
+        <description>Subject matter used to group similar keywords</description>
+    </item>
+    
+    <item>
+        <name>gmd:units</name>
+        <displayName>Value unit</displayName>
+        <description>Units in which sensor wavelengths are expressed</description>
+    </item>
+    
+    <item>
+        <name>gmd:unitsOfDistribution</name>
+        <displayName>Units of distribution</displayName>
+        <description>Tiles, layers, geographic areas, etc., in which data is available</description>
+    </item>
+    
+    <item>
+        <name>gmd:updateScope</name>
+        <displayName>Update scope</displayName>
+        <description>Scope of data to which maintenance is applied</description>
+    </item>
+    
+    <item>
+        <name>gmd:updateScopeDescription</name>
+        <displayName>Update scope description</displayName>
+        <description>Additional information about the range or extent of the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:usageDateTime</name>
+        <displayName>Usage datetime</displayName>
+        <description>Date and time of the first use or range of uses of the resource and/or resource
+			series (YYYY-MM-DDThh:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gmd:useConstraints</name>
+        <displayName>Use constraints</displayName>
+        <description>Constraints applied to assure the protection of privacy or intellectual property,
+			and any special restrictions or limitations or warnings on using the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:useLimitation</name>
+        <displayName>Use limitation</displayName>
+        <description>Limitation affecting the fitness for use of the resource. Example, _not to be
+			used for navigation_</description>
+    </item>
+    
+    <item>
+        <name>gmd:userContactInfo</name>
+        <displayName>User contact info</displayName>
+        <description>Identification of and means of communicating with person(s) and organization(s)
+			using the resource(s)</description>
+    </item>
+    
+    <item>
+        <name>gmd:userDefinedMaintenanceFrequency</name>
+        <displayName>User defined maintenance frequency</displayName>
+        <description>Maintenance period other than those defined</description>
+    </item>
+    
+    <item>
+        <name>gmd:userDeterminedLimitations</name>
+        <displayName>User determined limitations</displayName>
+        <description>Applications, determined by the user for which the resource and/or resource
+			series is not suitable</description>
+    </item>
+    
+    <item>
+        <name>gmd:userNote</name>
+        <displayName>User note</displayName>
+        <description>Explanation of the application of the legal constraints or other restrictions and
+			legal prerequisites for obtaining and using the resource</description>
+    </item>
+    
+    <item>
+        <name>gmd:value</name>
+        <displayName>Value</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gmd:valueType</name>
+        <displayName>Value type</displayName>
+        <description>Value type for reporting a data quality result</description>
+    </item>
+    
+    <item>
+        <name>gmd:valueUnit</name>
+        <displayName>Value unit</displayName>
+        <description>Value unit for reporting a data quality result</description>
+    </item>
+    
+    <item>
+        <name>gmd:version</name>
+        <displayName>Version</displayName>
+        <description>Version of the format (date, number, etc.)</description>
+    </item>
+    
+    <item>
+        <name>gmd:verticalElement</name>
+        <displayName>Vertical element</displayName>
+        <description>Provides vertical component of the extent of the referring object</description>
+    </item>
+    
+    <item>
+        <name>gmd:voice</name>
+        <displayName>Voice</displayName>
+        <description>Telephone number by which individuals can speak to the responsible organization
+			or individual</description>
+    </item>
+    
+    <item>
+        <name>gmd:volumes</name>
+        <displayName>Volumes</displayName>
+        <description>Number of items in the media identified</description>
+    </item>
+    
+    <item>
+        <name>gmd:westBoundLongitude</name>
+        <displayName>West bound longitude</displayName>
+        <description>Western-most coordinate of the limit of the dataset extent, expressed in
+			longitude in decimal degrees (positive east)</description>
+    </item>
+    
+    <item>
+        <name>gco:Date</name>
+        <displayName>Date</displayName>
+        <description>Formatted as 2007-09-12 (YYYY-MM-DD)</description>
+    </item>
+    
+    <item>
+        <name>gco:DateTime</name>
+        <displayName>Date and time</displayName>
+        <description>Formatted as 2007-09-12T15:00:00 (YYYY-MM-DDTHH:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gco:Measure</name>
+        <displayName>Measure</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gts:TM_PeriodDuration</name>
+        <displayName>Period duration</displayName>
+        <description>
+			The duration data type is used to specify a time interval.
+			
+			The time interval is specified in the following form "PnYnMnDTnHnMnS" where:
+			
+			* P indicates the period (required)
+			* nY indicates the number of years
+			* nM indicates the number of months
+			* nD indicates the number of days
+			* T indicates the start of a time section (required if you are going to specify hours, minutes, or seconds)
+			* nH indicates the number of hours
+			* nM indicates the number of minutes
+			* nS indicates the number of seconds            
+		</description>
+    </item>
+    
+    <item>
+        <name>gml:beginPosition</name>
+        <displayName>Begin date</displayName>
+        <description>Formatted as 2007-09-12T15:00:00 (YYYY-MM-DDTHH:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gml:endPosition</name>
+        <displayName>End date</displayName>
+        <description>Formatted as 2007-09-12T15:00:00 (YYYY-MM-DDTHH:mm:ss)</description>
+    </item>
+    
+    <item>
+        <name>gml:relatedTime</name>
+        <displayName>Related time</displayName>
+        <description>Defines the relation of a given time to the object.</description>
+    </item>
+    
+    <item>
+        <name>gml:coordinates</name>
+        <displayName>Coordinates</displayName>
+        <description>Used to record an array of tuples or coordinates.</description>
+    </item>
+    
+    <item>
+        <name>gml:Polygon</name>
+        <displayName>Polygon</displayName>
+        <description>A gml:Polygon is a special surface that is defined by a single surface patch. The boundary of this 
+		patch is coplanar and the polygon uses planar interpolation in its interior.</description>
+    </item>
+    
+    <item>
+        <name>gml:Point</name>
+        <displayName>Point</displayName>
+        <description>A gml:Point is defined by a single coordinate tuple.</description>
+    </item>
+    
+    <item>
+        <name>gml:LineString</name>
+        <displayName>Line</displayName>
+        <description>A gml:LineString is a special curve that consists of a single segment with linear interpolation. It is 
+			defined by two or more coordinate tuples, with linear interpolation between them.</description>
+    </item>
+    
+    <item>
+        <name>gml:LinearRing</name>
+        <displayName>Linear ring</displayName>
+        <description>A gml:LinearRing is defined by four or more coordinate tuples, with linear interpolation between them; the first 
+			and last coordinates shall be coincident.</description>
+    </item>
+    
+    <item>
+        <name>gml:exterior</name>
+        <displayName>Outer boundary</displayName>
+        <description>The outer boundary of a solid.</description>
+    </item>
+    
+    <item>
+        <name>gml:interior</name>
+        <displayName>Inner boundary</displayName>
+        <description>The inner boundary of a solid.</description>
+    </item>
+    
+    <item>
+        <name>gml:begin</name>
+        <displayName>Begin</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:end</name>
+        <displayName>End</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:duration</name>
+        <displayName>Duration</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:timeInterval</name>
+        <displayName>Time interval</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:TimeInstant</name>
+        <displayName>Time instant</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:TimePosition</name>
+        <displayName>Time position</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:TimePeriod</name>
+        <displayName>Time period</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:TimeNode</name>
+        <displayName>Time node</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:TimeEdge</name>
+        <displayName>Time edge</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:ProjectedCRS</name>
+        <displayName>Projected CRS</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gml:id</name>
+        <displayName>Identifier</displayName>
+        <description>Identifier</description>
+    </item>
+    
+    <item>
+        <name>srsName</name>
+        <displayName>Spatial Reference System Name</displayName>
+        <description>Name of the Spatial Reference System. By default set to geographic (epsg:4326)</description>
+    </item>
+    
+    <item>
+        <name>uuidref</name>
+        <displayName>UUID</displayName>
+        <description>UUID of the resource being linked to this element</description>
+    </item>
+    
+    <item>
+        <name>srv:SV_ServiceIdentification</name>
+        <displayName>Service Identification (19119)</displayName>
+        <description>ISO 19119-2005 Service Identification</description>
+    </item>
+    
+    <item>
+        <name>srv:serviceType</name>
+        <displayName>Service Type</displayName>
+        <description>Service type name from a registry of services. For example, the values of the nameSpace and name attributes of GeneralName may be 'OGC' and 'catalogue'</description>
+    </item>
+    
+    <item>
+        <name>srv:serviceTypeVersion</name>
+        <displayName>Service Version</displayName>
+        <description>Provides for searching based on the version of serviceType. For example, we may only be interested in OGC Catalogue V1.1 services. If version is maintained as a separate attribute, users can easily search for all services of a type regardless of the version</description>
+    </item>
+    
+    <item>
+        <name>srv:accessProperties</name>
+        <displayName>Access Properties</displayName>
+        <description>Information about the availability of the service eg. fees, availability, oredering instructions</description>
+    </item>
+    
+    <item>
+        <name>srv:restrictions</name>
+        <displayName>Restrictions</displayName>
+        <description>Legal and security constraints on accessing the service and distributing data generated by the service</description>
+    </item>
+    
+    <item>
+        <name>srv:containsOperations</name>
+        <displayName>Contains Operations</displayName>
+        <description>Provides information about the operations that comprise the service</description>
+    </item>
+    
+    <item>
+        <name>srv:operatesOn</name>
+        <displayName>Operates On</displayName>
+        <description>Provides information on the datasets that the service operates on</description>
+    </item>
+    
+    <item>
+        <name>srv:operationName</name>
+        <displayName>Operation Name</displayName>
+        <description>A unique identifier for this interface</description>
+    </item>
+    
+    <item>
+        <name>srv:SV_OperationMetadata</name>
+        <displayName>Operation</displayName>
+        <description>Operation Metadata</description>
+    </item>
+    
+    <item>
+        <name>srv:DCP</name>
+        <displayName>Distributed Computing Platforms</displayName>
+        <description>Distributed computing platforms on which the operation has been implemented</description>
+    </item>
+    
+    <item>
+        <name>srv:DCPList</name>
+        <displayName>Distributed Computing Platforms List</displayName>
+        <description>List of distributed computing platforms on which the operation has been implemented</description>
+    </item>
+    
+    <item>
+        <name>srv:operationDescription</name>
+        <displayName>Operation Description</displayName>
+        <description>Free text description of the intent of the operation and the results of the operation</description>
+    </item>
+    
+    <item>
+        <name>srv:invocationName</name>
+        <displayName>Invocation Name</displayName>
+        <description>The name used to invoke this interface within the context of the DCP. The name is identical for all DCPs</description>
+    </item>
+    
+    <item>
+        <name>srv:parameters</name>
+        <displayName>Parameters</displayName>
+        <description>The parameters that are required for this interface</description>
+    </item>
+    
+    <item>
+        <name>srv:connectPoint</name>
+        <displayName>Connect Point</displayName>
+        <description>Handle for accessing the service interface</description>
+    </item>
+    
+    <item>
+        <name>srv:dependsOn</name>
+        <displayName>Depends On</displayName>
+        <description>List of operations that must be completed immediately before current operation is invoked, structured as a list for capturing alternate predecessor paths and sets for capturing parallel predecessor paths</description>
+    </item>
+    
+    <item>
+        <name>srv:providerName</name>
+        <displayName>Provider Name</displayName>
+        <description>A unique identifier for this organization</description>
+    </item>
+    
+    <item>
+        <name>srv:serviceContact</name>
+        <displayName>Service Contact</displayName>
+        <description>Information for contacting the service provider</description>
+    </item>
+    
+    <item>
+        <name>srv:name</name>
+        <displayName>Name</displayName>
+        <description>The name, as used by the service for this chain or paramater</description>
+    </item>
+    
+    <item>
+        <name>srv:description</name>
+        <displayName>Description</displayName>
+        <description>Narrative explanation of the services in the chain and resulting output or role of the parameter</description>
+    </item>
+    
+    <item>
+        <name>srv:optionality</name>
+        <displayName>Optionality</displayName>
+        <description>Indication if the parameter is required</description>
+    </item>
+    
+    <item>
+        <name>srv:repeatability</name>
+        <displayName>Repeatability</displayName>
+        <description>Indication if more than one value of the parameter may be provided</description>
+    </item>
+    
+    <item>
+        <name>srv:coupledResource</name>
+        <displayName>Coupled Resource</displayName>
+        <description>Details of services coupled with this one</description>
+    </item>
+    
+    <item>
+        <name>srv:SV_CoupledResource</name>
+        <displayName>Coupled Resource</displayName>
+        <description>Details of services coupled with this one</description>
+    </item>
+    
+    <item>
+        <name>srv:identifier</name>
+        <displayName>Identifier</displayName>
+        <description>Identifier of resource to which the operation applies</description>
+    </item>
+    
+    <item>
+        <name>srv:couplingType</name>
+        <displayName>Coupling Type</displayName>
+        <description>Type of Coupling</description>
+    </item>
+    
+    <item>
+        <name>srv:SV_CouplingType</name>
+        <displayName>Coupling Type</displayName>
+        <description>Type of Coupling</description>
+    </item>
+    
+    <item>
+        <name>srv:extent</name>
+        <displayName>Extent</displayName>
+        <description>Geographic/Temporal Extent of Service</description>
+    </item>
+    
+    <item>
+        <name>srv:keywords</name>
+        <displayName>Keywords</displayName>
+        <description>Keywords describing service</description>
+    </item>
+    
+    <item>
+        <name>srv:SV_Parameter</name>
+        <displayName>Parameter</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>srv:direction</name>
+        <displayName>Direction</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>srv:valueType</name>
+        <displayName>Value type</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>srv:SV_ParameterDirection</name>
+        <displayName>Parameter direction</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>years</name>
+        <displayName>Years</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>zone</name>
+        <displayName>Zone</displayName>
+        <description>Unique identifier for 100,000 metre grid zone</description>
+    </item>
+    
+    <item>
+        <name>InDirectReferenceSystem</name>
+        <displayName>Indirect projection system (for non geographical resources)</displayName>
+        <description>ReferenceSystem derived / specify that it is an indirect reference</description>
+    </item>
+    
+    <item>
+        <name>DirectReferenceSystem</name>
+        <displayName>Direct projection system (for geographical resources)</displayName>
+        <description>ReferenceSystem derived / specify that it is a direct reference</description>
+    </item>
+    
+    <item>
+        <name>code</name>
+        <displayName>System code</displayName>
+        <description>Code. i.e. EPSG code.</description>
+    </item>
+    
+    <item>
+        <name>label</name>
+        <displayName>Content</displayName>
+        <description>Content</description>
+    </item>
+    
+    <item>
+        <name>codeSpace</name>
+        <displayName>Reference Authority</displayName>
+        <description>Authority responsible for codification. i.e. EPSG</description>
+    </item>
+    
+    <item>
+        <name>gco:aName</name>
+        <displayName>Name</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gco:attributeType</name>
+        <displayName>Attribute type</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>gco:TypeName</name>
+        <displayName>Type name</displayName>
+        <description></description>
+    </item>
+    
+    <item>
+        <name>uom</name>
+        <displayName>Units of measure</displayName>
+        <description></description>
+    </item>
+    
+</display_items>

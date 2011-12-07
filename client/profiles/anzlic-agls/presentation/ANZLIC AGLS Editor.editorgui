@@ -1,0 +1,7 @@
+<gui>
+  <title>ANZLIC AGLS Editor</title>
+  <page>
+    <order>9999999</order>
+    <visible>true</visible>
+  </page>
+</gui>
